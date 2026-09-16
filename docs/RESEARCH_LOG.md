@@ -27,3 +27,7 @@ Append a dated entry for every substantive iteration including (a) source/versio
 - **Literature check:** reviewed publisher abstracts/metadata for Alcubierre (1994), McMonigal et al. (2012) and Bobrick & Martire (2021); no originality claim or full-text literature review. Bobrick & Martire state a physical warp shell still requires propulsion.
 - **GitHub outcome:** GitHub connector became unavailable at time of this attempt; no remote write or confirmation. Saved updated snapshot to ChatGPT Library for continuation. Preserve original v0.1.0.
 - **Next falsifiable test:** derive an explicit covariant stress-energy flux and lab-frame energy/momentum budget for the specified dust congruence under fixed-background assumptions; compare against the analytic characteristic invariant before inferring any force or thrust.
+
+## 2026-09-16 08:23 UTC — interview evidence audit
+
+Starting remote 23e3bace1b76638e0bebd65bdd4c33a2211ee75e verified. See [session](../research/sessions/2026-09-16-0823-UTC.md). Demonstrated sonar endpoint non-identifiability: 2500 m in 25 s gives 100 m/s relative average, not a unique peak. Added four kinematic checks; 25 total tests pass. Accounted for all interview example families without assuming independent evidence or assigning unsupported alien probabilities. No propulsion mechanism established. Previous covariant stress-energy calculation remains next.

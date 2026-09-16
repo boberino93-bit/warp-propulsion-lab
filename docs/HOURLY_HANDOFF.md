@@ -16,3 +16,7 @@ Suggested prompt for each run:
 4. END create a unique `research/sessions/YYYY-MM-DD-HHMM-UTC.md`, update cumulative logs, run tests, commit locally, attempt remote publication if supported, and READ BACK the remote file and SHA before claiming GitHub success.
 5. If GitHub is down, upload a new **versioned, non-overwriting** ZIP to `/Warp Propulsion Research`, optionally the standalone Markdown session, and report the exact canonical path and missing remote sync. Do not erase earlier snapshots. Session archives include local `.git` history but are not remote commits.
 6. Version 0.2.0 marks completion of the first *finite-time dust toy* check, not discovery of a propulsion mechanism; next objective is physical stress-energy and momentum accounting.
+
+## 2026-09-16 08:23 UTC handoff
+
+Latest session: research/sessions/2026-09-16-0823-UTC.md. Interview audit adds four checks (25 total), not a fluid/GR model. Resume preceding covariant stress-energy flux calculation next. Treat interview kinematics as conditional; do not infer peak sonar speed from endpoints or multiply correlated accounts as independent evidence. Read remote HEAD afresh and use non-force publication with remote readback.
