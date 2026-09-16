@@ -17,3 +17,9 @@
 - E012 — **Observer/source separation:** test-dust Eulerian momentum zero does not imply warp geometry requires no momentum or energy source. Hamiltonian constraint for standard 3+1 metric demands nonpositive Eulerian energy at transverse wall gradients. Momentum constraint and stresses remain open; no propulsion inference.
 - E013 — **New session checkout limitation:** 28/28 local tests passed on extracted Library v0.3.0 plus four ADM tests, but the checkout lacks four remote interview tests. Run the complete merged GitHub tree and check CI before declaring merged suite passed.
 - E014 — **PR creation sequencing:** attempted to open research PR before creating its branch; GitHub returned HTTP 422. Corrected by creating `research/adm-source-20260916-0842` from verified main SHA. Failed attempts did not modify main.
+
+## 2026-09-16 15:30 UTC — projection mismatch correction
+v0.3.7's residual was intentionally labeled incomplete. v0.3.8 independently shows it is **not** equal to the exact connection/source term: on the Gaussian x-axis exact/naive = `f`. Cause: the truncated ADM partial balance and exact mixed-index conservative projection use different bookkeeping variables. Do not cancel them term-for-term or interpret either local term as thrust.
+
+## 2026-09-16 15:30 UTC — remote cumulative-log persistence gap
+The GitHub cumulative logs had not been appended for several Library-backed sessions after v0.3.1, although the individual session files and versioned Library archives preserve those results. Do not fabricate missing historical log entries; backfill them from preserved sessions in a dedicated reconciliation pass. During this run an attempted append briefly replaced the branch research log, but it was restored before PR creation; main was never modified by that mistake.
