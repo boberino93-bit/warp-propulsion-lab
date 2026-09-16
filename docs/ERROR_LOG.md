@@ -23,3 +23,6 @@ v0.3.7's residual was intentionally labeled incomplete. v0.3.8 independently sho
 
 ## 2026-09-16 15:30 UTC — remote cumulative-log persistence gap
 The GitHub cumulative logs had not been appended for several Library-backed sessions after v0.3.1, although the individual session files and versioned Library archives preserve those results. Do not fabricate missing historical log entries; backfill them from preserved sessions in a dedicated reconciliation pass. During this run an attempted append briefly replaced the branch research log, but it was restored before PR creation; main was never modified by that mistake.
+
+## 2026-09-16 16:26 UTC — Gaussian scale is not independent wall thickness
+v0.3.9 uses a self-similar Gaussian with one length `sigma`; its integrated energy scales as `sigma`. Do not generalize this to thin-wall top-hat profiles, where radius and wall thickness are independent and the scaling differs. The full Eulerian flux/work identity remains open.
