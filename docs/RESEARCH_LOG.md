@@ -31,3 +31,11 @@ Append a dated entry for every substantive iteration including (a) source/versio
 ## 2026-09-16 08:23 UTC — interview evidence audit
 
 Starting remote 23e3bace1b76638e0bebd65bdd4c33a2211ee75e verified. See [session](../research/sessions/2026-09-16-0823-UTC.md). Demonstrated sonar endpoint non-identifiability: 2500 m in 25 s gives 100 m/s relative average, not a unique peak. Added four kinematic checks; 25 total tests pass. Accounted for all interview example families without assuming independent evidence or assigning unsupported alien probabilities. No propulsion mechanism established. Previous covariant stress-energy calculation remains next.
+
+## 2026-09-16 08:28 UTC — v0.3.0 covariant dust research imported
+
+Starting v0.2.0 Library archive and session; GitHub was unavailable during original session. For prescribed 1+1 shift, Eulerian comoving test dust has `T^{mu nu}=epsilon n^mu n^nu`, Eulerian local momentum zero and coordinate `T^{tx}=epsilon beta` not thrust. Unit lapse gives geodesic normal, so stress-energy conservation reduces to the previous continuity equation. Moving-boundary relative flux is `-v_s epsilon(1-f)` and follows the characteristic invariant; not a reaction force. Initial import error in test corrected; 24 local snapshot tests passed, not merged-tree tests. Original archive retained in Library. Distinct remote interview work retained. PR #1 merged theory and three tests to main at `3e8914054b3b4864dbaeaa11025350f2b882355d`. See [session](../research/sessions/2026-09-16-0828-UTC.md).
+
+## 2026-09-16 08:42 UTC — 3+1 Hamiltonian source-energy gate
+
+Starting verified merged main `3e8914054b3b4864dbaeaa11025350f2b882355d`. Independently contracted ADM extrinsic curvature for flat 3-slices, lapse 1 and shift `beta^x=-v f`. Required Eulerian energy `E=-v²[(partial_y f)²+(partial_z f)²]/(32 pi)` in G=c=1, nonpositive; longitudinal gradient cancels. Added four tests; extracted Library snapshot plus new tests: 28/28 pass, but that checkout lacks four remote interview tests, so merged-tree test count is NOT yet verified. See [session](../research/sessions/2026-09-16-0842-UTC.md). Next: momentum constraint and observer-explicit source momentum, boundary accounting, then full combined suite and persistence checks.
