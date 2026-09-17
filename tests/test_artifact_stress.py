@@ -1,6 +1,6 @@
 import unittest
 
-from artifact_stress import stress_false_positive_rate
+from src.artifact_stress import stress_false_positive_rate
 
 
 class ArtifactStressTests(unittest.TestCase):
