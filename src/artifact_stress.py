@@ -8,7 +8,7 @@ import math
 import random
 from dataclasses import dataclass
 
-from blinded_campaign import campaign_threshold_n
+from src.blinded_campaign import campaign_threshold_n
 
 
 @dataclass(frozen=True)
