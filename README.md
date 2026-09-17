@@ -1,25 +1,31 @@
 # Warp / Medium Interaction & Propulsion Research Lab
 
-**Project version:** 0.2.0 research snapshot (finite-time toy extension; 2026-09-16 UTC)
+**Research status:** version 0.3.20 is the latest preserved session in this branch as of 2026-09-17; verify newer sessions and branches before relying on that designation. The cumulative research/error logs lag behind individual sessions, with historical backfill in [docs/RESEARCH_BACKFILL_2026-09-16.md](docs/RESEARCH_BACKFILL_2026-09-16.md). **Public educational project; no functioning novel propulsion mechanism, working warp drive, measured thrust or breakthrough claimed.**
 
-**Primary goal:** identify, model, and eventually independently demonstrate a *functioning propulsion mechanism*. A functioning mechanism must exchange momentum with an identifiable reservoir (exhaust, radiation, external medium/field, etc.), account for energy input, yield reproducible net thrust outside measurement uncertainty, and support independent replication. There is presently **no claimed novel propulsion mechanism, working warp drive, or breakthrough**.
+**Primary goal:** identify, model, and eventually independently demonstrate a functioning propulsion mechanism. It must exchange momentum with an identifiable reservoir, account for energy input, yield reproducible net thrust beyond uncertainty, and support independent replication.
 
-**Project originator:** Robert (public name/credit details to be confirmed before external publication). **AI contribution:** ChatGPT-assisted organization, code, calculations, critical review and drafting; outputs are not external peer review. See [CREDITS.md](CREDITS.md).
+**Project originator:** Robert (public full-name/credit details not confirmed). **AI contribution:** ChatGPT-assisted organization, code, calculations, critical review and drafting, not independent peer review. See [CREDITS.md](CREDITS.md).
 
-## Start here
+## Students and contributors
+
+Start with the [student guide](STUDENTS.md), [contribution instructions](CONTRIBUTING.md) and [hardware acquisition plan](docs/HARDWARE_ACQUISITION_PLAN.md). The proposed personal prototype has a CAD $500–$1,000 budget, but no reference design, bill of materials, purchase, build, measured sensitivity or university affiliation has been verified. First reproduce a published thrust stand and calibrate known forces before investigating new mechanisms.
+
+**Licensing:** [LICENSE.md](LICENSE.md) sets MIT for original project-owned software, CERN-OHL-S-2.0 for original hardware design source and CC BY 4.0 for original educational/research documentation. Third-party material retains its own rights. The repository is public; this does not imply external endorsement.
+
+## Research navigation
 
 - [Research charter and gates](docs/CHARTER.md)
 - [Hypotheses and falsification](docs/HYPOTHESES.md)
-- [Research log](docs/RESEARCH_LOG.md) and [error log](docs/ERROR_LOG.md)
-- [First model: 1-D, steady, pressureless matter](theory/one_dimensional_dust.md)
-- [Finite-time characteristic model, explicitly conditional](theory/finite_time_dust.md)
-- [Per-session logs and recovery instructions](research/sessions/)
-- [Propulsion candidate matrix](docs/PROPULSION_CANDIDATES.md)
-- [Literature references](literature/REFERENCES.md)
+- [Research log](docs/RESEARCH_LOG.md), [error log](docs/ERROR_LOG.md) and [historical reconciliation](docs/RESEARCH_BACKFILL_2026-09-16.md)
+- [First model: 1-D steady pressureless matter](theory/one_dimensional_dust.md)
+- [Finite-time conditional model](theory/finite_time_dust.md)
+- [Session logs](research/sessions/)
+- [Propulsion candidates](docs/PROPULSION_CANDIDATES.md)
+- [References](literature/REFERENCES.md)
 - [Experimental protocol](validation/EXPERIMENT_PROTOCOL.md)
-- [Roadmap](docs/ROADMAP.md), [hourly handoff](docs/HOURLY_HANDOFF.md)
+- [Roadmap](docs/ROADMAP.md) and [hourly handoff](docs/HOURLY_HANDOFF.md)
 
-## Reproduce initial tests (Python 3.10+, standard library only)
+## Reproduce tests (Python 3.10+, standard library only)
 
 ```sh
 python -m unittest discover -s tests -v
@@ -27,17 +33,17 @@ python simulations/benchmark.py
 python -m simulations.transient_benchmark
 ```
 
-Tests check dimensional bookkeeping through explicitly documented SI conventions, momentum/energy benchmarks, steady flux identity, limiting cases, continuity residual, finite-time characteristic invariants, RK4 convergence and material-interval mass quadrature. They do **not** validate a warp drive or solve Einstein's equations. `simulations/benchmark.py` generates demonstrative numerical values, not experimental data.
+These tests check mathematical and numerical models; they do **not** validate a warp drive or establish experimental thrust. Numerical benchmark output is not experimental data. Rerun the complete suite on the exact commit being used; prior test counts are historical, not automatically current.
 
 ## Model boundaries
 
-1. Established physics baseline: rocket and photon thrust, free-body accounting.
-2. Mathematical toys: a **prescribed** Alcubierre-type shift in 1+1D, steady **and finite-time** dust moving with the Eulerian congruence, no pressure, no matter backreaction.
-3. Future: finite-time characteristics, relativistic fluids and solids, full stress-energy, Einstein constraints, source/actuator model, test rig.
-4. UAP claims belong to a **separate hypothesis comparison**, not inputs treated as measured truths.
+1. Established physics baseline: rocket and photon thrust and free-body accounting.
+2. Mathematical toys: prescribed Alcubierre-type shift, conditional dust and later prescribed-metric stress-energy calculations; none establishes a constructible source.
+3. Future: source/actuator feasibility, validated thrust stand, uncertainty and independent replication.
+4. UAP claims are separate unverified hypotheses, not measured inputs.
 
-**Important:** A metric that can be written down is not a manufacturable engine. Bobrick & Martire (2021) explicitly analyze the need for propulsion even for warp shells (DOI in references).
+A writable metric is not a manufacturable engine. Bobrick & Martire (2021) analyze the need for propulsion even for warp shells (see references).
 
-## Continuity and publication
+## Provenance and continuity
 
-A snapshot of this repository can be saved to the user's ChatGPT Library. Automated hourly responses cannot be assumed to edit this repository, share a durable filesystem or know findings of every prior run. See [hourly handoff](docs/HOURLY_HANDOFF.md). At the time of the v0.2.0 session, GitHub write access was unavailable; do not assume the remote was updated. No license is granted for redistribution yet; decide licensing and preferred public attribution before publishing. No externally reviewed results are claimed.
+The initial 0.2.0 snapshot was created when GitHub write access was unavailable. Subsequent research is preserved in individual session files and historically stacked PRs. Cumulative logs do not yet contain a verified entry for every later session: consult the individual sessions and additive historical backfill rather than interpreting silence as missing work. Never silently overwrite divergent logs, treat simulated values as physical measurements or claim university involvement. Check current branches, external contributions and Library lineage before combining work. Public attribution and third-party redistribution must follow CREDITS.md and LICENSE.md.

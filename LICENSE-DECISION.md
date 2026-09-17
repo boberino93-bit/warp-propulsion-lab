@@ -1,3 +1,3 @@
-# License / release decision needed
+# Public release and license decision
 
-A license is intentionally not selected. Before public GitHub creation, the user should choose repository visibility, open-source software license, data/document license if any, and public attribution preferences. Cite outside papers via DOI; do not mirror copyrighted full texts without authorization.
+Approved by the project owner: public GitHub visibility; MIT for original software, CERN-OHL-S-2.0 for original hardware design files, and CC BY 4.0 for original educational/research documentation. See [LICENSE.md](LICENSE.md) for scope, complete MIT text, authoritative full-text links, third-party exclusions and contribution terms. This supersedes the earlier pending-license note. Public attribution remains limited to the approved GitHub account and project credit; do not infer permission to publish a personal surname or university affiliation. The hardware remains a proposal, not a tested product.
