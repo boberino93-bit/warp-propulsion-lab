@@ -1,25 +1,11 @@
 # Contributing to the Propulsion Research Lab
 
-Welcome. Students and independent researchers can propose documentation, software, instrument designs, calibration experiments and critical corrections once the repository is made accessible and licenses are selected. Contributions do not imply a university partnership.
+Welcome, students and independent researchers. The repository is public. Original project-owned software is MIT licensed, original hardware design source is CERN-OHL-S-2.0 licensed, and original documentation is CC BY 4.0 licensed. See [LICENSE.md](LICENSE.md) for scope and third-party exclusions. Contributing does not imply a university partnership.
 
-## Before contributing
+Read `README.md`, `STUDENTS.md`, `docs/CHARTER.md`, `docs/HARDWARE_ACQUISITION_PLAN.md`, `validation/EXPERIMENT_PROTOCOL.md` and the latest research session. Check existing pull requests: research branches are stacked and cumulative logs may diverge. Never overwrite history or merge divergent logs without reconciliation.
 
-Read `README.md`, `docs/CHARTER.md`, `docs/HARDWARE_ACQUISITION_PLAN.md`, `STUDENTS.md`, `validation/EXPERIMENT_PROTOCOL.md`, and the newest `research/sessions/` record. Check open PRs before beginning; research branches may be stacked, and cumulative logs may diverge. Do not overwrite or erase prior results, errors, credit or session history.
+Open an issue or focused pull request identifying one falsifiable question, sources, assumptions, dimensions, momentum/energy budgets, controls, uncertainty and what would disprove the claim. For software, state the exact base SHA and include test commands/results. For hardware, include upstream rights, source drawings, realistic BOM, safety review, calibration, raw data and repeatable analysis. Explicitly distinguish proposed, simulated, physically measured and independently replicated results; preserve negative findings.
 
-## Issues and pull requests
+Use a feature branch and declare dependencies on other open PRs. No force-pushes rewriting others' work. No hazardous unreviewed high-voltage, laser, pressure or vacuum procedures. Follow local institutional lab rules and obtain qualified supervision for physical work. A force reading alone does not demonstrate novel propulsion: document full-system momentum exchange, power, calibration and artifact controls.
 
-State one bounded question and what would falsify it. Include sources (prefer primary literature), dimensional checks, boundary/initial conditions, momentum and energy budgets, expected measurements, uncertainty and relevant alternative explanations. For code, provide exact base commit, commands and complete test output; add tests for new behavior. For hardware, include source-design license, drawings, costed BOM, safety assessment, calibration traceability, controls, raw data and repeatable analysis. Label synthetic, proposed, physically measured and independently replicated results unambiguously. Preserve negative findings.
-
-Use a feature branch, keep changes narrowly scoped, and explain dependencies on other open PRs. Never force-push or rewrite someone else's history without coordination. Do not merge conflicting research logs until they have been reconciled and the full merged test suite has run.
-
-## Research integrity and safety
-
-No claims of novel thrust from a balance deflection alone. Require independent power and momentum accounting, calibrated reference force, null/sham/reversal and thermal/EM/cable/airflow controls, preregistered thresholds and uncertainty. No hazardous unreviewed high-voltage, laser, pressure or vacuum build procedures. Ask a qualified laboratory supervisor for institutional safety requirements before physical experiments.
-
-## Respect and attribution
-
-Engage constructively with corrections and null results. Credit contributors for documented work, cite upstream sources and respect third-party licenses. Do not disclose private information, claim university endorsement or publish another contributor's identity without consent. Do not upload credentials, personal data, copyrighted papers or proprietary laboratory materials.
-
-## Licensing status
-
-Public open-source release is **pending** a deliberate license selection and rights review. Do not assume permission to redistribute third-party CAD, figures, papers, hardware designs or code. The project owner will select and publish appropriate licenses for software, documentation and hardware before announcing public reuse rights.
+Only submit material you have rights to contribute under the applicable category license in LICENSE.md, or clearly flag separate upstream licenses for review. Credit demonstrable contributions; do not upload secrets, private information, proprietary materials or copyrighted papers. No personal identity or university affiliation should be published without consent.
