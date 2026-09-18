@@ -1,16 +1,11 @@
 # AI handoff — 2026-09-18
 
-Read README, charter, ROADMAP, ERROR_LOG, shared operating protocol and latest research/ai-control/sessions before work. Original PRs #43 and #44 are merged; the initial source ledger and foundation session are preserved. No agent experiment exists yet.
+Read README, charter, ROADMAP, ERROR_LOG, shared operating protocol and latest research/ai-control/sessions before work. Original PRs #43 and #44 are merged; the initial source ledger and foundation session are preserved.
 
-NEXT ONE TEST: finish a claim-by-claim source audit of issue #38, especially distinguishing the earlier May communication history from the July rebuilt board and the investigators' July 7–13 focus from their later on-site review dates. Then preregister #39. Do not skip directly to implementation.
+## Current handoff — 2026-09-18 06:30 UTC
 
-Migration: target repo is visible but app writes returned HTTP 403. Continue safely in existing isolated paths; never claim target is initialized. Once access is legitimately updated, inspect the destination afresh, preserve any intervening work, copy project content with source commit/blob provenance, copy current issue bodies/comments/state with cross-links, verify destination readback and tests, and only then change the canonical home. Retain originals; no force push or deletion.
+Issue #38's claim/source audit is complete. Issue #39 preregistration 001 is frozen at `research/ai-control/preregistrations/001-message-board-availability.md`; no harness or experiment has run. It fixes 1,000 paired seeds, message-board availability as the sole variable, separate compliance and success metrics, Wilson and paired-bootstrap uncertainty, fixed thresholds, no exclusions/optional stopping, and bounded shutdown/containment.
 
+NEXT ONE TEST: implement issue #40's deterministic offline harness and unit fixtures strictly against preregistration 001. Prove deterministic replay, paired configuration equality except for `communication_enabled`, permission enforcement, immutable scoring, event-budget enforcement, stop behavior and no network/subprocess capability. Do not run #41's 1,000-pair confirmatory experiment.
 
-## Current handoff — 2026-09-18 01:38 UTC
-
-The complete claim/source audit for #38 is on the current AI audit branch and session `research/ai-control/sessions/2026-09-18-0138-UTC.md`. It corrects May 12 first-board versus July 8 rebuilt-board chronology, distinguishes the later investigator visit dates, explains 70,000 distinct messages/files versus 1.2 million raw rows, and qualifies source independence. No agent experiment ran.
-
-NEXT ONE TEST: #39 preregistration only. Freeze the fully offline communication-disabled versus permitted-message-board toy comparison, metrics, seeds/trials, uncertainty, falsification, resource/event budgets and shutdown before code.
-
-Standalone destination now contains one owner image at `1192862...`, but a fresh branch write returned 403. Preserve it untouched and keep the existing isolated paths canonical until a legitimate write and readback succeed.
+Migration: the standalone destination remains at owner commit `1192862f65020ce2fa27acf3ff43c2c15aa4c568` with `image (3).png`. A fresh connected-app branch creation attempt at 06:30 UTC returned HTTP 403. Preserve it untouched and keep current isolated paths canonical until a legitimate write and readback succeed. Never infer authority from permission metadata.
