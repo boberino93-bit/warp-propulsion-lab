@@ -15,3 +15,8 @@ Execute one bounded advance at a time. Tasks remain open until acceptance is ver
 The fiction track captures the motivating historical discussion, not a prediction. Catalogue autonomy, authority, goals, experience/environment, cooperation and shutdown as comparison questions; do not invent lore or treat a shared narrative as experimental validation.
 
 Migration is infrastructure work and does not advance scientific task status. Preserve original issues and PR history with cross-links. Do not mark #38 complete merely because its initial ledger was merged.
+
+
+## Task 6 protocol status — 2026-09-18 20:38 UTC
+
+The canon/version corpus and scene-level rubric are frozen in `research/ai-control/preregistrations/004-fiction-comparison-corpus-rubric.md`. No analogy has yet been written and task 6 remains open. Next: code only the two frozen Terminator theatrical cuts into a primary-scene ledger; do not draw cross-franchise conclusions.
