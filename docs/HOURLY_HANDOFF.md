@@ -63,3 +63,8 @@ Latest session: `research/sessions/2026-09-18-1432-UTC.md` (v0.3.43). The certif
 ## Current propulsion handoff — 2026-09-18 18:35 UTC
 
 Latest session: `research/sessions/2026-09-18-1835-UTC.md` (v0.3.44). Complete-DUT inversion and symmetric filament/flexure transfer were compared under one frozen allocation: `u_c = 0.002385421 mN`, `U95 = 0.004770843 mN`, margin `0.000229157 mN`. Both fail the evidence gate: inversion lacks measured reseating/cable/gravity-vector/thermal bounds; filament/flexure lacks measured ratio/friction/stiction/creep/hysteresis bounds. No design or purchase. NEXT ONE TEST: audit one published symmetric flexure/filament low-force transfer with repeated signed calibration data against the table; reject missing terms or `U95 > 0.005 mN`.
+
+
+## Current propulsion handoff — 2026-09-18 19:31 UTC
+
+Latest session: `research/sessions/2026-09-18-1931-UTC.md` (v0.3.45). Frieler and Groll’s 2018 torsional spring-leaf balance was audited against the frozen signed-transfer table. Its automated weight calibration and repeated-run capability are relevant, but the accessible record does not provide signed ±0.10 mN cycles or quantitative transfer-ratio, friction/stiction, hysteresis, creep and thermal terms. Reported 15 µN estimated resolution is not expanded uncertainty and alone equals 75% of the 20 µN lowest-point ceiling. Candidate rejected; no design or purchase. NEXT ONE TEST: audit the 2022 Surrey/AVS torsional flex-pivot balance’s bidirectional calibration/repeatability data against the same table; reject missing numerical terms or `U95 > 0.005 mN`.
