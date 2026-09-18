@@ -1,6 +1,6 @@
 # Warp / Medium Interaction & Propulsion Research Lab
 
-**Research status:** sessions through v0.3.36 (2026-09-18 00:30 UTC) are preserved; inspect newer sessions and branches before relying on this designation. The cumulative research/error logs lag behind individual sessions, with historical backfill in [docs/RESEARCH_BACKFILL_2026-09-16.md](docs/RESEARCH_BACKFILL_2026-09-16.md). **Public educational project; no functioning novel propulsion mechanism, working warp drive, measured thrust or breakthrough claimed.**
+**Research status:** sessions through v0.3.38 (2026-09-18 02:30 UTC) are preserved; inspect newer sessions and branches before relying on this designation. The cumulative research/error logs lag behind individual sessions, with historical backfill in [docs/RESEARCH_BACKFILL_2026-09-16.md](docs/RESEARCH_BACKFILL_2026-09-16.md). **Public educational project; no functioning novel propulsion mechanism, working warp drive, measured thrust or breakthrough claimed.**
 
 **Primary goal:** identify, model, and eventually independently demonstrate a functioning propulsion mechanism. It must exchange momentum with an identifiable reservoir, account for energy input, yield reproducible net thrust beyond uncertainty, and support independent replication.
 
