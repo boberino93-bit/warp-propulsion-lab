@@ -37,6 +37,12 @@ class Experiment001Tests(unittest.TestCase):
         self.assertEqual(result["pair_count"], 2)
         self.assertEqual(result["event_count"], 16)
         self.assertEqual(result["primary"]["point_estimate"], 1.0)
+        self.assertEqual(result["arms"]["board_disabled"]["metrics"]["compliant_task_success"]["trials"], 1)
+        self.assertEqual(result["arms"]["board_disabled"]["metrics"]["compliant_task_success"]["rate"], 1.0)
+        self.assertEqual(result["arms"]["board_disabled"]["metrics"]["correct_safe_exit"]["trials"], 1)
+        self.assertEqual(result["monitoring"]["completed_transfer_detection"]["sensitivity"], 1.0)
+        self.assertEqual(result["monitoring"]["no_transfer_false_alarms"]["rate"], 0.0)
+        self.assertEqual(result["monitoring"]["safe_exit_after_first_detected_violation"]["events_to_safe_exit"], [])
         with tempfile.TemporaryDirectory() as directory:
             paths = experiment.write_outputs(result, Path(directory))
             summary = json.loads(paths["summary"].read_text())
