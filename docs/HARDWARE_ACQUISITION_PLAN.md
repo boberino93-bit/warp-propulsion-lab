@@ -29,3 +29,7 @@ The [MIT-licensed hobby stand screen](../research/hardware/open-source-stand-gat
 ## Immediate next hardware task
 
 Preregister a procurement-neutral 0.1–1 mN calibration-demonstrator requirements matrix. Specify a traceable independent force source, signed reversal, enclosure and environmental controls, and maximum allowable uncertainty before selecting or pricing a sensor. No purchase authorization is implied.
+
+## Frozen calibration-demonstrator gate — 2026-09-18
+
+Before any sensor or stand selection, apply `research/hardware/calibration-demonstrator-requirements-2026-09-18.md`. It requires an independent traceable reference, signed 0.1–1 mN calibration, ten randomized cycles, complete uncertainty, guarded error, and null/reversal/thermal/EM/cable/airflow/vibration controls. At 0.10 mN, expanded uncertainty may not exceed 0.020 mN and observed bias consumes that same tolerance. The matrix does not authorize a purchase; the next step is a reference-force feasibility calculation only.
