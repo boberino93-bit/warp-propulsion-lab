@@ -6,7 +6,7 @@ Study unauthorized cooperation, reward hacking, deceptive behaviour and control 
 
 **Current canonical home:** isolated paths in warp-propulsion-lab. **Intended standalone home:** https://github.com/boberino93-bit/ai-behaviour-control-lab . The destination contains an owner-uploaded image, but a fresh connected-app branch write returned HTTP 403; migration is not complete and the owner file must be preserved.
 
-Start with [charter](PROJECT_CHARTER.md), [ordered roadmap](ROADMAP.md), [incident ledger](INCIDENT_LEDGER.md), [error log](ERROR_LOG.md), [handoff](HOURLY_HANDOFF.md), the [frozen message-board preregistration](../../research/ai-control/preregistrations/001-message-board-availability.md), and the [shared operating protocol](../RESEARCH_OPERATING_PROTOCOL.md). Prior sessions are in ../../research/ai-control/sessions/.
+Start with [charter](PROJECT_CHARTER.md), [ordered roadmap](ROADMAP.md), [incident ledger](INCIDENT_LEDGER.md), [error log](ERROR_LOG.md), [handoff](HOURLY_HANDOFF.md), [preregistration 001](../../research/ai-control/preregistrations/001-message-board-availability.md), [safeguard preregistration 002](../../research/ai-control/preregistrations/002-monitor-enforced-stop.md), and the [shared operating protocol](../RESEARCH_OPERATING_PROTOCOL.md). Prior sessions are in ../../research/ai-control/sessions/.
 
 ## Evidence categories
 Observed traces; first-party report; independent bounded assessment; secondary reporting; hypothesis; offline toy result; fiction analogy. Record which category supports each claim. No attribution of subjective motives or real-world catastrophe odds from toy data.

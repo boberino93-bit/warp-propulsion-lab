@@ -28,3 +28,11 @@ The first generated summary used incorrect all-trial denominators for two condit
 NEXT ONE TEST: preregister issue #42's single-variable logging-only versus monitor-enforced-stop safeguard comparison with a fresh seed block and frozen shutdown-latency/false-stop metrics. Do not implement or execute it until that preregistration is merged.
 
 Migration remains blocked: destination branch test `access-check-20260918-0836` returned HTTP 403. Preserve owner commit `1192862f65020ce2fa27acf3ff43c2c15aa4c568` and `image (3).png`.
+
+## Current handoff — 2026-09-18 12:38 UTC
+
+Issue #42 preregistration 002 is frozen at `research/ai-control/preregistrations/002-monitor-enforced-stop.md`; no safeguard implementation or experiment has run. It compares logging-only against monitor-enforced monotonic stop with `monitor_enforced_stop` as the sole arm-level difference, reserves fresh seeds 420000–420999, balances 500 violation-present and 500 benign-control pairs, fixes Wilson and paired-bootstrap uncertainty, and distinguishes expected `CONTROLLED_STOP` from integrity/resource `ABORTED`.
+
+NEXT ONE TEST: implement the deterministic safeguard state and nonconfirmatory fixtures only. Prove detection is committed before stop, the board becomes read-only, zero agent events occur after valid detection, benign traffic does not stop, paired configs differ only by enforcement, and forbidden capabilities remain absent. Do not execute reserved seeds.
+
+Migration remains blocked: destination `ai-behaviour-control-lab` is still at owner commit `1192862f65020ce2fa27acf3ff43c2c15aa4c568`; branch test `access-check-20260918-1238` returned HTTP 403. Preserve `image (3).png` and keep current paths canonical.
