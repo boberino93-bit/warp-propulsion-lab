@@ -24,3 +24,8 @@ Latest session: research/sessions/2026-09-16-0823-UTC.md. Interview audit adds f
 ## Current handoff — 2026-09-18 (supersedes historical scheduling notes above)
 
 The connected GitHub app now reads and writes this repository. Read docs/RESEARCH_OPERATING_PROTOCOL.md. Pending propulsion PRs #36 and #45 were merged in sequence. Latest preserved research session: research/sessions/2026-09-18-0030-UTC.md (v0.3.36). NEXT ONE TEST: a preregistered 10,000-trial holdout slice varying one long-memory artifact-structure parameter under the unchanged frozen threshold. Do not repeat an older amplitude slice or use the historic 0.3.20 handoff as current. Recovered archive variants preserve omissions without replacing current models. AI has a separate queue under docs/ai-control/.
+
+
+## Current propulsion handoff — 2026-09-18 01:32 UTC
+
+Latest session: `research/sessions/2026-09-18-0132-UTC.md` (v0.3.37). The preregistered longer-memory structure slice (`persistence_power=0.5`) passed the frozen 2% Wilson-upper false-positive criterion: 125/10,000, upper 1.48723819%. Treat as synthetic protocol evidence only. NEXT ONE TEST: complementary 10,000-trial `persistence_power=2.0` slice with threshold, amplitudes, seeds, schedule and stopping rule unchanged. Verify exact-head full CI and reconcile live main before merge.
