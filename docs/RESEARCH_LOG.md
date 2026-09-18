@@ -65,3 +65,7 @@ Starting merged main `3c409bd52c5386d55cc0623d676f1fa83d441c61`. Compared the Ge
 ## 2026-09-18 08:29 UTC — v0.3.40 open-source stand acquisition gate
 
 Starting merged main `23b9d03173195304067569e3e5456122e391024c`. Screened the MIT-licensed Pablo18011 RC Motor Thrust Stand at upstream commit `e5593bd01c35a8805df4f7739a2e728ce212812c`. Its 5 kg load cell is documented only as a gram-scale hobby propeller instrument; the source publishes no traceable calibration, raw results, noise/drift, hysteresis or uncertainty across the required 0.1–1 mN range (0.010197–0.101972 g, about 2.04–20.4 ppm full scale). The parts list lacks orderable identifiers and required calibration/control hardware, so a complete Canadian BOM cannot be priced without silently designing substitutions. Candidate rejected; no design selection or purchase. See [gate](../research/hardware/open-source-stand-gate-2026-09-18.md) and [session](../research/sessions/2026-09-18-0829-UTC.md). Next: freeze the calibration-demonstrator requirements matrix before sensor selection.
+
+## 2026-09-18 — Calibration-demonstrator requirements frozen
+
+Preregistered a procurement-neutral 0.1–1 mN acquisition gate with independent traceability, signed randomized cycles, bracketed zeros, complete uncertainty and artifact controls. The lowest point requires `U95 ≤ 0.020 mN` and `|E| + U95 ≤ 0.020 mN`. This is a project requirement, not a hardware result. No component was selected or purchased. Session: `research/sessions/2026-09-18-0930-UTC.md`.
