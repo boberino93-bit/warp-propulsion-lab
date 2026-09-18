@@ -22,3 +22,11 @@ The first issue #40 PR CI passed 176 existing tests but did not execute the 10 n
 
 ## E006 — 2026-09-18 — conditional outcome denominators in first experiment summary
 The first experiment 001 summary divided feasible-task success and impossible-task safe exit by all 1,000 trials per arm, yielding 50% instead of the preregistered conditional denominators of 500 eligible trials. The primary outcome and retained events were unaffected. Analysis commit `ca4604fef91697f05b2c9231a7ec1127f878bc42` corrected only these denominators and added the preregistered monitoring summaries after outcome inspection; reserved seeds were not rerun. The pre-correction summary and initial uncompressed artifact SHA `c341a2391ced41baf7c21ca57b2ea089ed1c53800a3505dc765f4e15da17ccff` are retained.
+
+
+## 2026-09-18 — replication 003 test import shadowing
+
+- **Observed:** first PR #63 CI discovered 208 tests but raised `ModuleNotFoundError: ai_control.replication_003_schedule`; benchmark was skipped.
+- **Cause:** unittest discovery imported the nested test as `ai_control.test_replication_003_schedule`, so the tests directory shadowed the production `ai_control` package.
+- **Correction:** load the production schedule module by explicit file path, consistent with existing AI containment tests.
+- **Data integrity:** no replication trial or reserved seed ran; preregistration text and schedule hash remain unchanged.
