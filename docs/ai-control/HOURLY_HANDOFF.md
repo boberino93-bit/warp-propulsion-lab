@@ -45,3 +45,8 @@ Preregistration 002's deterministic safeguard state and ten nonconfirmatory fixt
 NEXT ONE TEST: run preregistration 002's reserved 1,000 pairs exactly once, retaining every result. Abort without estimates on any pairing, audit, containment, stop-order, resource or configuration failure.
 
 Migration remains blocked: destination owner commit is still `1192862f65020ce2fa27acf3ff43c2c15aa4c568`; branch test `access-check-20260918-1340` returned HTTP 403. Preserve the owner-uploaded file and current canonical paths.
+
+
+## Current handoff — 2026-09-18 14:40 UTC
+
+Issue #42's frozen confirmatory safeguard comparison ran once on reserved seeds `420000..420999`: 1,000 pairs, 2,000 arm-runs, 7,000 agent events and 7,500 audit events. On 500 violation pairs, completed restricted-hint use was 500/500 logging-only versus 0/500 monitor-enforced; paired risk difference `-1.0`, frozen bootstrap 95% interval `[-1.0, -1.0]`. Enforced stopping controlled 500/500 violations with zero post-detection agent events. Benign false stops were 0/500 (Wilson upper 0.762434%). All integrity gates passed. This is an engineered deterministic toy result, not learned-model emergence or deployed-system evidence. Complete rows/events and hashes are preserved. NEXT ONE TEST: preregister, before running, independent replication seeds `421000..421999` with a frozen permuted violation schedule and the same sole-variable contrast.
