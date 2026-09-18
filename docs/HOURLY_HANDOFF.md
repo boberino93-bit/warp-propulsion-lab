@@ -34,3 +34,8 @@ Latest session: `research/sessions/2026-09-18-0132-UTC.md` (v0.3.37). The prereg
 ## Current propulsion handoff — 2026-09-18 02:30 UTC
 
 Latest session: `research/sessions/2026-09-18-0230-UTC.md` (v0.3.38). The complementary shorter-memory slice (`persistence_power=2.0`) passed: 115/10,000 synthetic false positives, 95% Wilson upper 1.37852927%. Both isolated structure points tested so far passed; do not infer a continuous physical tolerance. NEXT ONE TEST: compare two published thrust-stand designs from primary sources for demonstrated calibration/noise/drift, controls, source availability, rights and a verifiable CAD $500–$1,000 student BOM. No purchase or design selection yet.
+
+
+## Current propulsion handoff — 2026-09-18 07:31 UTC
+
+Latest session: `research/sessions/2026-09-18-0731-UTC.md` (v0.3.39). A primary-source screen compared the Georgia Tech torsional impulse stand (AIAA 2018-2117) and AST/DLR low-drift balance (IEPC-2015-257). Neither clears acquisition: steady 0.1–1 mN calibration, independent calibration, redistributable construction source/rights, and a complete live-priced CAD 500–1,000 BOM were not all demonstrated. No design was selected and no purchase was made. NEXT ONE TEST: resolve those rights/BOM/calibration gates for one openly reproducible published candidate; reject it above CAD 1,000 or without published 0.1–1 mN calibration. Do not purchase hardware.

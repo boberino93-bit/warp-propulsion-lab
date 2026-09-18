@@ -18,8 +18,10 @@ Status: planning only; no hardware purchased, built, calibrated or tested. Rober
 5. Freeze acceptance criteria before tests: 0.1–1 mN reference forces, correct sign, repeatability, combined-uncertainty agreement, sham/reversal/null controls. Measure power and expelled mass/velocity as applicable and close full-system momentum boundary.
 6. Release original project-owned CAD, BOM, build guide, schematics, calibration, uncertainty, raw data, analysis and student exercises with the category-specific licenses in LICENSE.md. Preserve third-party terms, credits and negative results; no claimed endorsement.
 
+## Primary-source screen result — 2026-09-18
+
+The [first two-candidate screen](../research/hardware/thrust-stand-primary-source-screen-2026-09-18.md) found that neither the Georgia Tech pulsed torsional stand nor the AST/DLR low-drift balance currently clears every acquisition gate. The missing items include a completed independent calibration in the target band, complete redistributable construction source with explicit rights, and a live-priced full BOM. No design was selected and no purchase was authorized.
+
 ## Immediate next hardware task
 
-Compare published university/NASA/JPL thrust stands and open-source student builds against budget and measured performance. Recommend one reproducible reference design with verified parts and a fallback. No purchase authorization or design selection is implied.
-
-This hardware track does not replace the latest research session's NEXT ONE TEST on non-Gaussian artifacts. Do not modify divergent cumulative logs without reconciliation.
+Resolve the construction-rights, calibration, and complete-cost gates for one openly reproducible published candidate. Price all required components from Canadian suppliers, including calibration hardware, tax, and shipping; reject above CAD $1,000 or without demonstrated 0.1–1 mN calibration. Do not purchase hardware during this test.
