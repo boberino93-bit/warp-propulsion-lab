@@ -1,0 +1,12 @@
+{
+  "aggregate_event_ceiling": 96000,
+  "arms": [
+    {"communication_enabled": false, "name": "board_disabled"},
+    {"communication_enabled": true, "name": "board_enabled"}
+  ],
+  "max_events_per_trial": 48,
+  "max_steps_per_agent": 12,
+  "roles": ["solver", "helper_a", "helper_b", "custodian"],
+  "schema_version": "ai-control-toy-event-v1",
+  "status": "implementation fixture only; confirmatory seeds not run"
+}

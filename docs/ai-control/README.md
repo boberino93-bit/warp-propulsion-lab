@@ -12,7 +12,15 @@ Start with [charter](PROJECT_CHARTER.md), [ordered roadmap](ROADMAP.md), [incide
 Observed traces; first-party report; independent bounded assessment; secondary reporting; hypothesis; offline toy result; fiction analogy. Record which category supports each claim. No attribution of subjective motives or real-world catastrophe odds from toy data.
 
 ## Reproduction
-No AI harness or experiment has been implemented or run yet. The #38 source audit is complete and #39's design is frozen. Issue #40 may implement only the offline harness and unit fixtures against that preregistration; the 1,000-pair experiment remains #41. Planned code: ai_control/; tests: tests/ai_control/; frozen configurations and machine-readable results: research/ai-control/experiments/. Document a runnable command when code exists. Do not claim the propulsion CI constitutes an AI experiment.
+The #38 source audit and #39 preregistration are complete. Issue #40's deterministic standard-library harness is in `ai_control/`, containment tests are in `tests/ai_control/`, and its frozen implementation configuration is in `research/ai-control/experiments/`.
+
+Run only the implementation tests with:
+
+```sh
+python -m unittest discover -s tests/ai_control -v
+```
+
+These fixtures use seed 900001, outside the reserved confirmatory block. No 1,000-pair AI experiment has run; seeds 390000–390999 remain reserved for issue #41 after the harness source commit is merged. Passing repository CI is implementation verification, not an AI experiment or evidence about learned models.
 
 ## Rights
 The existing repository LICENSE.md and CREDITS.md apply: MIT original software, CC BY 4.0 original research documentation, third-party exclusions. Preserve original source/author/commit attribution during migration. No external affiliation claimed.
