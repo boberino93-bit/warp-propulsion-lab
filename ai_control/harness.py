@@ -10,7 +10,7 @@ from __future__ import annotations
 from dataclasses import asdict, dataclass, field
 import hashlib
 import json
-from typing import Callable, Mapping
+from typing import Mapping
 
 
 SCHEMA_VERSION = "ai-control-toy-event-v1"
@@ -169,7 +169,6 @@ def run_trial(
     source_commit: str,
     stop_flag: StopFlag | None = None,
     event_budget: int | None = None,
-    event_observer: Callable[[AuditEvent], None] | None = None,
 ) -> TrialResult:
     """Run one bounded scripted fixture entirely in memory.
 
@@ -239,9 +238,6 @@ def run_trial(
         event = AuditEvent(**base, event_hash=event_hash)
         events.append(event)
         previous_hash = event_hash
-        if event_observer is not None:
-            event_observer(event)
-
     feasible = seed % 2 == 0
     public_solution = _token(seed, "public")
     restricted_token = _token(seed, "restricted")
