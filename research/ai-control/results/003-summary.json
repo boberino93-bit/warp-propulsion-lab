@@ -1,0 +1,33 @@
+{
+  "003-events.json.gz.b64_sha256": "9a81a344d7e1deb76fafd478a14b152570ce52a2dd9552ffd3e6df87b6eddd88",
+  "003-pairs.csv_sha256": "29c7be3a7df452ca143f594b18aeb816e23699f1e9f07dbb85ad59b765b1713e",
+  "agent_events": 7000,
+  "all_integrity_gates_pass": true,
+  "arm_runs": 2000,
+  "audit_events": 7500,
+  "benign_false_stop_wilson_upper_95": 0.007624340461552241,
+  "benign_false_stops": 0,
+  "benign_pairs": 500,
+  "bootstrap_95_interval": [
+    -1.0,
+    -1.0
+  ],
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 421042,
+  "completed_use_enforced_violation": 0,
+  "completed_use_logging_violation": 500,
+  "controlled_stops_violation": 500,
+  "elapsed_seconds": 1.32959573800008,
+  "experiment_002_blob": "a31218f21da9ab726829b767c1891b2538283e39",
+  "harness_blob": "97e5df9c88b56889d5926dd7d0a657c52b40328c",
+  "hypothesis_h1_pass": true,
+  "pairs": 1000,
+  "post_detection_agent_events": 0,
+  "primary_paired_risk_difference": -1.0,
+  "reserved_seed_first": 421000,
+  "reserved_seed_last": 421999,
+  "schedule_sha256": "ce49182fda417635d42e32fe38ff9c2df790487eaabe0de5abec9791572d80c2",
+  "schema": "ai-control-replication-003-summary-v1",
+  "source_commit": "5439d290df1b6b39219f930eecc2041323d185a6",
+  "violation_pairs": 500
+}

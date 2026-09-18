@@ -30,3 +30,16 @@ The first experiment 001 summary divided feasible-task success and impossible-ta
 - **Cause:** unittest discovery imported the nested test as `ai_control.test_replication_003_schedule`, so the tests directory shadowed the production `ai_control` package.
 - **Correction:** load the production schedule module by explicit file path, consistent with existing AI containment tests.
 - **Data integrity:** no replication trial or reserved seed ran; preregistration text and schedule hash remain unchanged.
+
+
+## E007 — 2026-09-18 — replication 003 preflight source mismatch
+
+The first local controller invocation failed before any reserved seed ran because the temporary reconstructed `harness.py` differed from the pinned Git blob by whitespace. The controller raised `IntegrityAbort: pinned harness blob mismatch`, emitted no estimate and wrote no result artifact. The exact pinned blob `97e5df9c88b56889d5926dd7d0a657c52b40328c` was restored and verified before the one completed reserved-block execution. Do not count the aborted preflight as a replication trial or omit it from provenance.
+
+## E008 — 2026-09-18 — large event artifact initially truncated during publication
+
+The first PR #65 CI ran 214 tests and failed one artifact hash check plus one ASCII decode when the initial connector upload of `003-events.json.gz.b64` contained a Unicode truncation marker. The reserved experiment was not rerun. The already-retained 509,749-byte local artifact was reassembled in bounded read chunks, replaced on the same branch, and must match frozen SHA-256 `9a81a344d7e1deb76fafd478a14b152570ce52a2dd9552ffd3e6df87b6eddd88` before merge. The failed CI is retained as evidence of the publication error.
+
+## E009 — 2026-09-18 — artifact verifier included a derived field in event hashes
+
+After the complete event artifact passed its frozen file SHA-256 check, the second PR #65 CI failed one independent chain test because the verifier hashed the derived storage field `trial_status`. That field is appended after each immutable event is produced and is not part of the event hash schema. The verifier was corrected to remove both `event_hash` and `trial_status` before recomputation. No source event, result artifact, estimate or reserved trial changed.
