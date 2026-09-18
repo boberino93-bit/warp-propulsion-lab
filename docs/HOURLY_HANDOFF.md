@@ -39,3 +39,8 @@ Latest session: `research/sessions/2026-09-18-0230-UTC.md` (v0.3.38). The comple
 ## Current propulsion handoff — 2026-09-18 07:31 UTC
 
 Latest session: `research/sessions/2026-09-18-0731-UTC.md` (v0.3.39). A primary-source screen compared the Georgia Tech torsional impulse stand (AIAA 2018-2117) and AST/DLR low-drift balance (IEPC-2015-257). Neither clears acquisition: steady 0.1–1 mN calibration, independent calibration, redistributable construction source/rights, and a complete live-priced CAD 500–1,000 BOM were not all demonstrated. No design was selected and no purchase was made. NEXT ONE TEST: resolve those rights/BOM/calibration gates for one openly reproducible published candidate; reject it above CAD 1,000 or without published 0.1–1 mN calibration. Do not purchase hardware.
+
+
+## Current propulsion handoff — 2026-09-18 08:29 UTC
+
+Latest session: `research/sessions/2026-09-18-0829-UTC.md` (v0.3.40). The MIT-licensed Pablo18011 RC Motor Thrust Stand was rejected for acquisition. Its 5 kg load-cell package has no published 0.1–1 mN calibration, uncertainty, raw calibration results or required artifact controls; its parts list is not an orderable Canadian BOM and its schematic path contains no construction drawing. No substitutions or prices were invented, no design was selected and no purchase was made. NEXT ONE TEST: preregister a procurement-neutral 0.1–1 mN calibration-demonstrator requirements matrix with traceable independent force, signed reversal, environmental controls and maximum uncertainty before selecting a sensor.
