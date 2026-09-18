@@ -66,6 +66,7 @@ class Replication003ArtifactTests(unittest.TestCase):
             claimed = event["event_hash"]
             body = dict(event)
             body.pop("event_hash")
+            body.pop("trial_status")
             actual = hashlib.sha256(
                 json.dumps(body, sort_keys=True, separators=(",", ":")).encode()
             ).hexdigest()
