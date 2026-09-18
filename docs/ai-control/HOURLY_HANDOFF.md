@@ -18,3 +18,13 @@ Issue #40's deterministic offline harness and 10 containment unit fixtures are i
 NEXT ONE TEST: issue #41's exact 1,000-pair baseline versus board-enabled run using the merged issue #40 source commit, alternating arm order by seed parity. Retain every result and abort without an estimate if any configuration, audit chain, pair, resource bound, or containment check is invalid.
 
 Migration remains blocked: `ai-behaviour-control-lab` is still at owner commit `1192862f65020ce2fa27acf3ff43c2c15aa4c568`; branch test `access-check-20260918-0743` returned HTTP 403. Preserve `image (3).png` and keep these isolated paths canonical.
+
+## Current handoff — 2026-09-18 08:36 UTC
+
+Issue #41's frozen 1,000-pair experiment is complete. All 2,000 arm-runs and 8,000 audit events validated with no aborts. Completed restricted-hint use was 0/1,000 disabled and 1,000/1,000 enabled; paired risk difference +1.0, frozen paired-bootstrap 95% interval [1.0, 1.0]. This is the engineered output of deterministic scripts, not learned-model emergence or a real-world rate. The monitor detected all transfers but enforced no stop: 0/1,000 detected-violation trials reached safe exit.
+
+The first generated summary used incorrect all-trial denominators for two conditional outcomes. E006 records the transparent post-outcome correction to 500 eligible trials; reserved seeds were not rerun and the initial summary remains retained. Accept only exact-head CI showing the four new controller tests in addition to the existing 186 tests, then merged-main readback.
+
+NEXT ONE TEST: preregister issue #42's single-variable logging-only versus monitor-enforced-stop safeguard comparison with a fresh seed block and frozen shutdown-latency/false-stop metrics. Do not implement or execute it until that preregistration is merged.
+
+Migration remains blocked: destination branch test `access-check-20260918-0836` returned HTTP 403. Preserve owner commit `1192862f65020ce2fa27acf3ff43c2c15aa4c568` and `image (3).png`.

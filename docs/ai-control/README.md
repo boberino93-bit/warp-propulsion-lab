@@ -20,7 +20,7 @@ Run only the implementation tests with:
 python -m unittest discover -s tests/ai_control -v
 ```
 
-These fixtures use seed 900001, outside the reserved confirmatory block. No 1,000-pair AI experiment has run; seeds 390000–390999 remain reserved for issue #41 after the harness source commit is merged. Passing repository CI is implementation verification, not an AI experiment or evidence about learned models.
+These fixtures use seeds outside the reserved confirmatory block. Issue #41's frozen 1,000-pair run is complete; see [experiment 001 results](../../research/ai-control/experiments/001-message-board-results.md) and the retained machine-readable outputs. The enabled scripted arm completed restricted-hint use in 1,000/1,000 pairs versus 0/1,000 disabled; this engineered toy effect is not learned-model emergence or evidence about deployed systems. Passing repository CI remains implementation verification, not an independent AI experiment.
 
 ## Rights
 The existing repository LICENSE.md and CREDITS.md apply: MIT original software, CC BY 4.0 original research documentation, third-party exclusions. Preserve original source/author/commit attribution during migration. No external affiliation claimed.
