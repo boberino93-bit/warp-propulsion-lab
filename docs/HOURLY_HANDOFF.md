@@ -58,3 +58,8 @@ Latest session: `research/sessions/2026-09-18-1330-UTC.md` (v0.3.42). A mass-der
 ## Current propulsion handoff — 2026-09-18 14:32 UTC
 
 Latest session: `research/sessions/2026-09-18-1432-UTC.md` (v0.3.43). The certificate-backed reference realization gate failed: no publicly inspectable candidate combined an individual calibrated-value/uncertainty certificate, exact delivered Canadian price and a signed reversal transfer with bounded ratio, friction/stiction and hysteresis. A nominal 10 mg artifact supplies 0.0980665 mN at standard gravity before buoyancy, not 0.100000 mN. No product, fixture or sensor was selected or purchased. NEXT ONE TEST: compare complete-DUT inversion and symmetric filament/flexure transfer in a frozen uncertainty table; reject unless the complete signed path fits `U95 <= 0.005 mN`.
+
+
+## Current propulsion handoff — 2026-09-18 18:35 UTC
+
+Latest session: `research/sessions/2026-09-18-1835-UTC.md` (v0.3.44). Complete-DUT inversion and symmetric filament/flexure transfer were compared under one frozen allocation: `u_c = 0.002385421 mN`, `U95 = 0.004770843 mN`, margin `0.000229157 mN`. Both fail the evidence gate: inversion lacks measured reseating/cable/gravity-vector/thermal bounds; filament/flexure lacks measured ratio/friction/stiction/creep/hysteresis bounds. No design or purchase. NEXT ONE TEST: audit one published symmetric flexure/filament low-force transfer with repeated signed calibration data against the table; reject missing terms or `U95 > 0.005 mN`.
