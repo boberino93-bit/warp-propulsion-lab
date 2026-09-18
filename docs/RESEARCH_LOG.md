@@ -79,3 +79,10 @@ Starting merged main `ea1ebf2e6c50c616a2059ee3814af8cafe747581`. Applied the fro
 ## 2026-09-18 19:31 UTC — v0.3.45 published spring-leaf transfer audit
 
 Starting merged main `c1bce61b8eb70730a8d330c3665193e417b49605`. Audited Frieler and Groll’s published torsional spring-leaf balance (DOI 10.1063/1.4996419) against the frozen signed 0.10 mN transfer gate. The paper supports an automated pulley/known-mass calibration, multiple-run averaging, a 225 mN range and estimated resolution within 15 µN. The accessible record does not supply repeated signed ±0.10 mN cycles, individually traceable calibration values, or numerical pulley ratio, friction/stiction, direction hysteresis, flexure creep and thermal-return terms. The 15 µN value is resolution, not `U95`; it was not reclassified. The candidate does not demonstrate the `U95 <= 0.005 mN` transfer allocation and was rejected. No hardware selection, purchase, build, calibration or thrust measurement. See [audit](../research/hardware/frieler-groll-flexure-audit-2026-09-18.md) and [session](../research/sessions/2026-09-18-1931-UTC.md). Next: audit the 2022 Surrey/AVS flex-pivot balance against the unchanged table.
+
+## 2026-09-18 20:30 UTC — v0.3.46 Surrey/AVS flex-pivot calibration audit
+
+- Audited Masillo et al. (2022), DOI https://doi.org/10.1063/5.0117584, against the frozen signed 0.10 mN force-transfer table.
+- Retained the positive evidence: in-situ under-vacuum load-cell calibration, repeated sequences, residual/linearity checks, and reported repeatability across sessions.
+- Rejected the candidate for the present gate: the published low-range example begins near 0.2 mN; no signed -0.10/0/+0.10 mN cycles or complete traceable reference/contact-transfer `U95 <= 0.005 mN` budget are demonstrated.
+- No hardware was selected, purchased, built, calibrated or tested. The xenon thruster results are conventional reaction-thrust evidence, not novel propulsion.
