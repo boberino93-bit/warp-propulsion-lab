@@ -39,3 +39,7 @@ The first local controller invocation failed before any reserved seed ran becaus
 ## E008 — 2026-09-18 — large event artifact initially truncated during publication
 
 The first PR #65 CI ran 214 tests and failed one artifact hash check plus one ASCII decode when the initial connector upload of `003-events.json.gz.b64` contained a Unicode truncation marker. The reserved experiment was not rerun. The already-retained 509,749-byte local artifact was reassembled in bounded read chunks, replaced on the same branch, and must match frozen SHA-256 `9a81a344d7e1deb76fafd478a14b152570ce52a2dd9552ffd3e6df87b6eddd88` before merge. The failed CI is retained as evidence of the publication error.
+
+## E009 — 2026-09-18 — artifact verifier included a derived field in event hashes
+
+After the complete event artifact passed its frozen file SHA-256 check, the second PR #65 CI failed one independent chain test because the verifier hashed the derived storage field `trial_status`. That field is appended after each immutable event is produced and is not part of the event hash schema. The verifier was corrected to remove both `event_hash` and `trial_status` before recomputation. No source event, result artifact, estimate or reserved trial changed.
