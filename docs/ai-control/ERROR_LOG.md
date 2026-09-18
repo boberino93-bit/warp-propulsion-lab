@@ -11,3 +11,7 @@ The independent report focuses mainly on July 7–13 activity. Its six on-site r
 
 ## Remaining verification
 Initial ledger is preserved as historical prose; these corrections take precedence. Full claim-by-claim audit, including secondary-report qualifications and source independence, remains issue #38. No consciousness, enduring subjective self-interest or perpetuity was established.
+
+
+## E004 — 2026-09-18 — destination state versus app authority
+The standalone repository now contains an owner-uploaded `image (3).png` at `1192862f65020ce2fa27acf3ff43c2c15aa4c568`; it is no longer empty. A fresh connected-app branch-creation attempt still returned HTTP 403 `Resource not accessible by integration`. Repository metadata permissions remain insufficient evidence of app write authority. Preserve the owner file and do not migrate, create destination issues, or change the canonical home until an actual write succeeds and is read back.
