@@ -15,3 +15,7 @@ Initial ledger is preserved as historical prose; these corrections take preceden
 
 ## E004 — 2026-09-18 — destination state versus app authority
 The standalone repository now contains an owner-uploaded `image (3).png` at `1192862f65020ce2fa27acf3ff43c2c15aa4c568`; it is no longer empty. A fresh connected-app branch-creation attempt still returned HTTP 403 `Resource not accessible by integration`. Repository metadata permissions remain insufficient evidence of app write authority. Preserve the owner file and do not migrate, create destination issues, or change the canonical home until an actual write succeeds and is read back.
+
+
+## E005 — 2026-09-18 — nested AI tests initially absent from full discovery
+The first issue #40 PR CI passed 176 existing tests but did not execute the 10 new tests because `python -m unittest discover -s tests -v` only recursed into package directories and `tests/ai_control/` lacked `__init__.py`. Adding the marker exposed a package-name collision with the implementation directory; the test loader was then explicitly disambiguated. The 176-test run is not evidence for the new harness. Merge requires a later exact-head run showing all 186 tests. No confirmatory seeds were run.
