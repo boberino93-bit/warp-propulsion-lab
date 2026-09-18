@@ -1,6 +1,6 @@
 # Warp / Medium Interaction & Propulsion Research Lab
 
-**Research status:** version 0.3.20 is the latest preserved session in this branch as of 2026-09-17; verify newer sessions and branches before relying on that designation. The cumulative research/error logs lag behind individual sessions, with historical backfill in [docs/RESEARCH_BACKFILL_2026-09-16.md](docs/RESEARCH_BACKFILL_2026-09-16.md). **Public educational project; no functioning novel propulsion mechanism, working warp drive, measured thrust or breakthrough claimed.**
+**Research status:** sessions through v0.3.36 (2026-09-18 00:30 UTC) are preserved; inspect newer sessions and branches before relying on this designation. The cumulative research/error logs lag behind individual sessions, with historical backfill in [docs/RESEARCH_BACKFILL_2026-09-16.md](docs/RESEARCH_BACKFILL_2026-09-16.md). **Public educational project; no functioning novel propulsion mechanism, working warp drive, measured thrust or breakthrough claimed.**
 
 **Primary goal:** identify, model, and eventually independently demonstrate a functioning propulsion mechanism. It must exchange momentum with an identifiable reservoir, account for energy input, yield reproducible net thrust beyond uncertainty, and support independent replication.
 
@@ -47,3 +47,7 @@ A writable metric is not a manufacturable engine. Bobrick & Martire (2021) analy
 ## Provenance and continuity
 
 The initial 0.2.0 snapshot was created when GitHub write access was unavailable. Subsequent research is preserved in individual session files and historically stacked PRs. Cumulative logs do not yet contain a verified entry for every later session: consult the individual sessions and additive historical backfill rather than interpreting silence as missing work. Never silently overwrite divergent logs, treat simulated values as physical measurements or claim university involvement. Check current branches, external contributions and Library lineage before combining work. Public attribution and third-party redistribution must follow CREDITS.md and LICENSE.md.
+
+## Research operations and AI workstream
+
+See [operating protocol](docs/RESEARCH_OPERATING_PROTOCOL.md) and [recovered historical records](research/history/README.md). The separate [AI behaviour/control project](docs/ai-control/README.md) is temporarily hosted in isolated paths here because writes to its intended repository are blocked. Its scientific claims and queue are independent of propulsion.
