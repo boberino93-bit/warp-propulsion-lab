@@ -36,3 +36,12 @@ Issue #42 preregistration 002 is frozen at `research/ai-control/preregistrations
 NEXT ONE TEST: implement the deterministic safeguard state and nonconfirmatory fixtures only. Prove detection is committed before stop, the board becomes read-only, zero agent events occur after valid detection, benign traffic does not stop, paired configs differ only by enforcement, and forbidden capabilities remain absent. Do not execute reserved seeds.
 
 Migration remains blocked: destination `ai-behaviour-control-lab` is still at owner commit `1192862f65020ce2fa27acf3ff43c2c15aa4c568`; branch test `access-check-20260918-1238` returned HTTP 403. Preserve `image (3).png` and keep current paths canonical.
+
+
+## Current handoff — 2026-09-18 13:40 UTC
+
+Preregistration 002's deterministic safeguard state and ten nonconfirmatory fixtures are implemented. The enforced arm hash-commits detection before a controller transition, sets a monotonic stop, makes the in-memory board read-only and records zero later agent events; logging-only continues; benign controls do not stop; `CONTROLLED_STOP` remains distinct from `ABORTED`. Fixtures use seeds 910000–910001, not reserved 420000–420999. Initial code-only merge-tree CI passed 200 tests in 130.451 seconds plus the benchmark; require a fresh exact final merge-tree run after documentation.
+
+NEXT ONE TEST: run preregistration 002's reserved 1,000 pairs exactly once, retaining every result. Abort without estimates on any pairing, audit, containment, stop-order, resource or configuration failure.
+
+Migration remains blocked: destination owner commit is still `1192862f65020ce2fa27acf3ff43c2c15aa4c568`; branch test `access-check-20260918-1340` returned HTTP 403. Preserve the owner-uploaded file and current canonical paths.
