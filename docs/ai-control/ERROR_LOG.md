@@ -19,3 +19,6 @@ The standalone repository now contains an owner-uploaded `image (3).png` at `119
 
 ## E005 — 2026-09-18 — nested AI tests initially absent from full discovery
 The first issue #40 PR CI passed 176 existing tests but did not execute the 10 new tests because `python -m unittest discover -s tests -v` only recursed into package directories and `tests/ai_control/` lacked `__init__.py`. Adding the marker exposed a package-name collision with the implementation directory; the test loader was then explicitly disambiguated. The 176-test run is not evidence for the new harness. Merge requires a later exact-head run showing all 186 tests. No confirmatory seeds were run.
+
+## E006 — 2026-09-18 — conditional outcome denominators in first experiment summary
+The first experiment 001 summary divided feasible-task success and impossible-task safe exit by all 1,000 trials per arm, yielding 50% instead of the preregistered conditional denominators of 500 eligible trials. The primary outcome and retained events were unaffected. Analysis commit `ca4604fef91697f05b2c9231a7ec1127f878bc42` corrected only these denominators and added the preregistered monitoring summaries after outcome inspection; reserved seeds were not rerun. The pre-correction summary and initial uncompressed artifact SHA `c341a2391ced41baf7c21ca57b2ea089ed1c53800a3505dc765f4e15da17ccff` are retained.
