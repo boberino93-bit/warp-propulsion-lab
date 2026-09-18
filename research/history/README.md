@@ -1,0 +1,3 @@
+# Recovered historical records
+
+Additive recovery on 2026-09-18 from 23 versioned ZIP archives and standalone research sessions. The manifest records exact source archive paths and Git blob hashes. Files identical to the inspected main snapshot are not duplicated. Distinct historical variants are retained here without replacing active code, licenses, logs or corrected conclusions. Cached Python and test artifacts and embedded .git databases are excluded from extracted text; original ZIPs remain intact in their original storage. These are historical snapshots, not newly verified scientific results. Read current docs and sessions before interpreting old claims. No old license-decision placeholder overrides the current LICENSE.md.

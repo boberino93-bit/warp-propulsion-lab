@@ -16,11 +16,3 @@ Suggested prompt for each run:
 4. END create a unique `research/sessions/YYYY-MM-DD-HHMM-UTC.md`, update cumulative logs, run tests, commit locally, attempt remote publication if supported, and READ BACK the remote file and SHA before claiming GitHub success.
 5. If GitHub is down, upload a new **versioned, non-overwriting** ZIP to `/Warp Propulsion Research`, optionally the standalone Markdown session, and report the exact canonical path and missing remote sync. Do not erase earlier snapshots. Session archives include local `.git` history but are not remote commits.
 6. Version 0.2.0 marks completion of the first *finite-time dust toy* check, not discovery of a propulsion mechanism; next objective is physical stress-energy and momentum accounting.
-
-## 2026-09-16 08:23 UTC handoff
-
-Latest session: research/sessions/2026-09-16-0823-UTC.md. Interview audit adds four checks (25 total), not a fluid/GR model. Resume preceding covariant stress-energy flux calculation next. Treat interview kinematics as conditional; do not infer peak sonar speed from endpoints or multiply correlated accounts as independent evidence. Read remote HEAD afresh and use non-force publication with remote readback.
-
-## Current handoff — 2026-09-18 (supersedes historical scheduling notes above)
-
-The connected GitHub app now reads and writes this repository. Read docs/RESEARCH_OPERATING_PROTOCOL.md. Pending propulsion PRs #36 and #45 were merged in sequence. Latest preserved research session: research/sessions/2026-09-18-0030-UTC.md (v0.3.36). NEXT ONE TEST: a preregistered 10,000-trial holdout slice varying one long-memory artifact-structure parameter under the unchanged frozen threshold. Do not repeat an older amplitude slice or use the historic 0.3.20 handoff as current. Recovered archive variants preserve omissions without replacing current models. AI has a separate queue under docs/ai-control/.
