@@ -1,6 +1,6 @@
 # Warp / Medium Interaction & Propulsion Research Lab
 
-**Research status:** sessions through v0.3.41 (2026-09-18 09:30 UTC) are preserved; inspect newer sessions and branches before relying on this designation. The cumulative research/error logs lag behind individual sessions, with historical backfill in [docs/RESEARCH_BACKFILL_2026-09-16.md](docs/RESEARCH_BACKFILL_2026-09-16.md). **Public educational project; no functioning novel propulsion mechanism, working warp drive, measured thrust or breakthrough claimed.**
+**Research status:** sessions through v0.3.42 (2026-09-18 13:30 UTC) are preserved; inspect newer sessions and branches before relying on this designation. The cumulative research/error logs lag behind individual sessions, with historical backfill in [docs/RESEARCH_BACKFILL_2026-09-16.md](docs/RESEARCH_BACKFILL_2026-09-16.md). **Public educational project; no functioning novel propulsion mechanism, working warp drive, measured thrust or breakthrough claimed.**
 
 **Primary goal:** identify, model, and eventually independently demonstrate a functioning propulsion mechanism. It must exchange momentum with an identifiable reservoir, account for energy input, yield reproducible net thrust beyond uncertainty, and support independent replication.
 
@@ -8,7 +8,7 @@
 
 ## Students and contributors
 
-Start with the [student guide](STUDENTS.md), [contribution instructions](CONTRIBUTING.md) and [hardware acquisition plan](docs/HARDWARE_ACQUISITION_PLAN.md). The proposed personal prototype has a CAD $500–$1,000 budget, and three candidate stands have been screened, but none cleared the calibration/source/BOM gate. A procurement-neutral 0.1–1 mN calibration-demonstrator requirements matrix is now frozen, but no reference design, complete bill of materials, purchase, build, measured sensitivity or university affiliation has been verified. First demonstrate traceable known-force calibration before investigating new mechanisms.
+Start with the [student guide](STUDENTS.md), [contribution instructions](CONTRIBUTING.md) and [hardware acquisition plan](docs/HARDWARE_ACQUISITION_PLAN.md). The proposed personal prototype has a CAD $500–$1,000 budget, and three candidate stands have been screened, but none cleared the calibration/source/BOM gate. A procurement-neutral 0.1–1 mN calibration-demonstrator matrix is frozen. A four-term calculation conditionally supports mass-reference feasibility at 0.10 mN, but no certified realization, reversible transfer fixture, complete bill of materials, purchase, build, measured sensitivity or university affiliation has been verified. First demonstrate traceable known-force calibration before investigating new mechanisms.
 
 **Licensing:** [LICENSE.md](LICENSE.md) sets MIT for original project-owned software, CERN-OHL-S-2.0 for original hardware design source and CC BY 4.0 for original educational/research documentation. Third-party material retains its own rights. The repository is public; this does not imply external endorsement.
 
