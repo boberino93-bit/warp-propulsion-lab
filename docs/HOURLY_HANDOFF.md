@@ -29,3 +29,8 @@ The connected GitHub app now reads and writes this repository. Read docs/RESEARC
 ## Current propulsion handoff — 2026-09-18 01:32 UTC
 
 Latest session: `research/sessions/2026-09-18-0132-UTC.md` (v0.3.37). The preregistered longer-memory structure slice (`persistence_power=0.5`) passed the frozen 2% Wilson-upper false-positive criterion: 125/10,000, upper 1.48723819%. Treat as synthetic protocol evidence only. NEXT ONE TEST: complementary 10,000-trial `persistence_power=2.0` slice with threshold, amplitudes, seeds, schedule and stopping rule unchanged. Verify exact-head full CI and reconcile live main before merge.
+
+
+## Current propulsion handoff — 2026-09-18 02:30 UTC
+
+Latest session: `research/sessions/2026-09-18-0230-UTC.md` (v0.3.38). The complementary shorter-memory slice (`persistence_power=2.0`) passed: 115/10,000 synthetic false positives, 95% Wilson upper 1.37852927%. Both isolated structure points tested so far passed; do not infer a continuous physical tolerance. NEXT ONE TEST: compare two published thrust-stand designs from primary sources for demonstrated calibration/noise/drift, controls, source availability, rights and a verifiable CAD $500–$1,000 student BOM. No purchase or design selection yet.
