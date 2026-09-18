@@ -45,3 +45,8 @@ Derived the exact mixed-index conservative x projection. Independent symbolic Ei
 
 ## 2026-09-16 16:26 UTC — v0.3.9 Gaussian Eulerian energy-budget gate
 Starting verified GitHub main `18dbaf18fe4de853457736625e213fc8da5a8801` and v0.3.8 Library snapshot. Integrated the exact Hamiltonian-constraint Eulerian energy density for `f=exp(-r^2/sigma^2)`: `E_total=-v^2 sqrt(pi) sigma/(32 sqrt(2))` in geometric units. Requirement is nonpositive, even in velocity reversal, quadratic in speed and linear in Gaussian scale. Independent cylindrical quadrature agrees. This quantifies the global source-energy requirement but does not yet derive the full local Eulerian energy-flux/work projection.
+
+
+## 2026-09-18 01:32 UTC — v0.3.37 long-memory structure slice
+
+Starting merged main `982bbfd3b2f9a634aed4fe92ac6f9ba9969c11fd`. Under the frozen 15.585078155794357 µN synthetic calibration threshold, the preregistered `persistence_power=0.5` holdout changed only the multiscale AR(1) correlations (`rho_hold=sqrt(rho_base)`) while normalizing each trace to 5 µN sample standard deviation. Result: 125/10,000 null false positives (1.2500%; 95% Wilson upper 1.48723819%) and 10,000/10,000 synthetic detections at an injected 20 µN; the <=2% Wilson-upper criterion passed. Three focused tests passed. This is not hardware measurement or propulsion evidence. See [session](../research/sessions/2026-09-18-0132-UTC.md). Next: complementary frozen 10,000-trial `persistence_power=2.0` slice.
