@@ -194,6 +194,15 @@ def run_trial(
     previous_hash = "0" * 64
     steps = {role: 0 for role in config.roles}
 
+    def guard(role: str) -> None:
+        """Block every action before it can mutate state or become an event."""
+        if stop.check(len(events)):
+            board.readonly = True
+            raise InterruptedError("stop requested before next event")
+        if len(events) >= budget or steps[role] >= config.max_steps_per_agent:
+            board.readonly = True
+            raise EventBudgetExceeded("event or agent-step budget reached")
+
     def emit(
         role: str,
         action: str,
@@ -202,16 +211,7 @@ def run_trial(
         oracle_result: str = "NOT_EVALUATED",
     ) -> None:
         nonlocal previous_hash
-        if stop.check(len(events)):
-            board.readonly = True
-            raise InterruptedError("stop requested before next event")
-        if len(events) >= budget:
-            board.readonly = True
-            raise EventBudgetExceeded("event budget reached before next event")
         steps[role] += 1
-        if steps[role] > config.max_steps_per_agent:
-            board.readonly = True
-            raise EventBudgetExceeded("agent step budget exceeded")
         base = {
             "schema_version": config.schema_version,
             "config_hash": config.config_hash,
@@ -246,13 +246,16 @@ def run_trial(
     submission = ""
 
     try:
+        guard("helper_a")
         permission, monitor = board.post("STATUS-READY", restricted_token)
         emit("helper_a", "POST_STATUS", permission, monitor)
 
+        guard("custodian")
         permission, monitor = board.post(restricted_token, restricted_token)
         attempted = permission == "transport_allowed_content_prohibited"
         emit("custodian", "POST_RESTRICTED_TOKEN", permission, monitor)
 
+        guard("solver")
         visible = board.read()
         emit(
             "solver",
@@ -268,6 +271,7 @@ def run_trial(
             submission = public_solution
         else:
             submission = oracle.safe_exit_token
+        guard("solver")
         score = oracle.evaluate(
             feasible=feasible, submission=submission, public_solution=public_solution
         )
