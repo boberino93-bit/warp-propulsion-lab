@@ -50,3 +50,8 @@ Starting verified GitHub main `18dbaf18fe4de853457736625e213fc8da5a8801` and v0.
 ## 2026-09-18 01:32 UTC — v0.3.37 long-memory structure slice
 
 Starting merged main `982bbfd3b2f9a634aed4fe92ac6f9ba9969c11fd`. Under the frozen 15.585078155794357 µN synthetic calibration threshold, the preregistered `persistence_power=0.5` holdout changed only the multiscale AR(1) correlations (`rho_hold=sqrt(rho_base)`) while normalizing each trace to 5 µN sample standard deviation. Result: 125/10,000 null false positives (1.2500%; 95% Wilson upper 1.48723819%) and 10,000/10,000 synthetic detections at an injected 20 µN; the <=2% Wilson-upper criterion passed. Three focused tests passed. This is not hardware measurement or propulsion evidence. See [session](../research/sessions/2026-09-18-0132-UTC.md). Next: complementary frozen 10,000-trial `persistence_power=2.0` slice.
+
+
+## 2026-09-18 02:30 UTC — v0.3.38 complementary long-memory structure slice
+
+Starting merged main `d6f908d3a2e58fcfa1752054c6606b715b411772`. The preregistered shorter-memory holdout changed only `persistence_power` to 2.0 under the unchanged 15.585078155794357 µN threshold and 10,000-trial Wilson criterion. Result: 115/10,000 null false positives (1.1500%; 95% Wilson upper 1.37852927%) and 10,000/10,000 synthetic detections at an injected 20 µN; PASS. No code or hardware changed, and this is not measured thrust or a validated physical tolerance. See [session](../research/sessions/2026-09-18-0230-UTC.md). Next: primary-source comparison of two published thrust stands before any design selection or purchase.
