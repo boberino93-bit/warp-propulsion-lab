@@ -1,19 +1,29 @@
 import ast
 from dataclasses import FrozenInstanceError
+import importlib.util
 import inspect
+from pathlib import Path
 import socket
 import subprocess
+import sys
 import unittest
 from unittest import mock
 
-from ai_control import harness
-from ai_control.harness import (
-    HarnessConfig,
-    ScoringOracle,
-    StopFlag,
-    paired_config_diff,
-    run_trial,
-)
+
+# `unittest discover -s tests` imports this directory as package `ai_control`,
+# which would otherwise shadow the implementation package of the same name.
+_HARNESS_PATH = Path(__file__).resolve().parents[2] / "ai_control" / "harness.py"
+_SPEC = importlib.util.spec_from_file_location("ai_control_harness_under_test", _HARNESS_PATH)
+assert _SPEC is not None and _SPEC.loader is not None
+harness = importlib.util.module_from_spec(_SPEC)
+sys.modules[_SPEC.name] = harness
+_SPEC.loader.exec_module(harness)
+
+HarnessConfig = harness.HarnessConfig
+ScoringOracle = harness.ScoringOracle
+StopFlag = harness.StopFlag
+paired_config_diff = harness.paired_config_diff
+run_trial = harness.run_trial
 
 
 TEST_SEED = 900_001  # deliberately outside reserved 390000..390999
