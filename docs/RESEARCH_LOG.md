@@ -69,3 +69,8 @@ Starting merged main `23b9d03173195304067569e3e5456122e391024c`. Screened the MI
 ## 2026-09-18 — Calibration-demonstrator requirements frozen
 
 Preregistered a procurement-neutral 0.1–1 mN acquisition gate with independent traceability, signed randomized cycles, bracketed zeros, complete uncertainty and artifact controls. The lowest point requires `U95 ≤ 0.020 mN` and `|E| + U95 ≤ 0.020 mN`. This is a project requirement, not a hardware result. No component was selected or purchased. Session: `research/sessions/2026-09-18-0930-UTC.md`.
+
+
+## 2026-09-18 13:30 UTC — v0.3.42 mass-reference feasibility
+
+Starting merged main `ea1ebf2e6c50c616a2059ee3814af8cafe747581`. Applied the frozen 0.10 mN acquisition gate to a procurement-neutral mass-derived reference. Nominal mass is 10.197162 mg at standard gravity. An explicit prospective budget using 0.10% mass standard uncertainty, local-gravity `u <= 50 micrometres/s^2`, a conservative full 1 degree projection-loss charge, and bounded buoyancy gives `u_c = 0.000101166 mN` and `U95 = 0.000202333 mN`, about 1.01% of the 0.020 mN ceiling. Conditional analytical feasibility passed for those four terms only. No certified mass, signed transfer fixture, sensor, build, calibration or thrust measurement exists from this work. See [calculation](../research/hardware/mass-reference-feasibility-2026-09-18.md) and [session](../research/sessions/2026-09-18-1330-UTC.md). Next: verify one actual certificate-backed realization and signed reversal transfer method within a 0.005 mN reference-plus-transfer allocation; reject missing traceability, uncertainty or BOM gates and make no purchase.

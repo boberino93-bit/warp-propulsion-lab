@@ -33,3 +33,8 @@ Preregister a procurement-neutral 0.1–1 mN calibration-demonstrator requiremen
 ## Frozen calibration-demonstrator gate — 2026-09-18
 
 Before any sensor or stand selection, apply `research/hardware/calibration-demonstrator-requirements-2026-09-18.md`. It requires an independent traceable reference, signed 0.1–1 mN calibration, ten randomized cycles, complete uncertainty, guarded error, and null/reversal/thermal/EM/cable/airflow/vibration controls. At 0.10 mN, expanded uncertainty may not exceed 0.020 mN and observed bias consumes that same tolerance. The matrix does not authorize a purchase; the next step is a reference-force feasibility calculation only.
+
+
+## Mass-reference feasibility result — 2026-09-18 13:30 UTC
+
+The [bounded feasibility calculation](../research/hardware/mass-reference-feasibility-2026-09-18.md) found that mass, local-gravity, 1 degree alignment and buoyancy terms can conditionally fit below the 0.020 mN ceiling: the stated prospective scenario gives `U95 = 0.000202333 mN` at 0.10 mN. This does not identify a certified 10.197 mg realization, solve signed reversal, include a transfer fixture or DUT, or authorize selection/purchase. The next acquisition gate is one real certificate-backed mass realization and reversible load path under an allocated `U95 = 0.005 mN` reference-plus-transfer budget, with complete Canadian fixture BOM.
