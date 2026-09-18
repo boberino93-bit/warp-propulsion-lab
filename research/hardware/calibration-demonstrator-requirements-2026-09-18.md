@@ -14,12 +14,12 @@ The device under test (DUT) includes the sensing element, structure, fixture, wi
 
 A permissible reference is either:
 
-1. a traceably calibrated mass acted on by documented local gravitational acceleration, with (F_ref = m g_local), fixture geometry and buoyancy included in uncertainty; or
+1. a traceably calibrated mass acted on by documented local gravitational acceleration, with `F_ref = m × g_local`, fixture geometry and buoyancy included in uncertainty; or
 2. another force generator or transfer standard whose calibration certificate covers 0.1–1 mN and provides an unbroken SI traceability statement and uncertainty within this gate.
 
 No specific sensor, supplier or force-generation method is selected here. A reference outside its certified range, an uncalibrated hobby weight, an actuator commanded without independent force verification, or a second channel sharing the DUT's calibration cannot satisfy independence.
 
-For scale only, using standard gravity 9.80665 m/s², 0.1 mN corresponds to 10.1972 mg and 1 mN to 101.972 mg. Actual force must use documented local (g), not silently substitute standard gravity.
+For scale only, using standard gravity 9.80665 m/s², 0.1 mN corresponds to 10.1972 mg and 1 mN to 101.972 mg. Actual force must use documented local `g`, not silently substitute standard gravity.
 
 ## Frozen calibration schedule
 
@@ -37,7 +37,7 @@ Positive/negative force must be produced by a genuine physical reversal of the r
 
 ## Uncertainty model and numerical acceptance gate
 
-Follow JCGM GUM terminology. At each signed setpoint, report mean indication, reference value, error (E = F_indicated - F_ref), standard uncertainty components, combined standard uncertainty (u_c), coverage factor and expanded uncertainty (U_95) (normally (k = 2), with any different coverage method justified).
+Follow JCGM GUM terminology. At each signed setpoint, report mean indication, reference value, error `E = F_indicated − F_ref`, standard uncertainty components, combined standard uncertainty `u_c`, coverage factor and expanded uncertainty `U95` (normally `k = 2`, with any different coverage method justified).
 
 The budget must include, where applicable:
 
@@ -58,21 +58,15 @@ The budget must include, where applicable:
 
 Frozen tolerance:
 
-[
-T(F) = max(0.020 mathrm{mN}, 0.10 |F|).
-]
+`T(F) = max(0.020 mN, 0.10 × |F|)`
 
 A signed point passes only if both:
 
-[
-U_{95} le T(F)
-]
+`U95 ≤ T(F)`
 
 and the guard-banded error satisfies
 
-[
-|E| + U_{95} le T(F).
-]
+`|E| + U95 ≤ T(F)`
 
 Therefore the 0.10 mN point must have expanded uncertainty no greater than 0.020 mN and enough remaining guard band for observed bias. This project-chosen research gate is not represented as an international standard or a manufacturer's specification.
 
