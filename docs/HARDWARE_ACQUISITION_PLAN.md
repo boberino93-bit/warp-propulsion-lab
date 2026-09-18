@@ -22,6 +22,10 @@ Status: planning only; no hardware purchased, built, calibrated or tested. Rober
 
 The [first two-candidate screen](../research/hardware/thrust-stand-primary-source-screen-2026-09-18.md) found that neither the Georgia Tech pulsed torsional stand nor the AST/DLR low-drift balance currently clears every acquisition gate. The missing items include a completed independent calibration in the target band, complete redistributable construction source with explicit rights, and a live-priced full BOM. No design was selected and no purchase was authorized.
 
+## Open-source candidate result — 2026-09-18 08:29 UTC
+
+The [MIT-licensed hobby stand screen](../research/hardware/open-source-stand-gate-2026-09-18.md) found usable code and a component outline, but no demonstrated 0.1–1 mN calibration, uncertainty, complete construction drawings, artifact-control package or procurement-grade Canadian BOM. It was rejected without inventing substitutions or prices.
+
 ## Immediate next hardware task
 
-Resolve the construction-rights, calibration, and complete-cost gates for one openly reproducible published candidate. Price all required components from Canadian suppliers, including calibration hardware, tax, and shipping; reject above CAD $1,000 or without demonstrated 0.1–1 mN calibration. Do not purchase hardware during this test.
+Preregister a procurement-neutral 0.1–1 mN calibration-demonstrator requirements matrix. Specify a traceable independent force source, signed reversal, enclosure and environmental controls, and maximum allowable uncertainty before selecting or pricing a sensor. No purchase authorization is implied.
