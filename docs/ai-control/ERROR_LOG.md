@@ -30,3 +30,8 @@ The first experiment 001 summary divided feasible-task success and impossible-ta
 - **Cause:** unittest discovery imported the nested test as `ai_control.test_replication_003_schedule`, so the tests directory shadowed the production `ai_control` package.
 - **Correction:** load the production schedule module by explicit file path, consistent with existing AI containment tests.
 - **Data integrity:** no replication trial or reserved seed ran; preregistration text and schedule hash remain unchanged.
+
+
+## E007 — 2026-09-18 — replication 003 preflight source mismatch
+
+The first local controller invocation failed before any reserved seed ran because the temporary reconstructed `harness.py` differed from the pinned Git blob by whitespace. The controller raised `IntegrityAbort: pinned harness blob mismatch`, emitted no estimate and wrote no result artifact. The exact pinned blob `97e5df9c88b56889d5926dd7d0a657c52b40328c` was restored and verified before the one completed reserved-block execution. Do not count the aborted preflight as a replication trial or omit it from provenance.
