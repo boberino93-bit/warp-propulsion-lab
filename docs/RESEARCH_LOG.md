@@ -86,3 +86,12 @@ Starting merged main `c1bce61b8eb70730a8d330c3665193e417b49605`. Audited Frieler
 - Retained the positive evidence: in-situ under-vacuum load-cell calibration, repeated sequences, residual/linearity checks, and reported repeatability across sessions.
 - Rejected the candidate for the present gate: the published low-range example begins near 0.2 mN; no signed -0.10/0/+0.10 mN cycles or complete traceable reference/contact-transfer `U95 <= 0.005 mN` budget are demonstrated.
 - No hardware was selected, purchased, built, calibrated or tested. The xenon thruster results are conventional reaction-thrust evidence, not novel propulsion.
+
+
+## 2026-09-19 00:30 UTC — noncontact bidirectional calibrator specification
+
+- Froze a procurement-neutral, externally supported noncontact calibrator specification. It is a force-reference design gate, not a propulsion mechanism.
+- At ±0.10 mN the allocation requires (u_c <= 1.5) µN, (U95(k=2) <= 3.0) µN and `|E| + U95 <= 5.0` µN, with signed reversal, bracketed zeros and thermal/EM/cable/airflow/vibration/drift controls.
+- Voice-coil and opposed-electrode electrostatic principles remain candidates; neither was selected. A one-sided electrostatic actuator fails signed reversal because force scales with (V^2).
+- No hardware was selected, purchased, built or tested. No physical thrust was measured.
+- NEXT ONE TEST: audit one published noncontact voice-coil implementation against the frozen traceability, signed-data, uncertainty, controls, rights and Canadian-BOM gates; reject missing gates and make no purchase.

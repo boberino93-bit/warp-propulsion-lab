@@ -72,3 +72,8 @@ Latest session: `research/sessions/2026-09-18-1931-UTC.md` (v0.3.45). Frieler an
 ## Current propulsion handoff — 2026-09-18 20:30 UTC
 
 Latest session: `research/sessions/2026-09-18-2030-UTC.md` (v0.3.46). The Surrey/AVS flex-pivot balance provides useful repeated in-situ calibration evidence, including nine 0.2–3 mN repetitions and a separate six-sequence/two-session XJET fit, but it fails the frozen lowest-point gate. The publication does not demonstrate signed `-0.10/0/+0.10 mN` cycles or a complete traceable reference/contact-transfer budget with `U95 <= 0.005 mN` at 0.10 mN. No design or purchase. NEXT ONE TEST: freeze a documentary specification for a noncontact bidirectional 0.10 mN calibrator with independently traceable input-to-force calibration and a complete uncertainty table before selecting hardware.
+
+
+## Current propulsion handoff — 2026-09-19 00:30 UTC
+
+Latest session: `research/sessions/2026-09-19-0030-UTC.md` (v0.3.47). A documentary specification is frozen for an externally supported noncontact bidirectional calibrator. At ±0.10 mN it allocates (u_c <= 1.5) µN, (U95 <= 3.0) µN and requires `|E| + U95 <= 5.0` µN, with signed and physical reversal plus null, thermal, EM/electrostatic, cable, airflow, vibration, position, creep and drift controls. Voice-coil and opposed-electrode electrostatic principles remain unselected candidates. No hardware, purchase, build or calibration. NEXT ONE TEST: audit one published noncontact voice-coil implementation against the frozen specification, including traceability, signed ±0.10 mN data, covariance-aware uncertainty, controls, rights and a delivered Canadian BOM; reject missing gates and make no purchase.
