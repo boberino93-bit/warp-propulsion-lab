@@ -25,3 +25,8 @@ The canon/version corpus and scene-level rubric are frozen in `research/ai-contr
 ### Task 6 source preflight — 2026-09-19
 
 BLOCKED without scene coding. Exact T-01/T-02 theatrical cuts were not available as complete lawful primary audiovisual units in the research runtime. Catalog metadata and a secondary edition review were insufficient under protocol 004. Retained null ledger: 0 rows, 0 timecodes, no contradiction pass, no analogy. Next: verify and code T-01 only from a lawful complete exact cut before T-02.
+
+
+### Task 6 T-01 lawful-source screen — 2026-09-19 01:36 UTC
+
+Apple TV and MGM identify lawful digital/physical access routes for the 107-minute film, but no authenticated complete copy was viewable in the research runtime. An exact-cut verification card is frozen. No film scene was coded: 0 views, 0 rows, 0 timecodes, 0 contradiction passes. Next: obtain lawful authenticated T-01 access, verify every card field, then perform only the first candidate-scene viewing.
