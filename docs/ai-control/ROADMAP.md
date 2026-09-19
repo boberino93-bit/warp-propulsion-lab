@@ -20,3 +20,8 @@ Migration is infrastructure work and does not advance scientific task status. Pr
 ## Task 6 protocol status — 2026-09-18 20:38 UTC
 
 The canon/version corpus and scene-level rubric are frozen in `research/ai-control/preregistrations/004-fiction-comparison-corpus-rubric.md`. No analogy has yet been written and task 6 remains open. Next: code only the two frozen Terminator theatrical cuts into a primary-scene ledger; do not draw cross-franchise conclusions.
+
+
+### Task 6 source preflight — 2026-09-19
+
+BLOCKED without scene coding. Exact T-01/T-02 theatrical cuts were not available as complete lawful primary audiovisual units in the research runtime. Catalog metadata and a secondary edition review were insufficient under protocol 004. Retained null ledger: 0 rows, 0 timecodes, no contradiction pass, no analogy. Next: verify and code T-01 only from a lawful complete exact cut before T-02.
