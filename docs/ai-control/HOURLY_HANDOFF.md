@@ -64,3 +64,8 @@ Replication 003 ran once on frozen seeds `421000..421999` after exact pinned-blo
 ## Current handoff — 2026-09-18 20:38 UTC
 
 Fiction comparison protocol 004 is frozen at `research/ai-control/preregistrations/004-fiction-comparison-corpus-rubric.md` before any analogy was written. It fixes ten primary audiovisual units and controlling cuts, scene/timecode evidence rows, authority/goals/access/cooperation/monitoring/shutdown questions, contradiction handling, rights limits, prohibited empirical inferences and stopping rules. Fiction remains analogy only. NEXT ONE TEST: code only T-01 and T-02 into a primary-scene ledger using the frozen rubric, without cross-franchise conclusions; stop if the specified theatrical cuts cannot be verified. Migration remains blocked: destination `main` is still `1192862f65020ce2fa27acf3ff43c2c15aa4c568`; branch write `access-check-20260918-2038` returned HTTP 403.
+
+
+## Current handoff — 2026-09-19 00:35 UTC
+
+Protocol 004's Terminator source preflight stopped at the frozen primary-source gate. Catalog metadata identified T-01, and secondary edition information distinguished T2 cuts, but no lawful complete authenticated copy of either specified theatrical cut was available to the research runtime. No recap, script, clip, memory or search snippet was substituted. T-01/T-02 ledger output is therefore 0 rows and 0 timecodes; no lore or cross-franchise conclusion was written. NEXT ONE TEST: from a lawful complete exact copy, review and code T-01 only, including a second locator/contradiction pass; do not start T-02 until T-01 passes. Standalone migration remains blocked: destination `main` is still `1192862f65020ce2fa27acf3ff43c2c15aa4c568`; branch `access-check-20260919-0035` returned HTTP 403.
