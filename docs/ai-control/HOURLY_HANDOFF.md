@@ -74,3 +74,8 @@ Protocol 004's Terminator source preflight stopped at the frozen primary-source 
 ## Current handoff — 2026-09-19 01:36 UTC
 
 A bounded T-01 source-candidate screen identified Apple TV catalog metadata for the 1 h 47 min MGM film and MGM's official statement that Blu-ray, DVD and digital copies are available. Neither was an authenticated complete primary-unit viewing in this runtime. The exact-cut acceptance card is frozen at `research/ai-control/fiction/t01-lawful-source-screen-2026-09-19.md`; current output remains 0 views, 0 scene rows, 0 timecodes and 0 contradiction passes. NEXT ONE TEST: obtain authenticated lawful access to one T-01 candidate, complete every verification-card field, and only then perform the first candidate-scene viewing; stop before coding if verification fails. Migration remains blocked: destination `main` is `1192862f65020ce2fa27acf3ff43c2c15aa4c568`; branch `access-check-20260919-0136` returned HTTP 403.
+
+
+## Current handoff — 2026-09-19 02:40 UTC
+
+The bounded T-01 public-library screen is retained at `research/ai-control/fiction/t01-public-library-screen-2026-09-19.md`. GVPL/UVic/WorldCat/Canadian searches produced no stable exact-cut record accessible to the runtime; catalog endpoints were inaccessible, which is not evidence of no holding. Output remains 0 authenticated holdings, 0 views, 0 rows, 0 timecodes and no lore conclusion or AI experiment. NEXT ONE TEST: authenticate one specific lawful T-01 copy by stable identifier and every frozen card field, then perform only the first candidate-scene viewing if it passes. Migration remains blocked: destination `main` is `1192862f65020ce2fa27acf3ff43c2c15aa4c568`; branch `access-check-20260919-0240` returned HTTP 403.
