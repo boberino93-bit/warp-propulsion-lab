@@ -24,3 +24,8 @@ These fixtures use seeds outside the reserved confirmatory block. Issue #41's fr
 
 ## Rights
 The existing repository LICENSE.md and CREDITS.md apply: MIT original software, CC BY 4.0 original research documentation, third-party exclusions. Preserve original source/author/commit attribution during migration. No external affiliation claimed.
+
+
+## Current fiction-source status — 2026-09-19
+
+Protocol 004 remains frozen, but T-01/T-02 scene coding is blocked at the primary-source gate. Catalog metadata was located; the exact theatrical cuts were not lawfully available for complete viewing and timecoding in the research runtime. The ledger therefore retains zero scene rows. No lore or cross-franchise conclusion was inferred from summaries. See `research/ai-control/fiction/terminator-source-access-preflight-2026-09-19.md`.
