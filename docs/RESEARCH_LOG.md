@@ -95,3 +95,12 @@ Starting merged main `c1bce61b8eb70730a8d330c3665193e417b49605`. Audited Frieler
 - Voice-coil and opposed-electrode electrostatic principles remain candidates; neither was selected. A one-sided electrostatic actuator fails signed reversal because force scales with (V^2).
 - No hardware was selected, purchased, built or tested. No physical thrust was measured.
 - NEXT ONE TEST: audit one published noncontact voice-coil implementation against the frozen traceability, signed-data, uncertainty, controls, rights and Canadian-BOM gates; reject missing gates and make no purchase.
+
+
+## 2026-09-19 01:30 UTC — Schwertheim voice-coil audit
+
+- Audited the 2021 Schwertheim et al. interlaboratory hanging-pendulum calibration against the frozen noncontact ±0.10 mN gate.
+- The AVM12-6.4 voice-coil architecture is relevant and was validated across two laboratories over 0.5–100 mN, but that published interval starts at five times the strictest target.
+- Rejected: no signed ±0.10 mN sequence, qualifying (U95 <= 3.0) µN and `|E| + U95 <= 5.0` µN result, complete covariance-aware table, exact frozen controls, redistributable construction source or delivered Canadian BOM.
+- No extrapolation, hardware selection, purchase, build, calibration or thrust measurement.
+- NEXT ONE TEST: preregister a paper-only ±0.10 mN scaling calculation using manufacturer force-constant/current and source-meter uncertainty data; stop on missing datasheets or covariance terms.
