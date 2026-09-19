@@ -82,3 +82,8 @@ Latest session: `research/sessions/2026-09-19-0030-UTC.md` (v0.3.47). A document
 ## Current propulsion handoff — 2026-09-19 01:30 UTC
 
 Latest session: `research/sessions/2026-09-19-0130-UTC.md` (v0.3.48). Schwertheim et al.'s AVM12-6.4 voice-coil calibration is a relevant externally supported architecture with interlaboratory validation over 0.5–100 mN, but it fails the frozen ±0.10 mN gate. The publication does not demonstrate signed ±0.10 mN cycles, (U95 <= 3.0) µN and `|E| + U95 <= 5.0` µN at both signs, the complete covariance-aware control table, redistributable construction rights or a delivered Canadian BOM. No extrapolation, design selection or purchase. NEXT ONE TEST: preregister a paper-only scaling calculation for the AVM12-6.4 architecture at ±0.10 mN using manufacturer force-constant/current data and source-meter uncertainty; stop on missing datasheets or covariance terms and make no purchase.
+
+
+## Current handoff — 2026-09-19 02:30 UTC
+
+The paper-only signed ±0.10 mN voice-coil scaling protocol is frozen before extraction at `research/hardware/voice-coil-scaling-preregistration-2026-09-19.md`. It pins the AVM12-6.4 and B2902A document hierarchy, equations, covariance-aware uncertainty table, (u_c ≤ 1.5 µN), (U95 ≤ 3.0 µN), guard-band and falsification rules. No calculation ran and no hardware was selected or purchased. NEXT ONE TEST: execute the exact document extraction/calculation once; retain an incomplete table and no estimate if any required specification or covariance bound is missing.

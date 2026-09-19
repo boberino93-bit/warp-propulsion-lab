@@ -104,3 +104,11 @@ Starting merged main `c1bce61b8eb70730a8d330c3665193e417b49605`. Audited Frieler
 - Rejected: no signed ±0.10 mN sequence, qualifying (U95 <= 3.0) µN and `|E| + U95 <= 5.0` µN result, complete covariance-aware table, exact frozen controls, redistributable construction source or delivered Canadian BOM.
 - No extrapolation, hardware selection, purchase, build, calibration or thrust measurement.
 - NEXT ONE TEST: preregister a paper-only ±0.10 mN scaling calculation using manufacturer force-constant/current and source-meter uncertainty data; stop on missing datasheets or covariance terms.
+
+
+## 2026-09-19 02:30 UTC — voice-coil scaling calculation preregistration
+
+- Froze the paper-only signed ±0.10 mN AVM12-6.4/B2902A scaling calculation before extracting values.
+- Fixed equations, exact-document hierarchy, covariance-aware uncertainty terms, output table, acceptance limits and stop rules. The current AVM12-10 page is contextual only and cannot substitute for the exact historical AVM12-6.4 data sheet.
+- No calculation, hardware selection, purchase, build, calibration, force measurement or propulsion result.
+- NEXT ONE TEST: execute the revision-pinned extraction/calculation once; stop without an estimate on any missing exact specification or covariance bound.
