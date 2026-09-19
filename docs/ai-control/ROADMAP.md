@@ -30,3 +30,8 @@ BLOCKED without scene coding. Exact T-01/T-02 theatrical cuts were not available
 ### Task 6 T-01 lawful-source screen — 2026-09-19 01:36 UTC
 
 Apple TV and MGM identify lawful digital/physical access routes for the 107-minute film, but no authenticated complete copy was viewable in the research runtime. An exact-cut verification card is frozen. No film scene was coded: 0 views, 0 rows, 0 timecodes, 0 contradiction passes. Next: obtain lawful authenticated T-01 access, verify every card field, then perform only the first candidate-scene viewing.
+
+
+### Task 6 T-01 public-library screen — 2026-09-19 02:40 UTC
+
+A bounded GVPL/UVic/WorldCat/Canadian availability screen produced no stable, runtime-accessible exact-cut record. Direct catalog endpoints were inaccessible, so this is not an absence claim. Output remains 0 authenticated holdings, 0 views, 0 scene rows and 0 timecodes. NEXT ONE TEST: authenticate one specific lawful T-01 copy by stable provider/catalog identifier and every frozen card field; only then perform the first candidate-scene viewing.
