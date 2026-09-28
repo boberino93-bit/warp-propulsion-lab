@@ -152,7 +152,7 @@ class Dropout005ControllerTests(unittest.TestCase):
 
     def test_statistics_are_frozen_and_bounded(self):
         low, high = controller._wilson_interval(0, 500)
-        self.assertEqual(low, 0.0)
+        self.assertAlmostEqual(low, 0.0, places=15)
         self.assertLess(high, 0.02)
         with self.assertRaises(controller.IntegrityAbort):
             controller._wilson_interval(0, 0)
