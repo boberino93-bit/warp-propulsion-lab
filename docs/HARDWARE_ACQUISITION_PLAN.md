@@ -43,3 +43,8 @@ The [bounded feasibility calculation](../research/hardware/mass-reference-feasib
 ## Signed-force evidence-request gate — 2026-09-28
 
 Before any author/supplier contact or pricing, apply `research/hardware/signed-force-evidence-request-matrix-2026-09-28.md`. It freezes raw randomized signed-cycle, blinding, reversal, provenance, covariance and family-specific transfer/current fields under the existing ±0.10 mN limits. Missing evidence is not a design invitation and cannot be replaced by catalog values. No contact or purchase is authorized.
+
+
+## Public artifact audit result — 2026-09-28
+
+The [bounded public artifact audit](../research/hardware/signed-force-public-artifact-audit-2026-09-28.md) stopped both the DLR AST and Lam voice-coil candidates at the first mandatory evidence-request field after source identity: no versioned exact-apparatus/raw-package identity and integrity hash was publicly verifiable through the inspected official locations. DLR explicitly reports data/materials availability as not applicable; the accessible Lam publisher record exposed no qualifying package. Later acquisition fields remain unscored. This is not evidence that unpublished artifacts do not exist and does not authorize contact or purchase. Next: preregister a privacy-preserving request limited to the exact missing fields; send nothing during preregistration.
