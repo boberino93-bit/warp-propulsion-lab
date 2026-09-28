@@ -64,3 +64,7 @@ The frozen nine-condition schedule, raw-before-projection audit ordering, determ
 ### Observation-channel replication controller — 2026-09-28 18:47 UTC
 
 The explicit-only 9,000-run controller and ten independent nonreserved tests are implemented. Provenance, schedule, raw/projection audit, matched-condition, containment, resource and mechanism-separated analysis gates are encoded. Seeds `423000..423999` have not run. Next: execute the frozen block exactly once and abort without estimates on any gate failure.
+
+### Observation-channel replication result — 2026-09-28 19:43 UTC
+
+The frozen 9,000-run block executed once after two pre-trial local launch failures; neither failure imported the controller or consumed a reserved seed. All integrity/resource gates passed. Dropout completion was 0/500, 7/500, 30/500, 51/500 and 129/500; payload-corruption completion was 0/500, 5/500, 27/500, 49/500 and 110/500 at 0%, 1%, 5%, 10% and 25%. Both directional hypotheses passed. All 4,092 observed valid detections stopped with zero later events and benign false stops were 0/4,500. Next: preregister a fresh-seed, strictly offline bounded adaptive-policy test that independently varies observation and controller authority; do not implement it during preregistration.

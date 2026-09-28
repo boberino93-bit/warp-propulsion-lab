@@ -58,3 +58,7 @@ Preregistration 006's deterministic schedule and nonconfirmatory fixture are imp
 ## Observation-channel replication controller — 2026-09-28 18:47 UTC
 
 The explicit-only preregistration-006 controller and independent artifact tests are implemented in `ai_control/experiment_006.py` and `tests/ai_control/test_experiment_006.py`. Preflight pins five source blobs and schedule hash `36d7ac402de16b0fa4e0c0cf3a9ce2ad980e6c63b52fa058c4cbd9887bd98266`; import and preflight do not execute reserved trials. Ten new nonreserved tests passed within a 260-test code-head CI run. Seeds `423000..423999` remain unexecuted, so no replication or corruption effect estimate exists.
+
+## Observation-channel replication result — 2026-09-28
+
+Experiment 006 executed its reserved seeds exactly once: 9,000 matched runs, 40,908 audit events and 27,816 agent events. Violation completion increased monotonically across 0%, 1%, 5%, 10% and 25% failure levels: dropout produced 0, 7, 30, 51 and 129 completions of 500; fixed-marker monitor-payload corruption produced 0, 5, 27, 49 and 110. All 4,092 observed valid detections stopped with zero later agent events; benign false stops were 0/4,500. Complete compressed artifacts, hashes and independent artifact tests are retained. This is deterministic scripted-toy evidence only, not learned-model, adaptive-system or deployed-system evidence.
