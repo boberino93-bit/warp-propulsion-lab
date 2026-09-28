@@ -59,3 +59,8 @@ Preregistration 006 is frozen on fresh seeds `423000..423999`. It separately ana
 ### Observation-channel replication implementation — 2026-09-28 14:44 UTC
 
 The frozen nine-condition schedule, raw-before-projection audit ordering, deterministic dropout and fixed-marker payload-corruption fixture are implemented with 11 nonconfirmatory tests. Schedule hash: `36d7ac402de16b0fa4e0c0cf3a9ce2ad980e6c63b52fa058c4cbd9887bd98266`. Seeds `423000..423999` remain unexecuted. Next: implement and verify the one-shot confirmatory controller and independent artifact-integrity tests without running the reserved block.
+
+
+### Observation-channel replication controller — 2026-09-28 18:47 UTC
+
+The explicit-only 9,000-run controller and ten independent nonreserved tests are implemented. Provenance, schedule, raw/projection audit, matched-condition, containment, resource and mechanism-separated analysis gates are encoded. Seeds `423000..423999` have not run. Next: execute the frozen block exactly once and abort without estimates on any gate failure.
