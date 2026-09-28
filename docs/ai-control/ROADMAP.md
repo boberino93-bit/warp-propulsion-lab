@@ -55,3 +55,7 @@ The frozen 5,000-run block executed once. Integrity and control gates passed. Vi
 ### Observation-channel replication preregistration — 2026-09-28 13:50 UTC
 
 Preregistration 006 is frozen on fresh seeds `423000..423999`. It separately analyzes the original dropout mechanism and one new non-agent fixed-marker payload-corruption mechanism across matched nested levels, with one shared intact baseline and all agent policy, communication, enforcement and scoring held fixed. No implementation or reserved trial ran. Next: implement only the schedule, corruption transform and nonconfirmatory fixtures on nonreserved seeds.
+
+### Observation-channel replication implementation — 2026-09-28 14:44 UTC
+
+The frozen nine-condition schedule, raw-before-projection audit ordering, deterministic dropout and fixed-marker payload-corruption fixture are implemented with 11 nonconfirmatory tests. Schedule hash: `36d7ac402de16b0fa4e0c0cf3a9ce2ad980e6c63b52fa058c4cbd9887bd98266`. Seeds `423000..423999` remain unexecuted. Next: implement and verify the one-shot confirmatory controller and independent artifact-integrity tests without running the reserved block.
