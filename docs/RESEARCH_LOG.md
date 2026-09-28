@@ -175,3 +175,14 @@ Starting canonical main `ae48cf6f6d601464c5552d21b26fc5567dbd5c49`. Froze a pape
 - Retains `u_c <= 1.5 µN`, `U95 <= 3.0 µN`, `|error| + U95 <= 5.0 µN` and reversal asymmetry `<= 2.0 µN`.
 - No contact, hardware, price, purchase, build, calibration, force measurement or propulsion result.
 - NEXT ONE TEST: apply the matrix to public supplementary/raw-data repositories for the two publications and stop at the first missing field.
+
+
+## 2026-09-28 20:27 UTC — public signed-force artifact audit
+
+- Applied the frozen evidence-request matrix to the public supplementary/raw-data locations for the DLR AST and Lam et al. voice-coil publications.
+- DLR stopped at artifact identity: its official article states data/materials availability is not applicable and exposes no versioned apparatus/raw-package identity or hash.
+- Lam stopped at artifact identity: no versioned exact-apparatus/raw package or hash was exposed by the accessible official record or located in targeted exact-title/DOI searches; direct publisher access returned HTTP 403 and was not bypassed.
+- Both outcomes are `INCOMPLETE — REQUEST EXACT FIELD`. Later fields were not scored. “Not publicly located” is not a claim of nonexistence.
+- No contact, hardware, price, purchase, build, calibration, force measurement or propulsion result.
+- Sources: https://doi.org/10.1140/epjti/s40485-021-00074-7 ; https://doi.org/10.1016/j.measurement.2018.09.029
+- NEXT ONE TEST: preregister a bounded privacy-preserving author data-request protocol for the missing artifact identities; send nothing.
