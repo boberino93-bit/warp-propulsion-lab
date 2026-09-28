@@ -88,3 +88,8 @@ Preregistration 005 is frozen at `research/ai-control/preregistrations/005-monit
 NEXT ONE TEST: implement the dropout field, frozen schedule generator and nonconfirmatory fixtures using seeds outside `422000..422999`. Prove exact single-variable diffs, nested deterministic dropout, raw-event retention, observed-detection-before-stop ordering and zero post-stop agent events. Do not execute reserved seeds.
 
 Migration remains blocked: destination `main` is still owner commit `1192862f65020ce2fa27acf3ff43c2c15aa4c568`; fresh branch write `access-check-20260928-0805` returned HTTP 403. Preserve the owner-uploaded file and current canonical paths.
+
+
+## Current handoff — 2026-09-28 08:45 UTC
+
+Preregistration 005's deterministic monitor-observation-dropout fixture, frozen label/order schedule and 12 nonconfirmatory tests are implemented. Exact code-head CI passed 226 tests in 91.200 seconds plus the benchmark. The schedule hash is `6fa61bc7ff54f18b5ded03046ab733bda4c88bd1ee793feaf79b6ac9ae2da152`; fixture seeds `910020`, `910041` and `910043` are outside reserved `422000..422999`. The raw transfer and observed/dropped decision are independently hash-committed; observed valid detection still stops immediately. No reserved seed or confirmatory experiment ran. NEXT ONE TEST: implement the one-shot confirmatory controller and independent artifact-integrity tests against the frozen hashes, without executing reserved seeds. Migration remains blocked: fresh destination branch write `access-check-20260928-0845` returned HTTP 403.

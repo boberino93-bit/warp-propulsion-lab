@@ -29,3 +29,8 @@ The existing repository LICENSE.md and CREDITS.md apply: MIT original software, 
 ## Current fiction-source status — 2026-09-19
 
 Protocol 004 remains frozen, but T-01/T-02 scene coding is blocked at the primary-source gate. Catalog metadata was located; the exact theatrical cuts were not lawfully available for complete viewing and timecoding in the research runtime. The ledger therefore retains zero scene rows. No lore or cross-franchise conclusion was inferred from summaries. See `research/ai-control/fiction/terminator-source-access-preflight-2026-09-19.md`.
+
+
+## Monitor-observation-dropout extension — 2026-09-28
+
+Preregistration 005 is frozen and its offline deterministic fixture plus schedule are implemented. The sole variable is whether the monitor observes the eligible transfer event at levels 0%, 1%, 5%, 10% and 25%; raw events remain audited and observed detections retain enforced stopping. Nonconfirmatory fixtures use only nonreserved seeds. Seeds `422000..422999` have not run, so there is no robustness effect estimate. See `research/ai-control/preregistrations/005-monitor-observation-dropout.md` and the latest handoff.
