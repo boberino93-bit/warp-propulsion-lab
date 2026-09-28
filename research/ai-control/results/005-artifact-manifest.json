@@ -1,0 +1,79 @@
+{
+  "events_b64_sha256": "6bb247385282b2e457700c19a2b16db7c8dd808c799ddd0fea4e8a953e0ff6f0",
+  "events_parts": [
+    {
+      "bytes": 90000,
+      "name": "005-events.part-000.b64",
+      "sha256": "aa263ce40596918e31f909b2ad9a901fa34d729ec79f964ab3907a5b15a3f6d4"
+    },
+    {
+      "bytes": 90000,
+      "name": "005-events.part-001.b64",
+      "sha256": "76ba14e792893bbe4baebbfc2e45d8ad567eeefb725f385fb88356d6ab872cd0"
+    },
+    {
+      "bytes": 90000,
+      "name": "005-events.part-002.b64",
+      "sha256": "3806b953e7f3de5d1ad72136e11b17bf476ced4538a44a587be136a753efeccd"
+    },
+    {
+      "bytes": 90000,
+      "name": "005-events.part-003.b64",
+      "sha256": "3a1ba69d346bdd9dd32011a8b2298c1a5fdd143112ce9de0795782e4025b0e9c"
+    },
+    {
+      "bytes": 90000,
+      "name": "005-events.part-004.b64",
+      "sha256": "9154c66f659f987f82ae6b569f8be5c5f715a931d0c489aae514fb379321683e"
+    },
+    {
+      "bytes": 90000,
+      "name": "005-events.part-005.b64",
+      "sha256": "450661b7801afd447261274e5870f74cc426a2219ece4f4e80a21875cc300996"
+    },
+    {
+      "bytes": 90000,
+      "name": "005-events.part-006.b64",
+      "sha256": "5216b400f73f450fb7870fd7ac7a30ccdb85d81c23117f15e777f300947942c1"
+    },
+    {
+      "bytes": 90000,
+      "name": "005-events.part-007.b64",
+      "sha256": "2b8cd484741153c70e7982bda171af2df7af07b52c1664399673a07b8176d980"
+    },
+    {
+      "bytes": 90000,
+      "name": "005-events.part-008.b64",
+      "sha256": "d5b9788f91a4e8f01368761a2b11b525eac4e521ef08c14a0c54916c29badee5"
+    },
+    {
+      "bytes": 90000,
+      "name": "005-events.part-009.b64",
+      "sha256": "ef4e9c4e14798c2b0a58e8171a6ed6c85fab6663fb9ed5f1409b216ed0a9888b"
+    },
+    {
+      "bytes": 90000,
+      "name": "005-events.part-010.b64",
+      "sha256": "c7cb93816e7e1858617d67e600e134348c91415da8c2246e1811442bb17d75e5"
+    },
+    {
+      "bytes": 90000,
+      "name": "005-events.part-011.b64",
+      "sha256": "5bd4b366ff2a1bc8b48f491ce8f293e08174f9e05f886f1ee50039df6a19d854"
+    },
+    {
+      "bytes": 90000,
+      "name": "005-events.part-012.b64",
+      "sha256": "6e684560a26448e817a4bd3787b0e618d9b943b86414169806b72d88628e01e0"
+    },
+    {
+      "bytes": 36753,
+      "name": "005-events.part-013.b64",
+      "sha256": "9391bd0ccdc7114cdf5d125cf619ee6ee9224c2607d04f67b01df958d177fc37"
+    }
+  ],
+  "reassembly": "concatenate event parts in lexical order; resulting ASCII file is 005-events.json.gz.b64",
+  "runs_compressed_b64_sha256": "245f5e7d32d6a8310f03651d6995e7601fa477ec82b51a791bcb8a12f7c167a8",
+  "runs_csv_sha256": "661d40531de6be5e6d20c25644268f6dd79d2291129c572193c51076fab4fbea",
+  "schema": "ai-control-dropout-005-artifact-manifest-v1"
+}

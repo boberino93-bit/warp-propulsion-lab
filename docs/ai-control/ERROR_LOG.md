@@ -48,3 +48,8 @@ After the complete event artifact passed its frozen file SHA-256 check, the seco
 ## E010 — 2026-09-28 — Wilson zero-bound floating-point assertion
 
 The first controller PR CI ran 235 tests and failed one new unit assertion because the computed two-sided Wilson lower bound for 0/500 was `4.303743383973282e-19` rather than exactly zero. This is floating-point cancellation, not a changed interval or experimental outcome. The test now uses a 15-decimal tolerance. No controller logic, schedule, harness or reserved seed changed; no confirmatory run occurred.
+
+
+## E011 — 2026-09-28 — reconstructed source terminal-newline preflight abort
+
+The first experiment-005 invocation aborted before any reserved trial because temporary files reconstructed from GitHub text contained terminal newlines while the pinned production blobs do not. The schedule content hash matched, but Git blob hashes correctly failed. Exact byte framing was restored and independently hashed to `de00ebccedddd4fc10279074534a92d77827124a` (harness) and `d1d8bdae1e1b16409e6641d80ba5c25455529db5` (schedule) before the one completed reserved execution. The abort produced no trial or estimate and did not consume or replace a seed.
