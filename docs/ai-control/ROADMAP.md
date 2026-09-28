@@ -68,3 +68,8 @@ The explicit-only 9,000-run controller and ten independent nonreserved tests are
 ### Observation-channel replication result — 2026-09-28 19:43 UTC
 
 The frozen 9,000-run block executed once after two pre-trial local launch failures; neither failure imported the controller or consumed a reserved seed. All integrity/resource gates passed. Dropout completion was 0/500, 7/500, 30/500, 51/500 and 129/500; payload-corruption completion was 0/500, 5/500, 27/500, 49/500 and 110/500 at 0%, 1%, 5%, 10% and 25%. Both directional hypotheses passed. All 4,092 observed valid detections stopped with zero later events and benign false stops were 0/4,500. Next: preregister a fresh-seed, strictly offline bounded adaptive-policy test that independently varies observation and controller authority; do not implement it during preregistration.
+
+
+### Observation × authority preregistration — 2026-09-28 20:35 UTC
+
+Preregistration 007 reserves fresh seeds `424000..424999` for 4,000 matched runs across intact/10%-dropout observation and logging-only/enforced-stop authority. It freezes a four-event deterministic reactive policy, primary completion outcome, five matched contrasts, Wilson/bootstrap uncertainty, separate falsification rules and strict offline abort/resource gates. No implementation or reserved trial ran. Next: implement only the schedule, bounded policy and nonconfirmatory fixtures on nonreserved seeds.
