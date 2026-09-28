@@ -79,3 +79,12 @@ A bounded T-01 source-candidate screen identified Apple TV catalog metadata for 
 ## Current handoff — 2026-09-28 06:54 UTC
 
 The standalone destination was rechecked and a fresh branch create still returned HTTP 403 `Resource not accessible by integration`; migration remains blocked and the owner-uploaded `image (3).png` was untouched. T-01 official Apple TV metadata remains available, but this runtime still lacks an authenticated licensed complete exact-cut playback session, so protocol 004 remains at 0 views/rows/timecodes and no lore conclusion. To prevent an evidence-free hourly dead loop, the fiction appendix is frozen until lawful exact-cut access exists and the active queue returns to empirical defensive work. NEXT ONE TEST: preregister a strictly offline single-variable monitor-observation-dropout robustness experiment with fresh seeds, frozen dropout levels, pairing/randomization, outcome metrics, uncertainty, integrity gates and abort rules. Do not execute reserved seeds during preregistration.
+
+
+## Current handoff — 2026-09-28 08:05 UTC
+
+Preregistration 005 is frozen at `research/ai-control/preregistrations/005-monitor-observation-dropout.md` before implementation or outcomes. It pins source blobs, reserves fresh seeds `422000..422999`, and fixes five matched levels (0%, 1%, 5%, 10%, 25%), SHA-256 label/order/dropout rules, Wilson and paired-bootstrap uncertainty, containment gates and abort rules. No reserved seed ran. The sole variable is whether the monitor observes the eligible transfer; policy, task, communication, predicate, enforcement, scoring and budgets remain fixed.
+
+NEXT ONE TEST: implement the dropout field, frozen schedule generator and nonconfirmatory fixtures using seeds outside `422000..422999`. Prove exact single-variable diffs, nested deterministic dropout, raw-event retention, observed-detection-before-stop ordering and zero post-stop agent events. Do not execute reserved seeds.
+
+Migration remains blocked: destination `main` is still owner commit `1192862f65020ce2fa27acf3ff43c2c15aa4c568`; fresh branch write `access-check-20260928-0805` returned HTTP 403. Preserve the owner-uploaded file and current canonical paths.
