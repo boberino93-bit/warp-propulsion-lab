@@ -166,3 +166,12 @@ Starting canonical main `ae48cf6f6d601464c5552d21b26fc5567dbd5c49`. Froze a pape
 - Later uncertainty, control, rights and BOM fields were deliberately NOT REACHED. No candidate, hardware, purchase, build, calibration, force measurement or propulsion result.
 - Sources: https://doi.org/10.1140/epjti/s40485-021-00074-7 ; https://doi.org/10.1016/j.measurement.2018.09.029
 - NEXT ONE TEST: preregister the minimum documentary evidence request for both signed-force families before any contact or purchase.
+
+
+## 2026-09-28 19:34 UTC — signed-force evidence-request preregistration
+
+- Froze the minimum public evidence schema needed before seeking new data for the failed differential-mechanical and current-reversed voice-coil candidates.
+- Requires exact revisions/rights, raw hashes, randomized bracketed-zero ±0.10 mN cycles, complete physical reversal, blinding, no cycle replacement, covariance-aware uncertainty and family-specific transfer/current controls.
+- Retains `u_c <= 1.5 µN`, `U95 <= 3.0 µN`, `|error| + U95 <= 5.0 µN` and reversal asymmetry `<= 2.0 µN`.
+- No contact, hardware, price, purchase, build, calibration, force measurement or propulsion result.
+- NEXT ONE TEST: apply the matrix to public supplementary/raw-data repositories for the two publications and stop at the first missing field.

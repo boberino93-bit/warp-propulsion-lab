@@ -127,3 +127,8 @@ Latest session: `research/sessions/2026-09-28-1428-UTC.md`. Froze a paper-only c
 ## Current propulsion handoff — 2026-09-28 18:34 UTC
 
 Latest session: `research/sessions/2026-09-28-1834-UTC.md`. The frozen table was applied to the DLR AST weight-on-string calibration and Lam et al. voice-coil calibrator. DLR failed at the first signed-reversal gate because the published system is a one-direction pull and provides no symmetric opposed `-0.10/0/+0.10 mN` cycles. The Lam primary publisher record reports `30–23,000 µN` magnitudes and `7.80–18.48%` steady-force uncertainty errors but does not document complete current reversal or negative cycles at `±0.10 mN`; that mandatory field is UNKNOWN and therefore failed. Later gates were not scored. No selection, purchase, build, calibration or thrust measurement. NEXT ONE TEST: preregister a documentary evidence-request matrix freezing the minimum raw signed cycles, sign convention and uncertainty fields needed for each family before any author/supplier contact or purchase.
+
+
+## Current propulsion handoff — 2026-09-28 19:34 UTC
+
+Latest session: `research/sessions/2026-09-28-1934-UTC.md`. Froze a minimum evidence-request matrix for signed differential mechanical transfer and installed-geometry current-reversed voice-coil calibration. It defines exact provenance, cycle-row, sign, blinding, reversal, raw-hash, covariance and family-specific fields under the unchanged ±0.10 mN acceptance limits. No author/supplier contact, component, price, purchase, build, calibration or measurement occurred. NEXT ONE TEST: audit the two publications’ public supplementary/raw-data locations against the matrix and stop each family at its first missing mandatory field; do not contact or purchase.
