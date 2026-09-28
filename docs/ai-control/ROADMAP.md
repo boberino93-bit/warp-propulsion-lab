@@ -35,3 +35,8 @@ Apple TV and MGM identify lawful digital/physical access routes for the 107-minu
 ## Empirical robustness extension — 2026-09-28
 
 The fiction appendix remains blocked at its lawful exact-cut source gate and is frozen without scene claims. Preregistration 005 returns the active queue to bounded empirical defensive work: five matched monitor-observation-dropout levels on fresh seeds `422000..422999`, with all non-dropout behavior held fixed. The design is frozen before implementation or outcomes. Next: implement only the dropout mechanism, schedule and nonconfirmatory tests; do not run reserved seeds.
+
+
+### Dropout implementation status — 2026-09-28 08:45 UTC
+
+The frozen dropout fixture and schedule are implemented with 12 nonconfirmatory tests; reserved seeds remain untouched. Code-head CI passed 226 tests plus the benchmark. Next: implement and verify the one-shot confirmatory controller without executing the reserved block.
