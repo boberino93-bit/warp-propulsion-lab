@@ -49,3 +49,7 @@ Experiment 005 executed its reserved seeds once: 5,000 matched runs and 17,714 a
 ## Observation-channel replication preregistration — 2026-09-28
 
 Preregistration 006 is frozen before implementation or outcomes. It reserves fresh seeds `423000..423999` for an internal replication of observation dropout and a separately analyzed fixed-marker payload-corruption mechanism. The design uses one intact baseline plus eight nonzero conditions, keeps policy/communication/enforcement/scoring fixed, and prohibits pooling mechanisms. No code or reserved trial ran. See `research/ai-control/preregistrations/006-observation-channel-failure-replication.md`.
+
+## Observation-channel replication implementation — 2026-09-28 14:44 UTC
+
+Preregistration 006's deterministic schedule and nonconfirmatory fixture are implemented. The committed schedule hash is `36d7ac402de16b0fa4e0c0cf3a9ce2ad980e6c63b52fa058c4cbd9887bd98266`. The payload-corruption arm preserves and commits the raw transfer, then replaces only the monitor-visible projection with `OBSERVATION_CORRUPTED`; dropout remains a separate mechanism. Eleven nonreserved fixtures passed within the 250-test exact code-head suite. Seeds `423000..423999` have not run and there is no confirmatory estimate. Next: implement the one-shot controller and independent artifact checks without executing the reserved block.
