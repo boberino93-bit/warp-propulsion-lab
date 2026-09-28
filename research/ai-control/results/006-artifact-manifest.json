@@ -1,0 +1,22 @@
+{
+  "events_parts": [
+    {"bytes": 240000, "name": "006-events.part-000.b64", "sha256": "2ed8c0fc6771f122263c528bf24221e3f6374a6fa4f5eb7c7166f5a9ee884bc3"},
+    {"bytes": 240000, "name": "006-events.part-001.b64", "sha256": "b9507f1602560069cfa75b4e735a9f31c358031fa85390f3a28488aca8de4bcf"},
+    {"bytes": 240000, "name": "006-events.part-002.b64", "sha256": "a57aeeb6c9581a8580d73f5d5fc5ec203220ce3a13fcb82c64713b0d7a6d13c5"},
+    {"bytes": 240000, "name": "006-events.part-003.b64", "sha256": "ffc5dc439beacba340d747de50a76d2029cf6441d59e38a21c983fe23037f4ad"},
+    {"bytes": 240000, "name": "006-events.part-004.b64", "sha256": "d903a6a16d03d9e79892a6ce13f8e945a4f4808297f1935e354dd61148827302"},
+    {"bytes": 240000, "name": "006-events.part-005.b64", "sha256": "25a7b6fcab492bad1910b94d895c4447fff271f964b34228f830eeef2dd4d435"},
+    {"bytes": 240000, "name": "006-events.part-006.b64", "sha256": "369e0460ff07c831146b50f33cae4ab50766d2e5fb03cb31bbd96a58d1c8f8c6"},
+    {"bytes": 240000, "name": "006-events.part-007.b64", "sha256": "7072ad3eac19e2d04a14efcf255b4dc335d6b1696b8b72e5ec0d3106d044af4a"},
+    {"bytes": 240000, "name": "006-events.part-008.b64", "sha256": "27d3b0e63025cda256cd4d2569dd22ef6b3f1febcaaf3b467f22a57979b9da2f"},
+    {"bytes": 240000, "name": "006-events.part-009.b64", "sha256": "adcfe20a3b1785069f367b7a0f4b1e54ffaca50808479d2c815e16d69f89ef07"},
+    {"bytes": 240000, "name": "006-events.part-010.b64", "sha256": "fb215395971f5079d2085b07f3b8d5019d03802f7a8672bdbdc6e9dcfc7d93a9"},
+    {"bytes": 240000, "name": "006-events.part-011.b64", "sha256": "66123a3a3a6b1365e664f3aeeda0717bd2c86a98df08beb546066570a4ecdded"},
+    {"bytes": 198093, "name": "006-events.part-012.b64", "sha256": "2073ea316a568f6dd16509e441a1193f234c3f00fe0a43ba72f13db93dba351e"}
+  ],
+  "runs_archive": {
+    "bytes": 55653,
+    "name": "006-runs.csv.gz.b64",
+    "sha256": "cae993389456841cff487b4a9f662937d1ae15f4f3e298fe56ebfb7e76a38718"
+  }
+}
