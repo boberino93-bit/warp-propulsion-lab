@@ -57,3 +57,7 @@ The first experiment-005 invocation aborted before any reserved trial because te
 ## E012 — 2026-09-28 — observation 006 test import shadowing
 
 The first implementation PR CI discovered 240 tests but failed to import `ai_control.observation_006` because unittest loaded the nested `tests/ai_control` package as `ai_control`, shadowing the production directory. The benchmark was skipped. The new test loader was corrected to load production files by explicit repository paths, matching prior containment-test practice. No schedule, source semantics or preregistration field changed, and no seed in `423000..423999` ran. Corrected code-head CI passed 250 tests plus the benchmark.
+
+## E013 — 2026-09-28 — experiment 006 pre-trial reconstruction and launch failures
+
+The first local preflight rejected temporary reconstructed source files because an extra terminal newline changed pinned Git blob hashes. Exact GitHub bytes were restored and all five blob hashes plus the frozen schedule hash passed before execution. The first execution-form command then failed at Python module resolution before importing the controller because direct-script execution could not resolve `ai_control`. It produced no run, event or estimate. Package-form execution subsequently ran reserved seeds `423000..423999` exactly once. No seed was resumed, replaced or rerun.
