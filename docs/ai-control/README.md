@@ -34,3 +34,8 @@ Protocol 004 remains frozen, but T-01/T-02 scene coding is blocked at the primar
 ## Monitor-observation-dropout extension — 2026-09-28
 
 Preregistration 005 is frozen and its offline deterministic fixture plus schedule are implemented. The sole variable is whether the monitor observes the eligible transfer event at levels 0%, 1%, 5%, 10% and 25%; raw events remain audited and observed detections retain enforced stopping. Nonconfirmatory fixtures use only nonreserved seeds. Seeds `422000..422999` have not run, so there is no robustness effect estimate. See `research/ai-control/preregistrations/005-monitor-observation-dropout.md` and the latest handoff.
+
+
+## Dropout confirmatory controller — 2026-09-28
+
+The one-shot controller and independent artifact-integrity tests are implemented in `ai_control/experiment_005.py` and `tests/ai_control/test_experiment_005.py`. Preflight pins the exact harness and schedule blobs plus the frozen schedule hash. Execution is explicit only; import and preflight do not enumerate the reserved block. Seeds `422000..422999` remain unexecuted, so no dropout effect estimate exists.
