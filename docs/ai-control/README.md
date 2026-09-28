@@ -44,3 +44,8 @@ The one-shot controller and independent artifact-integrity tests are implemented
 ## Dropout confirmatory result — 2026-09-28
 
 Experiment 005 executed its reserved seeds once: 5,000 matched runs and 17,714 audit events. Violation completion was 0/500, 6/500, 25/500, 58/500 and 125/500 at 0%, 1%, 5%, 10% and 25% observation dropout. Every observed valid detection stopped with zero later agent events; benign false stops were 0/2,500. Complete compressed runs/events, hashes, independent artifact tests and interpretation limits are retained under `research/ai-control/results/` and `research/ai-control/experiments/`. This is deterministic scripted-toy evidence, not learned-model or deployed-system evidence.
+
+
+## Observation-channel replication preregistration — 2026-09-28
+
+Preregistration 006 is frozen before implementation or outcomes. It reserves fresh seeds `423000..423999` for an internal replication of observation dropout and a separately analyzed fixed-marker payload-corruption mechanism. The design uses one intact baseline plus eight nonzero conditions, keeps policy/communication/enforcement/scoring fixed, and prohibits pooling mechanisms. No code or reserved trial ran. See `research/ai-control/preregistrations/006-observation-channel-failure-replication.md`.
