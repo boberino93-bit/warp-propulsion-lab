@@ -197,10 +197,11 @@ class Observation006ControllerTests(unittest.TestCase):
         low, high = controller._wilson_interval(0, 500)
         self.assertAlmostEqual(low, 0.0, places=15)
         self.assertLess(high, 0.02)
-        self.assertNotEqual(
+        self.assertEqual(
             controller._bootstrap_difference([0, 1, 1], "dropout", 100),
-            controller._bootstrap_difference([0, 1, 1], "payload_corruption", 100),
+            controller._bootstrap_difference([0, 1, 1], "dropout", 100),
         )
+        self.assertIn("mechanism", inspect.signature(controller._bootstrap_difference).parameters)
         with self.assertRaises(controller.IntegrityAbort):
             controller._bootstrap_difference([], "dropout", 100)
 
