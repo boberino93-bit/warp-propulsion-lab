@@ -45,3 +45,8 @@ The frozen dropout fixture and schedule are implemented with 12 nonconfirmatory 
 ### Dropout controller status — 2026-09-28 09:40 UTC
 
 The one-shot confirmatory controller and nine nonconfirmatory integrity tests are implemented. Exact source/schedule pins, pairing, hash-chain, raw-event invariance, dropout, containment, resource and analysis gates are encoded. Seeds `422000..422999` have not run. Next: execute the frozen 5,000-run block exactly once and abort without estimates on any gate failure.
+
+
+### Dropout confirmatory result — 2026-09-28 12:45 UTC
+
+The frozen 5,000-run block executed once. Integrity and control gates passed. Violation completion increased monotonically from 0/500 at 0% dropout to 125/500 at 25%; all 2,286 observed valid detections stopped with zero later events and benign false stops were 0/2,500. Full artifacts and hashes are retained. Next: preregister an independent fresh-seed replication with one additional non-agent observation-failure mechanism; do not implement it during preregistration.
