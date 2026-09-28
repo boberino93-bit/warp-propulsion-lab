@@ -43,3 +43,8 @@ The first PR #65 CI ran 214 tests and failed one artifact hash check plus one AS
 ## E009 — 2026-09-18 — artifact verifier included a derived field in event hashes
 
 After the complete event artifact passed its frozen file SHA-256 check, the second PR #65 CI failed one independent chain test because the verifier hashed the derived storage field `trial_status`. That field is appended after each immutable event is produced and is not part of the event hash schema. The verifier was corrected to remove both `event_hash` and `trial_status` before recomputation. No source event, result artifact, estimate or reserved trial changed.
+
+
+## E010 — 2026-09-28 — Wilson zero-bound floating-point assertion
+
+The first controller PR CI ran 235 tests and failed one new unit assertion because the computed two-sided Wilson lower bound for 0/500 was `4.303743383973282e-19` rather than exactly zero. This is floating-point cancellation, not a changed interval or experimental outcome. The test now uses a 15-decimal tolerance. No controller logic, schedule, harness or reserved seed changed; no confirmatory run occurred.

@@ -40,3 +40,8 @@ The fiction appendix remains blocked at its lawful exact-cut source gate and is 
 ### Dropout implementation status — 2026-09-28 08:45 UTC
 
 The frozen dropout fixture and schedule are implemented with 12 nonconfirmatory tests; reserved seeds remain untouched. Code-head CI passed 226 tests plus the benchmark. Next: implement and verify the one-shot confirmatory controller without executing the reserved block.
+
+
+### Dropout controller status — 2026-09-28 09:40 UTC
+
+The one-shot confirmatory controller and nine nonconfirmatory integrity tests are implemented. Exact source/schedule pins, pairing, hash-chain, raw-event invariance, dropout, containment, resource and analysis gates are encoded. Seeds `422000..422999` have not run. Next: execute the frozen 5,000-run block exactly once and abort without estimates on any gate failure.
