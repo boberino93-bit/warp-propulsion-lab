@@ -53,3 +53,7 @@ The first controller PR CI ran 235 tests and failed one new unit assertion becau
 ## E011 — 2026-09-28 — reconstructed source terminal-newline preflight abort
 
 The first experiment-005 invocation aborted before any reserved trial because temporary files reconstructed from GitHub text contained terminal newlines while the pinned production blobs do not. The schedule content hash matched, but Git blob hashes correctly failed. Exact byte framing was restored and independently hashed to `de00ebccedddd4fc10279074534a92d77827124a` (harness) and `d1d8bdae1e1b16409e6641d80ba5c25455529db5` (schedule) before the one completed reserved execution. The abort produced no trial or estimate and did not consume or replace a seed.
+
+## E012 — 2026-09-28 — observation 006 test import shadowing
+
+The first implementation PR CI discovered 240 tests but failed to import `ai_control.observation_006` because unittest loaded the nested `tests/ai_control` package as `ai_control`, shadowing the production directory. The benchmark was skipped. The new test loader was corrected to load production files by explicit repository paths, matching prior containment-test practice. No schedule, source semantics or preregistration field changed, and no seed in `423000..423999` ran. Corrected code-head CI passed 250 tests plus the benchmark.
