@@ -53,3 +53,8 @@ Preregistration 006 is frozen before implementation or outcomes. It reserves fre
 ## Observation-channel replication implementation — 2026-09-28 14:44 UTC
 
 Preregistration 006's deterministic schedule and nonconfirmatory fixture are implemented. The committed schedule hash is `36d7ac402de16b0fa4e0c0cf3a9ce2ad980e6c63b52fa058c4cbd9887bd98266`. The payload-corruption arm preserves and commits the raw transfer, then replaces only the monitor-visible projection with `OBSERVATION_CORRUPTED`; dropout remains a separate mechanism. Eleven nonreserved fixtures passed within the 250-test exact code-head suite. Seeds `423000..423999` have not run and there is no confirmatory estimate. Next: implement the one-shot controller and independent artifact checks without executing the reserved block.
+
+
+## Observation-channel replication controller — 2026-09-28 18:47 UTC
+
+The explicit-only preregistration-006 controller and independent artifact tests are implemented in `ai_control/experiment_006.py` and `tests/ai_control/test_experiment_006.py`. Preflight pins five source blobs and schedule hash `36d7ac402de16b0fa4e0c0cf3a9ce2ad980e6c63b52fa058c4cbd9887bd98266`; import and preflight do not execute reserved trials. Ten new nonreserved tests passed within a 260-test code-head CI run. Seeds `423000..423999` remain unexecuted, so no replication or corruption effect estimate exists.
