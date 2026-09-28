@@ -112,3 +112,8 @@ Latest session: `research/sessions/2026-09-28-0930-UTC.md`. The frozen table was
 ## Current propulsion handoff — 2026-09-28 12:35 UTC
 
 Latest session: `research/sessions/2026-09-28-1235-UTC.md`. The paper-only signed ±0.10 mN photon-pressure audit is frozen. It fixes external momentum closure, `F=P/c` absorption and ideal externally supported `F=2P/c` reflection, ideal lower-bound powers of 29,979.2458 W and 14,989.6229 W, traceable optical momentum, signed/physical reversals, null/loss/thermal/EM/alignment/airflow controls, covariance-aware uncertainty, rights, CAD $500–$1,000 BOM and qualified laser-safety gates. A self-contained source/mirror system has zero net external force. No candidate, laser, purchase, operation or measurement. NEXT ONE TEST: apply the table once to NIST HALO/EFB photon-momentum evidence; stop at the first missing mandatory gate and do not extrapolate 0.1–5 kW data to 15–30 kW.
+
+
+## Current propulsion handoff — 2026-09-28 13:40 UTC
+
+Latest session: `research/sessions/2026-09-28-1340-UTC.md`. The frozen photon-pressure table was applied once to NIST's HALO/EFB record. The audit stopped at the first mandatory failure: the fixed multi-reflection implementation does not demonstrate two independently characterized opposed directions or a complete physical reversal at signed ±0.10 mN. Laser on/off is a null, not negative force. No rights/BOM/safety pass was inferred after the stop; no hardware, extrapolation, purchase, build or force measurement occurred. NEXT ONE TEST: preregister a paper-only low-risk mechanical or electromagnetic reference-force screen with inherent sign reversal at ±0.10 mN under the unchanged uncertainty, rights, Canadian BOM and personal-prototype safety gates.

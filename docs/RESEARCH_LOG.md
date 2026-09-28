@@ -140,3 +140,12 @@ Starting canonical main `394d3fcc0e0e330939385a484629496e7da687a6`. Applied the 
 ## 2026-09-28 12:35 UTC — photon-pressure calibrator audit preregistration
 
 Starting canonical main `ae48cf6f6d601464c5552d21b26fc5567dbd5c49`. Froze a paper-only signed ±0.10 mN photon-pressure audit. Ideal scaling requires 29,979.2458 W for absorption or 14,989.6229 W for external ideal reflection; these are lower-bound physics constraints, not operating setpoints. The protocol distinguishes external support from a self-contained source/mirror system with zero net external force and freezes power/momentum-coefficient traceability, loss, thermal, alignment, EM, airflow, reversal, uncertainty, rights, BOM and qualified laser-safety gates. No laser, design, purchase, operation, measurement or propulsion result. See [protocol](../research/hardware/photon-pressure-calibrator-audit-preregistration-2026-09-28.md) and [session](../research/sessions/2026-09-28-1235-UTC.md). NEXT ONE TEST: apply the table once to NIST HALO/EFB evidence and stop at the first missing gate.
+
+
+## 2026-09-28 13:40 UTC — NIST HALO photon-pressure gate
+
+- Applied the frozen photon-pressure table once to NIST's published HALO/EFB record.
+- HALO is relevant external-reaction photon-momentum metrology, but the inspected implementation does not demonstrate independently characterized opposed directions or complete physical reversal at signed ±0.10 mN. Laser on/off is not negative force.
+- Stopped at that first mandatory failure. No extrapolation, design, purchase, build, operation, measured force or propulsion discovery.
+- Sources: https://www.nist.gov/programs-projects/high-amplification-laser-pressure-optic-halo ; https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=932088 ; https://www.nist.gov/publications/direct-realization-optical-watt-plancks-constant
+- Next: preregister a low-risk reversible mechanical/electromagnetic reference-force screen under the unchanged gates.
