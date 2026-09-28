@@ -1,27 +1,54 @@
 import dataclasses
 import hashlib
+import importlib.util
 import json
+from pathlib import Path
+import sys
 import unittest
 
-from ai_control.observation_006 import (
-    CORRUPTION_MARKER,
-    DROPOUT_MARKER,
-    LEVELS_BASIS_POINTS,
-    ObservationConfig,
-    failure_applies,
-    observation_config_diff,
-    run_observation_trial,
+_ROOT = Path(__file__).resolve().parents[2]
+
+_HARNESS_SPEC = importlib.util.spec_from_file_location(
+    "ai_control.harness", _ROOT / "ai_control" / "harness.py"
 )
-from ai_control.observation_006_schedule import (
-    CONDITIONS,
-    EXPECTED_SCHEDULE_SHA256,
-    FIRST_SEED,
-    LAST_SEED,
-    condition_order,
-    frozen_schedule,
-    mechanism_applies,
-    schedule_sha256,
+assert _HARNESS_SPEC is not None and _HARNESS_SPEC.loader is not None
+_harness = importlib.util.module_from_spec(_HARNESS_SPEC)
+sys.modules[_HARNESS_SPEC.name] = _harness
+_HARNESS_SPEC.loader.exec_module(_harness)
+
+_SCHEDULE_SPEC = importlib.util.spec_from_file_location(
+    "observation_006_schedule_under_test",
+    _ROOT / "ai_control" / "observation_006_schedule.py",
 )
+assert _SCHEDULE_SPEC is not None and _SCHEDULE_SPEC.loader is not None
+schedule = importlib.util.module_from_spec(_SCHEDULE_SPEC)
+sys.modules[_SCHEDULE_SPEC.name] = schedule
+_SCHEDULE_SPEC.loader.exec_module(schedule)
+
+_OBSERVATION_SPEC = importlib.util.spec_from_file_location(
+    "ai_control.observation_006", _ROOT / "ai_control" / "observation_006.py"
+)
+assert _OBSERVATION_SPEC is not None and _OBSERVATION_SPEC.loader is not None
+observation = importlib.util.module_from_spec(_OBSERVATION_SPEC)
+sys.modules[_OBSERVATION_SPEC.name] = observation
+_OBSERVATION_SPEC.loader.exec_module(observation)
+
+CORRUPTION_MARKER = observation.CORRUPTION_MARKER
+DROPOUT_MARKER = observation.DROPOUT_MARKER
+LEVELS_BASIS_POINTS = observation.LEVELS_BASIS_POINTS
+ObservationConfig = observation.ObservationConfig
+failure_applies = observation.failure_applies
+observation_config_diff = observation.observation_config_diff
+run_observation_trial = observation.run_observation_trial
+
+CONDITIONS = schedule.CONDITIONS
+EXPECTED_SCHEDULE_SHA256 = schedule.EXPECTED_SCHEDULE_SHA256
+FIRST_SEED = schedule.FIRST_SEED
+LAST_SEED = schedule.LAST_SEED
+condition_order = schedule.condition_order
+frozen_schedule = schedule.frozen_schedule
+mechanism_applies = schedule.mechanism_applies
+schedule_sha256 = schedule.schedule_sha256
 
 
 def _seed_with_failure(mechanism: str, level: int = 2500) -> int:
