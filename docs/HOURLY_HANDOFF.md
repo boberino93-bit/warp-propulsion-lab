@@ -122,3 +122,8 @@ Latest session: `research/sessions/2026-09-28-1340-UTC.md`. The frozen photon-pr
 ## Current propulsion handoff — 2026-09-28 14:28 UTC
 
 Latest session: `research/sessions/2026-09-28-1428-UTC.md`. Froze a paper-only comparison protocol for differential deadweight/symmetric transfer and independently calibrated current-reversed voice-coil reference forces at signed ±0.10 mN. It retains the existing uncertainty, guard-band, reversal, null/thermal/EM/cable/airflow/vibration, rights, complete Canadian BOM and personal-safety gates. No candidate, component, price, purchase, build or measurement. NEXT ONE TEST: apply the table once to one published implementation from each family; stop each at its first mandatory failure and make no purchase.
+
+
+## Current propulsion handoff — 2026-09-28 18:34 UTC
+
+Latest session: `research/sessions/2026-09-28-1834-UTC.md`. The frozen table was applied to the DLR AST weight-on-string calibration and Lam et al. voice-coil calibrator. DLR failed at the first signed-reversal gate because the published system is a one-direction pull and provides no symmetric opposed `-0.10/0/+0.10 mN` cycles. The Lam primary publisher record reports `30–23,000 µN` magnitudes and `7.80–18.48%` steady-force uncertainty errors but does not document complete current reversal or negative cycles at `±0.10 mN`; that mandatory field is UNKNOWN and therefore failed. Later gates were not scored. No selection, purchase, build, calibration or thrust measurement. NEXT ONE TEST: preregister a documentary evidence-request matrix freezing the minimum raw signed cycles, sign convention and uncertainty fields needed for each family before any author/supplier contact or purchase.

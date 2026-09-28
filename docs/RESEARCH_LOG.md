@@ -156,3 +156,13 @@ Starting canonical main `ae48cf6f6d601464c5552d21b26fc5567dbd5c49`. Froze a pape
 - Both must pass the unchanged ±0.10 mN gates: `u_c <= 1.5 µN`, `U95 <= 3.0 µN`, `|error| + U95 <= 5.0 µN`, reversal asymmetry `<= 2.0 µN`, ten randomized signed cycles, complete covariance/control evidence, construction rights and a delivered Canadian CAD 500–1,000 BOM.
 - No candidate, component, supplier or price was selected; no purchase, build, calibration, force measurement or propulsion result.
 - NEXT ONE TEST: apply the frozen table once to one published differential-deadweight implementation and one current-reversed voice-coil implementation, stopping each at its first failure.
+
+
+## 2026-09-28 18:34 UTC — reversible reference-force candidate screen
+
+- Applied the frozen signed ±0.10 mN table to the DLR AST weight-on-string calibration and the Lam et al. commercial voice-coil calibrator.
+- DLR stopped at the first gate: the published one-direction wire/pulley pull does not demonstrate the same differential load on symmetric opposed paths or negative `-0.10 mN` cycles.
+- Lam et al. stopped at a mandatory UNKNOWN: the accessible primary publisher record reports `30–23,000 µN` magnitudes and `7.80–18.48%` uncertainty errors but no complete current-reversed negative cycles or polarity asymmetry at `±0.10 mN`.
+- Later uncertainty, control, rights and BOM fields were deliberately NOT REACHED. No candidate, hardware, purchase, build, calibration, force measurement or propulsion result.
+- Sources: https://doi.org/10.1140/epjti/s40485-021-00074-7 ; https://doi.org/10.1016/j.measurement.2018.09.029
+- NEXT ONE TEST: preregister the minimum documentary evidence request for both signed-force families before any contact or purchase.
