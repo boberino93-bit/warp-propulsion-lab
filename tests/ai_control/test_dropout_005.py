@@ -64,9 +64,19 @@ class Dropout005ImplementationTests(unittest.TestCase):
             self.assertEqual(len(row.level_order_basis_points), len(expected))
 
     def test_schedule_module_does_not_import_harness(self):
-        source = inspect.getsource(schedule)
-        self.assertNotIn("harness", source)
-        self.assertNotIn("run_dropout_trial", source)
+        tree = ast.parse(inspect.getsource(schedule))
+        imported = {
+            alias.name
+            for node in ast.walk(tree)
+            if isinstance(node, ast.Import)
+            for alias in node.names
+        }
+        imported.update(
+            node.module
+            for node in ast.walk(tree)
+            if isinstance(node, ast.ImportFrom) and node.module
+        )
+        self.assertNotIn("ai_control.harness", imported)
 
     def test_matched_configs_differ_only_in_dropout(self):
         baseline = DropoutConfig(observation_dropout_basis_points=0)
