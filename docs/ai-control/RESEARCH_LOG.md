@@ -25,3 +25,13 @@
 - Reserved seeds `423000..423999` did not run, so no replication estimate exists. This is implementation evidence only, not learned-model or deployment evidence.
 - The standalone destination remained unchanged and a fresh connected-app branch write returned HTTP 403; migration was not claimed.
 - NEXT ONE TEST: execute the frozen 9,000-run block once and abort without estimates on any gate failure.
+
+## 2026-09-28 19:43 UTC — observation-channel replication result
+
+- Executed the frozen 9,000-run block once on seeds `423000..423999`; retained 40,908 audit events and 27,816 agent events.
+- Dropout completion was 0, 7, 30, 51 and 129 of 500 at 0%, 1%, 5%, 10% and 25%; payload-corruption completion was 0, 5, 27, 49 and 110.
+- Both frozen directional hypotheses passed. All 4,092 observed valid detections stopped with zero later agent events; benign false stops were 0/4,500.
+- Two zero-trial local failures (terminal-newline blob mismatch, then direct-script import resolution) were retained; neither consumed a seed or produced an estimate.
+- Complete compressed/split artifacts, raw hashes, manifest and independent tests are retained. Deterministic scripted-toy evidence only.
+- Standalone migration remains blocked by HTTP 403.
+- NEXT ONE TEST: preregister a fresh-seed, offline bounded adaptive-policy test separating monitor observation from controller authority.
