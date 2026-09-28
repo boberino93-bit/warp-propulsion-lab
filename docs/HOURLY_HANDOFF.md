@@ -87,3 +87,8 @@ Latest session: `research/sessions/2026-09-19-0130-UTC.md` (v0.3.48). Schwerthei
 ## Current handoff — 2026-09-19 02:30 UTC
 
 The paper-only signed ±0.10 mN voice-coil scaling protocol is frozen before extraction at `research/hardware/voice-coil-scaling-preregistration-2026-09-19.md`. It pins the AVM12-6.4 and B2902A document hierarchy, equations, covariance-aware uncertainty table, (u_c ≤ 1.5 µN), (U95 ≤ 3.0 µN), guard-band and falsification rules. No calculation ran and no hardware was selected or purchased. NEXT ONE TEST: execute the exact document extraction/calculation once; retain an incomplete table and no estimate if any required specification or covariance bound is missing.
+
+
+## Current propulsion handoff — 2026-09-28 06:48 UTC
+
+Latest session: `research/sessions/2026-09-28-0648-UTC.md`. The frozen AVM12-6.4/B2902A extraction gate was executed once. Akribis' current exact-model page authenticates 0.54 N/Arms ±10% force constant and 1.10 ohm ±10% resistance, and Keysight's official B2900A-series data sheet provides B2902A source-current accuracy by range. The calculation nevertheless STOPPED before any estimate because the required revision-pinned AVM12-6.4 record and numerical position/current/temperature dependence, hysteresis/remanence, drift and covariance bounds were not available. Unknown terms were not set to zero. No hardware or propulsion result. NEXT ONE TEST: recover the exact revision used by Schwertheim et al. with those missing bounds; if still unavailable, retire this candidate under the frozen gate and audit the opposed-electrode electrostatic candidate.
