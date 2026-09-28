@@ -121,3 +121,12 @@ Starting merged main `c1bce61b8eb70730a8d330c3665193e417b49605`. Audited Frieler
 - Retired this AVM12-6.4 public-document calculation route under the frozen gate. This does not reject voice-coil calibration generally or alter the paper's 0.5–100 mN result.
 - No hardware action or propulsion result.
 - NEXT ONE TEST: preregister the opposed-electrode electrostatic noncontact-calibrator audit before evaluating any design.
+
+
+## 2026-09-28 08:35 UTC — opposed-electrode electrostatic audit preregistration
+
+- Froze the paper-only candidate audit before extraction: externally supported reaction boundary, `F = 1/2 (V - V_CPD)^2 dC/dx`, opposed-electrode sign selection, complete covariance-aware uncertainty/control table, signed and physical reversal, rights, safety and delivered Canadian-BOM gates.
+- Retained the existing ±0.10 mN limits: `U95 <= 3.0 µN` and `|E| + U95 <= 5.0 µN`. Unknown contact-potential, capacitance-gradient, artifact or covariance terms cannot be assigned zero.
+- NIST electrostatic-force-balance work is contextual primary evidence, not proof that a reproducible opposed implementation passes.
+- No candidate outcome, calculation, hardware selection, purchase, build, calibration, force measurement or propulsion result.
+- NEXT ONE TEST: apply the frozen table once to the NIST EFB primary record; stop on the first mandatory missing gate and make no purchase.
