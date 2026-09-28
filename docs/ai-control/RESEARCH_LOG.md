@@ -12,3 +12,5 @@
 
 
 - 2026-09-28 13:50 UTC: froze preregistration 006 before code/outcomes. Fresh seeds `423000..423999`; one intact baseline plus four nonzero dropout and four nonzero fixed-marker payload-corruption conditions; mechanisms analyzed separately; policy, communication, enforcement and scoring fixed. No implementation or reserved trial. Standalone branch write remained HTTP 403. Next: implement schedule/corruption and nonconfirmatory fixtures only.
+
+- 2026-09-28 14:44 UTC: implemented preregistration 006's nine-condition schedule and offline observation-channel fixture. Schedule hash `36d7ac402de16b0fa4e0c0cf3a9ce2ad980e6c63b52fa058c4cbd9887bd98266`; raw transfer is committed before separate dropout or fixed-marker corruption projection; intact detections stop immediately. Eleven nonconfirmatory tests use only nonreserved seeds. First CI exposed nested-package import shadowing; corrected code-head CI passed 250 tests in 90.142 seconds plus benchmark. No reserved trial or estimate. Standalone write still returned HTTP 403. Next: implement the one-shot controller and artifact-integrity tests without executing reserved seeds.
