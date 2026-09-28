@@ -130,3 +130,8 @@ Starting merged main `c1bce61b8eb70730a8d330c3665193e417b49605`. Audited Frieler
 - NIST electrostatic-force-balance work is contextual primary evidence, not proof that a reproducible opposed implementation passes.
 - No candidate outcome, calculation, hardware selection, purchase, build, calibration, force measurement or propulsion result.
 - NEXT ONE TEST: apply the frozen table once to the NIST EFB primary record; stop on the first mandatory missing gate and make no purchase.
+
+
+## 2026-09-28 09:30 UTC — NIST EFB opposed-sign gate
+
+Starting canonical main `394d3fcc0e0e330939385a484629496e7da687a6`. Applied the frozen opposed-electrode table once to NIST's 2002 EFB primary record and official follow-on records. The documented concentric-cylinder actuator supports micronewton electrostatic force realization from voltage and capacitance gradient, but the audit STOPPED at the first mandatory missing gate: no two independently characterized opposed electrodes select signed ±0.10 mN at the receiver. No mirror actuator, gradient, uncertainty, right or BOM item was invented; no force estimate, design, purchase, build, measurement or propulsion result. See [audit](../research/hardware/nist-efb-opposed-electrode-audit-2026-09-28.md) and [session](../research/sessions/2026-09-28-0930-UTC.md). NEXT ONE TEST: preregister a paper-only 0.10 mN photon-pressure calibration audit; make no laser selection or purchase.
