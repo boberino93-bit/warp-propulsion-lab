@@ -97,3 +97,8 @@ Latest session: `research/sessions/2026-09-28-0648-UTC.md`. The frozen AVM12-6.4
 ## Current propulsion handoff — 2026-09-28 07:30 UTC
 
 Latest session: `research/sessions/2026-09-28-0730-UTC.md`. The final bounded AVM12-6.4 document recovery found a 2009 drawing and a post-paper 2021 revision-0 customer drawing, but neither authenticates the experimental revision or supplies the missing position/current/temperature, hysteresis/remanence, drift and covariance bounds. The paper-calculation candidate is retired under the unchanged frozen gate; no estimate or hardware action. NEXT ONE TEST: preregister a paper-only opposed-electrode electrostatic noncontact-calibrator audit at signed ±0.10 mN, freezing the external momentum boundary, force equation, uncertainty/control terms, rights and Canadian-BOM gates before evaluating a design.
+
+
+## Current propulsion handoff — 2026-09-28 08:35 UTC
+
+Latest session: `research/sessions/2026-09-28-0835-UTC.md`. The paper-only opposed-electrode electrostatic calibrator audit is frozen before candidate evaluation. It fixes the external reaction boundary, `F = 1/2 (V - V_CPD)^2 dC/dx`, electrode-selected sign, covariance-aware uncertainty/control table, signed and physical reversals, traceability, construction-rights, safety and delivered Canadian-BOM gates under the unchanged ±0.10 mN limits. No candidate result, calculation, hardware or measurement. NEXT ONE TEST: apply the table once to the NIST EFB primary record and exact accessible construction evidence; stop on the first mandatory missing gate, without inventing a mirror electrode or making a purchase.
