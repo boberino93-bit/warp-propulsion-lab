@@ -39,3 +39,8 @@ Preregistration 005 is frozen and its offline deterministic fixture plus schedul
 ## Dropout confirmatory controller — 2026-09-28
 
 The one-shot controller and independent artifact-integrity tests are implemented in `ai_control/experiment_005.py` and `tests/ai_control/test_experiment_005.py`. Preflight pins the exact harness and schedule blobs plus the frozen schedule hash. Execution is explicit only; import and preflight do not enumerate the reserved block. Seeds `422000..422999` remain unexecuted, so no dropout effect estimate exists.
+
+
+## Dropout confirmatory result — 2026-09-28
+
+Experiment 005 executed its reserved seeds once: 5,000 matched runs and 17,714 audit events. Violation completion was 0/500, 6/500, 25/500, 58/500 and 125/500 at 0%, 1%, 5%, 10% and 25% observation dropout. Every observed valid detection stopped with zero later agent events; benign false stops were 0/2,500. Complete compressed runs/events, hashes, independent artifact tests and interpretation limits are retained under `research/ai-control/results/` and `research/ai-control/experiments/`. This is deterministic scripted-toy evidence, not learned-model or deployed-system evidence.
