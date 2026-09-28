@@ -50,3 +50,8 @@ The one-shot confirmatory controller and nine nonconfirmatory integrity tests ar
 ### Dropout confirmatory result — 2026-09-28 12:45 UTC
 
 The frozen 5,000-run block executed once. Integrity and control gates passed. Violation completion increased monotonically from 0/500 at 0% dropout to 125/500 at 25%; all 2,286 observed valid detections stopped with zero later events and benign false stops were 0/2,500. Full artifacts and hashes are retained. Next: preregister an independent fresh-seed replication with one additional non-agent observation-failure mechanism; do not implement it during preregistration.
+
+
+### Observation-channel replication preregistration — 2026-09-28 13:50 UTC
+
+Preregistration 006 is frozen on fresh seeds `423000..423999`. It separately analyzes the original dropout mechanism and one new non-agent fixed-marker payload-corruption mechanism across matched nested levels, with one shared intact baseline and all agent policy, communication, enforcement and scoring held fixed. No implementation or reserved trial ran. Next: implement only the schedule, corruption transform and nonconfirmatory fixtures on nonreserved seeds.
