@@ -117,3 +117,8 @@ Latest session: `research/sessions/2026-09-28-1235-UTC.md`. The paper-only signe
 ## Current propulsion handoff — 2026-09-28 13:40 UTC
 
 Latest session: `research/sessions/2026-09-28-1340-UTC.md`. The frozen photon-pressure table was applied once to NIST's HALO/EFB record. The audit stopped at the first mandatory failure: the fixed multi-reflection implementation does not demonstrate two independently characterized opposed directions or a complete physical reversal at signed ±0.10 mN. Laser on/off is a null, not negative force. No rights/BOM/safety pass was inferred after the stop; no hardware, extrapolation, purchase, build or force measurement occurred. NEXT ONE TEST: preregister a paper-only low-risk mechanical or electromagnetic reference-force screen with inherent sign reversal at ±0.10 mN under the unchanged uncertainty, rights, Canadian BOM and personal-prototype safety gates.
+
+
+## Current propulsion handoff — 2026-09-28 14:28 UTC
+
+Latest session: `research/sessions/2026-09-28-1428-UTC.md`. Froze a paper-only comparison protocol for differential deadweight/symmetric transfer and independently calibrated current-reversed voice-coil reference forces at signed ±0.10 mN. It retains the existing uncertainty, guard-band, reversal, null/thermal/EM/cable/airflow/vibration, rights, complete Canadian BOM and personal-safety gates. No candidate, component, price, purchase, build or measurement. NEXT ONE TEST: apply the table once to one published implementation from each family; stop each at its first mandatory failure and make no purchase.
