@@ -30,3 +30,8 @@ BLOCKED without scene coding. Exact T-01/T-02 theatrical cuts were not available
 ### Task 6 T-01 lawful-source screen — 2026-09-19 01:36 UTC
 
 Apple TV and MGM identify lawful digital/physical access routes for the 107-minute film, but no authenticated complete copy was viewable in the research runtime. An exact-cut verification card is frozen. No film scene was coded: 0 views, 0 rows, 0 timecodes, 0 contradiction passes. Next: obtain lawful authenticated T-01 access, verify every card field, then perform only the first candidate-scene viewing.
+
+
+## Empirical robustness extension — 2026-09-28
+
+The fiction appendix remains blocked at its lawful exact-cut source gate and is frozen without scene claims. Preregistration 005 returns the active queue to bounded empirical defensive work: five matched monitor-observation-dropout levels on fresh seeds `422000..422999`, with all non-dropout behavior held fixed. The design is frozen before implementation or outcomes. Next: implement only the dropout mechanism, schedule and nonconfirmatory tests; do not run reserved seeds.
