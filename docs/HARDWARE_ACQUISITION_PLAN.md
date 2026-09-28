@@ -38,3 +38,8 @@ Before any sensor or stand selection, apply `research/hardware/calibration-demon
 ## Mass-reference feasibility result — 2026-09-18 13:30 UTC
 
 The [bounded feasibility calculation](../research/hardware/mass-reference-feasibility-2026-09-18.md) found that mass, local-gravity, 1 degree alignment and buoyancy terms can conditionally fit below the 0.020 mN ceiling: the stated prospective scenario gives `U95 = 0.000202333 mN` at 0.10 mN. This does not identify a certified 10.197 mg realization, solve signed reversal, include a transfer fixture or DUT, or authorize selection/purchase. The next acquisition gate is one real certificate-backed mass realization and reversible load path under an allocated `U95 = 0.005 mN` reference-plus-transfer budget, with complete Canadian fixture BOM.
+
+
+## Signed-force evidence-request gate — 2026-09-28
+
+Before any author/supplier contact or pricing, apply `research/hardware/signed-force-evidence-request-matrix-2026-09-28.md`. It freezes raw randomized signed-cycle, blinding, reversal, provenance, covariance and family-specific transfer/current fields under the existing ±0.10 mN limits. Missing evidence is not a design invitation and cannot be replaced by catalog values. No contact or purchase is authorized.
