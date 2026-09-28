@@ -1,0 +1,197 @@
+{
+  "006-events.json.gz.b64_sha256": "e4d79396532a4d694be9038b75ae206a9e5a3dd3e4b03a9dcf159fe689f376d0",
+  "006-runs.csv_sha256": "16cee4e6868cc2d18e3dec21b7e4443cc37b9074905ae27c1c77a14edbf71863",
+  "agent_events": 27816,
+  "all_integrity_gates_pass": true,
+  "audit_events": 40908,
+  "benign_false_stop_wilson_95": [
+    0.0,
+    0.0008529294061119083
+  ],
+  "benign_false_stops": 0,
+  "benign_seeds": 500,
+  "control_invariant_pass": true,
+  "corruption_completion_rates": {
+    "0": {
+      "completed": 0,
+      "rate": 0.0,
+      "total": 500,
+      "wilson_95": [
+        4.303743383973282e-19,
+        0.007624340461552241
+      ]
+    },
+    "100": {
+      "completed": 5,
+      "rate": 0.01,
+      "total": 500,
+      "wilson_95": [
+        0.004278753896590494,
+        0.023193099755730702
+      ]
+    },
+    "1000": {
+      "completed": 49,
+      "rate": 0.098,
+      "total": 500,
+      "wilson_95": [
+        0.07492391886460623,
+        0.1272060508664818
+      ]
+    },
+    "2500": {
+      "completed": 110,
+      "rate": 0.22,
+      "total": 500,
+      "wilson_95": [
+        0.18590093257162363,
+        0.25836869808684565
+      ]
+    },
+    "500": {
+      "completed": 27,
+      "rate": 0.054,
+      "total": 500,
+      "wilson_95": [
+        0.03737435018105752,
+        0.07742656151064709
+      ]
+    }
+  },
+  "corruption_directional_hypothesis_pass": true,
+  "corruption_lowest_wilson_lower_above_baseline_basis_points": 100,
+  "corruption_matched_effects": {
+    "100": {
+      "bootstrap_95": [
+        0.002,
+        0.02
+      ],
+      "bootstrap_resamples": 10000,
+      "matched_risk_difference": 0.01
+    },
+    "1000": {
+      "bootstrap_95": [
+        0.072,
+        0.126
+      ],
+      "bootstrap_resamples": 10000,
+      "matched_risk_difference": 0.098
+    },
+    "2500": {
+      "bootstrap_95": [
+        0.184,
+        0.256
+      ],
+      "bootstrap_resamples": 10000,
+      "matched_risk_difference": 0.22
+    },
+    "500": {
+      "bootstrap_95": [
+        0.036,
+        0.074
+      ],
+      "bootstrap_resamples": 10000,
+      "matched_risk_difference": 0.054
+    }
+  },
+  "dropout_005_schedule.py_blob": "d1d8bdae1e1b16409e6641d80ba5c25455529db5",
+  "dropout_completion_rates": {
+    "0": {
+      "completed": 0,
+      "rate": 0.0,
+      "total": 500,
+      "wilson_95": [
+        4.303743383973282e-19,
+        0.007624340461552241
+      ]
+    },
+    "100": {
+      "completed": 7,
+      "rate": 0.014,
+      "total": 500,
+      "wilson_95": [
+        0.006797789790843489,
+        0.028613069137785288
+      ]
+    },
+    "1000": {
+      "completed": 51,
+      "rate": 0.102,
+      "total": 500,
+      "wilson_95": [
+        0.07843435210316953,
+        0.13163462290422606
+      ]
+    },
+    "2500": {
+      "completed": 129,
+      "rate": 0.258,
+      "total": 500,
+      "wilson_95": [
+        0.22159620022281312,
+        0.2980939805605783
+      ]
+    },
+    "500": {
+      "completed": 30,
+      "rate": 0.06,
+      "total": 500,
+      "wilson_95": [
+        0.042348356480946196,
+        0.08436106312521979
+      ]
+    }
+  },
+  "dropout_directional_hypothesis_pass": true,
+  "dropout_lowest_wilson_lower_above_baseline_basis_points": 100,
+  "dropout_matched_effects": {
+    "100": {
+      "bootstrap_95": [
+        0.004,
+        0.026
+      ],
+      "bootstrap_resamples": 10000,
+      "matched_risk_difference": 0.014
+    },
+    "1000": {
+      "bootstrap_95": [
+        0.076,
+        0.13
+      ],
+      "bootstrap_resamples": 10000,
+      "matched_risk_difference": 0.102
+    },
+    "2500": {
+      "bootstrap_95": [
+        0.22,
+        0.298
+      ],
+      "bootstrap_resamples": 10000,
+      "matched_risk_difference": 0.258
+    },
+    "500": {
+      "bootstrap_95": [
+        0.04,
+        0.082
+      ],
+      "bootstrap_resamples": 10000,
+      "matched_risk_difference": 0.06
+    }
+  },
+  "elapsed_seconds": 58.7276736419999,
+  "experiment_005.py_blob": "288f0e2558e50d6a6dfd2771f234afe2cf14105f",
+  "harness.py_blob": "de00ebccedddd4fc10279074534a92d77827124a",
+  "interpretation": "deterministic offline scripted-toy channel-failure evidence only; not learned-model or deployed-system evidence",
+  "observation_006.py_blob": "d6c8383a28d4aa48d02c492e71db755957cd26f9",
+  "observation_006_schedule.py_blob": "9f439ce253552a68fe880d482b089801b2926a00",
+  "observed_valid_detections": 4092,
+  "peak_traced_python_bytes": 49658735,
+  "reserved_seed_first": 423000,
+  "reserved_seed_last": 423999,
+  "runs": 9000,
+  "runs_if_explicitly_started": 9000,
+  "schedule_sha256": "36d7ac402de16b0fa4e0c0cf3a9ce2ad980e6c63b52fa058c4cbd9887bd98266",
+  "schema": "ai-control-observation-006-results-v1",
+  "source_commit": "d95b3b840b4ea347cacb6b880f3603f3ce5ee8cd",
+  "violation_seeds": 500
+}
