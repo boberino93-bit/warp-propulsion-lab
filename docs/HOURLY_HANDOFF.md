@@ -102,3 +102,8 @@ Latest session: `research/sessions/2026-09-28-0730-UTC.md`. The final bounded AV
 ## Current propulsion handoff — 2026-09-28 08:35 UTC
 
 Latest session: `research/sessions/2026-09-28-0835-UTC.md`. The paper-only opposed-electrode electrostatic calibrator audit is frozen before candidate evaluation. It fixes the external reaction boundary, `F = 1/2 (V - V_CPD)^2 dC/dx`, electrode-selected sign, covariance-aware uncertainty/control table, signed and physical reversals, traceability, construction-rights, safety and delivered Canadian-BOM gates under the unchanged ±0.10 mN limits. No candidate result, calculation, hardware or measurement. NEXT ONE TEST: apply the table once to the NIST EFB primary record and exact accessible construction evidence; stop on the first mandatory missing gate, without inventing a mirror electrode or making a purchase.
+
+
+## Current propulsion handoff — 2026-09-28 09:30 UTC
+
+Latest session: `research/sessions/2026-09-28-0930-UTC.md`. The frozen table was applied once to the NIST EFB primary and official follow-on records. NIST documents a concentric-cylinder actuator and micronewton force realization from voltage and capacitance gradient, but the audit STOPPED at the first mandatory missing gate: the exact record does not document two independently characterized opposed electrodes for signed ±0.10 mN selection. No mirror electrode, estimate, right or BOM item was invented; no hardware action or propulsion result. NEXT ONE TEST: preregister a paper-only 0.10 mN photon-pressure calibration audit with momentum closure, absorber/externally supported reflector scaling, traceable power, loss/thermal/alignment controls, uncertainty, safety, rights and CAD $500–$1,000 BOM gates. Do not select or purchase a laser.
