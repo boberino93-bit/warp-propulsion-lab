@@ -132,3 +132,8 @@ Latest session: `research/sessions/2026-09-28-1834-UTC.md`. The frozen table was
 ## Current propulsion handoff — 2026-09-28 19:34 UTC
 
 Latest session: `research/sessions/2026-09-28-1934-UTC.md`. Froze a minimum evidence-request matrix for signed differential mechanical transfer and installed-geometry current-reversed voice-coil calibration. It defines exact provenance, cycle-row, sign, blinding, reversal, raw-hash, covariance and family-specific fields under the unchanged ±0.10 mN acceptance limits. No author/supplier contact, component, price, purchase, build, calibration or measurement occurred. NEXT ONE TEST: audit the two publications’ public supplementary/raw-data locations against the matrix and stop each family at its first missing mandatory field; do not contact or purchase.
+
+
+## Current propulsion handoff — 2026-09-28 20:27 UTC
+
+Latest session: `research/sessions/2026-09-28-2027-UTC.md`. Applied the frozen evidence-request matrix to public supplementary/raw-data locations for the DLR AST and Lam voice-coil publications. Both stopped at the first mandatory missing field: no versioned exact-apparatus/raw-package identity and hash was publicly verifiable. DLR’s official article says data/materials availability is not applicable; the Lam publisher endpoint exposed no such package and direct access returned HTTP 403. Later fields were not scored. No contact, purchase, build, calibration, force measurement or propulsion result. NEXT ONE TEST: preregister a bounded privacy-preserving author data-request protocol asking only for the missing artifact-identity fields; freeze consent/credit/licensing handling and send nothing.
