@@ -92,3 +92,8 @@ The paper-only signed ±0.10 mN voice-coil scaling protocol is frozen before ext
 ## Current propulsion handoff — 2026-09-28 06:48 UTC
 
 Latest session: `research/sessions/2026-09-28-0648-UTC.md`. The frozen AVM12-6.4/B2902A extraction gate was executed once. Akribis' current exact-model page authenticates 0.54 N/Arms ±10% force constant and 1.10 ohm ±10% resistance, and Keysight's official B2900A-series data sheet provides B2902A source-current accuracy by range. The calculation nevertheless STOPPED before any estimate because the required revision-pinned AVM12-6.4 record and numerical position/current/temperature dependence, hysteresis/remanence, drift and covariance bounds were not available. Unknown terms were not set to zero. No hardware or propulsion result. NEXT ONE TEST: recover the exact revision used by Schwertheim et al. with those missing bounds; if still unavailable, retire this candidate under the frozen gate and audit the opposed-electrode electrostatic candidate.
+
+
+## Current propulsion handoff — 2026-09-28 07:30 UTC
+
+Latest session: `research/sessions/2026-09-28-0730-UTC.md`. The final bounded AVM12-6.4 document recovery found a 2009 drawing and a post-paper 2021 revision-0 customer drawing, but neither authenticates the experimental revision or supplies the missing position/current/temperature, hysteresis/remanence, drift and covariance bounds. The paper-calculation candidate is retired under the unchanged frozen gate; no estimate or hardware action. NEXT ONE TEST: preregister a paper-only opposed-electrode electrostatic noncontact-calibrator audit at signed ±0.10 mN, freezing the external momentum boundary, force equation, uncertainty/control terms, rights and Canadian-BOM gates before evaluating a design.

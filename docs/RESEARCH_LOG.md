@@ -112,3 +112,12 @@ Starting merged main `c1bce61b8eb70730a8d330c3665193e417b49605`. Audited Frieler
 - Fixed equations, exact-document hierarchy, covariance-aware uncertainty terms, output table, acceptance limits and stop rules. The current AVM12-10 page is contextual only and cannot substitute for the exact historical AVM12-6.4 data sheet.
 - No calculation, hardware selection, purchase, build, calibration, force measurement or propulsion result.
 - NEXT ONE TEST: execute the revision-pinned extraction/calculation once; stop without an estimate on any missing exact specification or covariance bound.
+
+
+## 2026-09-28 07:30 UTC — AVM12-6.4 document recovery and retirement
+
+- Recovered reseller-hosted Akribis drawings dated 2009-10-22 and revision 0 dated 2021-10-29; neither authenticates the exact revision used by Schwertheim et al. (2021).
+- Required quantitative position/current/temperature, hysteresis/remanence, drift and covariance bounds remain unavailable. Unknown terms were not set to zero and no ±0.10 mN current, power or uncertainty estimate was produced.
+- Retired this AVM12-6.4 public-document calculation route under the frozen gate. This does not reject voice-coil calibration generally or alter the paper's 0.5–100 mN result.
+- No hardware action or propulsion result.
+- NEXT ONE TEST: preregister the opposed-electrode electrostatic noncontact-calibrator audit before evaluating any design.
