@@ -62,3 +62,8 @@ The explicit-only preregistration-006 controller and independent artifact tests 
 ## Observation-channel replication result — 2026-09-28
 
 Experiment 006 executed its reserved seeds exactly once: 9,000 matched runs, 40,908 audit events and 27,816 agent events. Violation completion increased monotonically across 0%, 1%, 5%, 10% and 25% failure levels: dropout produced 0, 7, 30, 51 and 129 completions of 500; fixed-marker monitor-payload corruption produced 0, 5, 27, 49 and 110. All 4,092 observed valid detections stopped with zero later agent events; benign false stops were 0/4,500. Complete compressed artifacts, hashes and independent artifact tests are retained. This is deterministic scripted-toy evidence only, not learned-model, adaptive-system or deployed-system evidence.
+
+
+## Observation × authority preregistration — 2026-09-28
+
+Preregistration 007 is frozen before implementation or outcomes. Fresh seeds `424000..424999` receive a 2×2 matched design that independently varies intact versus 10% dropout monitor observation and logging-only versus enforced-stop controller authority. The “adaptive” policy is explicitly a bounded deterministic finite-state script with no learning, cross-trial memory, condition label, monitor-private state or external capability. Primary completion, matched authority/observation/interaction contrasts, uncertainty, falsification, integrity and resource rules are frozen. No schedule, code or reserved trial ran. See `research/ai-control/preregistrations/007-adaptive-policy-observation-authority.md`.
