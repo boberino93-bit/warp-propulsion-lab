@@ -149,3 +149,10 @@ Starting canonical main `ae48cf6f6d601464c5552d21b26fc5567dbd5c49`. Froze a pape
 - Stopped at that first mandatory failure. No extrapolation, design, purchase, build, operation, measured force or propulsion discovery.
 - Sources: https://www.nist.gov/programs-projects/high-amplification-laser-pressure-optic-halo ; https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=932088 ; https://www.nist.gov/publications/direct-realization-optical-watt-plancks-constant
 - Next: preregister a low-risk reversible mechanical/electromagnetic reference-force screen under the unchanged gates.
+
+## 2026-09-28 14:28 UTC — reversible reference-force screen preregistration
+
+- Froze a paper-only comparison of two low-risk signed reference-force families: differential deadweight/symmetric opposed transfer and current-reversed voice coil independently calibrated by a mechanical reference.
+- Both must pass the unchanged ±0.10 mN gates: `u_c <= 1.5 µN`, `U95 <= 3.0 µN`, `|error| + U95 <= 5.0 µN`, reversal asymmetry `<= 2.0 µN`, ten randomized signed cycles, complete covariance/control evidence, construction rights and a delivered Canadian CAD 500–1,000 BOM.
+- No candidate, component, supplier or price was selected; no purchase, build, calibration, force measurement or propulsion result.
+- NEXT ONE TEST: apply the frozen table once to one published differential-deadweight implementation and one current-reversed voice-coil implementation, stopping each at its first failure.
