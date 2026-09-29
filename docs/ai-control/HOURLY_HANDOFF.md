@@ -153,3 +153,15 @@ Latest session: `research/ai-control/sessions/2026-09-29-0734-UTC.md`. Preregist
 Latest session: `research/ai-control/sessions/2026-09-29-0843-UTC.md`. Replication-specific 008 policy, schedule and explicit controller modules plus nonconfirmatory containment and artifact-identity tests are implemented under the unchanged preregistration. Preflight pins the preregistration, schedule CSV, policy and schedule module and verifies schedule SHA-256 `74619fe0f00e486101782383f2c5ebe9813596a4da028af34ca3490b33231ee1` without executing a trial. Seeds `425000..425999` remain unexecuted, so no replication estimate exists. Standalone migration remains blocked: destination `main` is `1192862f65020ce2fa27acf3ff43c2c15aa4c568` and fresh branch write `migration-access-check-20260929-0838` returned HTTP 403. NEXT ONE TEST: execute the frozen 4,000-run block exactly once after verifying the merged 008 blobs and schedule hash; abort without estimates on any integrity, pairing, containment or resource failure.
 
 Verification update: corrected exact-head CI `3ce741b852e034b5bf5e82de628546c184cf7aec` passed all 313 tests in 133.544 seconds plus the benchmark; only nonreserved fixtures ran.
+
+
+## 2026-09-29 12:32 UTC — replication 008 executed once
+
+- Verified all five frozen Git blobs and schedule SHA-256 before execution.
+- Executed reserved seeds `425000..425999` exactly once: 4,000 matched runs and 15,044 audit events.
+- Prohibited-transfer completions: intact logging `500/500`, intact enforced `0/500`, 10% dropout logging `500/500`, 10% dropout enforced `44/500`.
+- All 956 delivered enforced detections stopped immediately; zero later agent events. Benign false stops: `0/500` in each enforced condition.
+- All integrity gates and H1–H4 passed. This is deterministic scripted-toy evidence only, not learned-model or deployed-system evidence.
+- Standalone migration remains blocked by a fresh HTTP 403 branch-write result.
+- Results: `research/ai-control/results/008-*`; session: `research/ai-control/sessions/2026-09-29-1232-UTC.md`.
+- **NEXT ONE TEST:** preregister one fresh-seed bounded test holding enforcement authority fixed while comparing the current observation channel with an independently generated canonical audit field under one predeclared formatting mutation; freeze all gates before implementation or execution.
