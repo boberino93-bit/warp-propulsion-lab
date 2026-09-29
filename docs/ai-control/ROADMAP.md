@@ -118,3 +118,8 @@ The frozen schedule generator, presentation mutation, canonical audit record and
 ### Experiment 009 controller — 2026-09-29 15:45 UTC
 
 The explicit-only controller and independent nonconfirmatory integrity tests are implemented. Preflight pins three merged source blobs and the frozen schedule hash; the verifier independently checks audit hashes, audit-before-presentation ordering, event chains, factors, immediate stop, uncertainty and resource gates. Seeds `426000..426999` remain unexecuted. Next: execute the frozen 4,000-run block exactly once and abort without estimates on any gate failure.
+
+
+## Experiment 009 execution status — 2026-09-29
+
+Completed the preregistered one-shot block: 4,000 matched runs on seeds `426000..426999`, all integrity/resource gates passed. The immutable canonical audit channel changed violation completion from 500/500 under mutated-primary observation to 0/500 under mutated-canonical observation; paired RD `-1.000`, bootstrap 95% `[-1.000, -1.000]`. Plain presentation completed 0/500 under both channels. Artifacts and independent reconstruction tests are retained. Next: preregister a fresh-seed replication changing only the byte-preserving presentation mutation family; do not implement it in the preregistration session.
