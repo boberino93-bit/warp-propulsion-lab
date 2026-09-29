@@ -61,3 +61,8 @@ The first implementation PR CI discovered 240 tests but failed to import `ai_con
 ## E013 — 2026-09-28 — experiment 006 pre-trial reconstruction and launch failures
 
 The first local preflight rejected temporary reconstructed source files because an extra terminal newline changed pinned Git blob hashes. Exact GitHub bytes were restored and all five blob hashes plus the frozen schedule hash passed before execution. The first execution-form command then failed at Python module resolution before importing the controller because direct-script execution could not resolve `ai_control`. It produced no run, event or estimate. Package-form execution subsequently ran reserved seeds `423000..423999` exactly once. No seed was resumed, replaced or rerun.
+
+
+## E014 — 2026-09-29 — experiment 007 local reconstruction newline mismatch
+
+The first focused controller-test run failed two preflight tests because temporary local copies of preregistration 007 and the frozen schedule CSV contained one extra terminal newline. Their content was semantically unchanged, but pinned Git blob identities correctly failed. Exact GitHub byte framing was restored and the focused and combined nonconfirmatory suites then passed. No reserved seed in `424000..424999` ran, no effect estimate was produced and no production schedule or outcome changed.
