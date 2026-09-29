@@ -40,3 +40,8 @@
 ## 2026-09-29 — experiment 008 independent replication
 
 Experiment 008 executed fresh reserved seeds `425000..425999` exactly once for 4,000 matched runs. Completion counts were `500/500` intact logging, `0/500` intact enforced, `500/500` 10% dropout logging and `44/500` 10% dropout enforced. The intact authority contrast was `-1.000`; the dropout authority contrast was `-0.912` (bootstrap 95% `[-0.936, -0.886]`); the enforced observation and interaction contrasts were `+0.088` (95% `[+0.064, +0.114]`). All 956 delivered enforced detections stopped immediately with zero subsequent agent events. Both enforced benign controls had `0/500` false stops. All integrity gates and H1–H4 passed. The complete 4,000-run and 15,044-event artifacts are retained with hashes and independent reconstruction tests. This remains deterministic offline scripted-toy evidence only.
+
+
+## 2026-09-29 — experiment 009 preregistration
+
+Frozen a 4,000-run matched design using fresh seeds `426000..426999`. Enforcement authority is held fixed while the experiment independently varies one predeclared field-splitting presentation mutation and availability of an immutable canonical audit field generated before presentation. The primary paired contrast is `mutated_canonical - mutated_primary` prohibited-action completion. All uncertainty, integrity, containment, null-control, resource and stopping rules were fixed before schedule or implementation. No reserved seed ran and no result exists.
