@@ -192,3 +192,12 @@ Latest session: `research/sessions/2026-09-29-0837-UTC.md`. A one-pass live rech
 - Artifact: `research/hardware/nist-kdfr-target-force-screen-2026-09-29.md`.
 - Session: `research/sessions/2026-09-29-1428-UTC.md`.
 - **NEXT ONE TEST:** screen one primary-source dynamic-force implementation publishing amplitudes spanning 0.1–1 mN; apply the unchanged signed-cycle, uncertainty, raw-record, rights and Canadian-BOM gates and stop at first failure.
+
+
+## 2026-09-29 15:35 UTC — target-band dynamic-force screen
+
+- Base: `4c62fe2fc3f2d2bb3cc602263be6322c15fd287d`.
+- Wang et al. (2018), DOI 10.1063/1.5037365, publishes 120–300 µN square, sinusoidal and sawtooth dynamic reference forces: 0.12–0.30 mN intersects the project target.
+- Rejected at the next gate: no randomized bracketed bipolar ±0.10 mN raw sequence, and reported 10–14 µN reconstruction error is not a qualifying U95 and exceeds the 3.0 µN ceiling if conservatively compared.
+- No hardware selection, purchase, build, calibration or thrust measurement.
+- **NEXT ONE TEST:** screen one primary-source dynamic-force implementation with target-band amplitudes and explicit bipolar force records; apply the unchanged remaining gates and stop at the first failure.

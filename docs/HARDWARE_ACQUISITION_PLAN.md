@@ -88,3 +88,10 @@ KIBB-g2.0 was rejected at the first signed-cycle evidence gate. Its reported 1 m
 ### 2026-09-29 — NIST KDFR target-force screen
 
 The Kibble Dynamic Force Reference was rejected at the first target-force evidence gate. NIST's 2024 primary record targets 10 N amplitude over 100 Hz–10 kHz with 1% uncertainty and does not publish a signed ±0.10 mN dataset. The target-force ratio is 100,000:1, so no lower-force extrapolation was accepted. Later raw-data, target-specific uncertainty, construction-rights and Canadian-BOM gates were not reached. No component was selected or purchased.
+
+
+## Target-band dynamic-force screen — 2026-09-29 15:35 UTC
+
+The [Wang et al. implementation screen](../research/hardware/wang-dynamic-force-screen-2026-09-29.md) verified published 120–300 µN dynamic waveforms, so the source clears the requested magnitude screen without extrapolation. It was rejected at the next frozen gate: no randomized bracketed signed -0.10/0/+0.10 mN raw record is published, and the reported 10–14 µN reconstruction error is neither a covariance-aware U95 nor evidence for the U95 <= 3.0 µN and |error| + U95 <= 5.0 µN limits. Later controls, rights and Canadian-BOM fields were stopped, not waived. No selection or purchase.
+
+NEXT ONE TEST: screen one primary-source dynamic-force implementation that publishes both target-band amplitudes and explicit bipolar force records; stop at the first unchanged mandatory failure.
