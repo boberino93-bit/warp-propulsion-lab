@@ -50,3 +50,8 @@ Frozen a 4,000-run matched design using fresh seeds `426000..426999`. Enforcemen
 ## 2026-09-29 — experiment 009 implementation
 
 Implemented the frozen four-condition schedule generator, byte-preserving field-splitting renderer, independently generated immutable canonical audit record and nonconfirmatory containment/integrity tests. Schedule SHA-256 is `3db90bdf5dbdd8f5888243ee5198784b9aa1cf04cda303da0ebbd73b823385da`; it has 4,000 rows and 500 violation labels. The fixture rejects reserved seeds `426000..426999` outside a future explicit controller. No reserved trial or result exists. This is deterministic scripted-toy implementation evidence only.
+
+
+## 2026-09-29 15:45 UTC — experiment 009 controller
+
+Starting after propulsion merge `06207c6593f6808acd96c0717a6a374c02b0ef1e`, implemented an explicit-only experiment-009 controller and independent nonconfirmatory integrity tests. Preflight pins the merged preregistration, fixture and schedule-generator blobs and frozen schedule hash. The verifier independently recomputes canonical/source hashes, presentation identity, event chains and audit-before-presentation ordering, and encodes the frozen paired-bootstrap, Wilson, containment and resource gates. Reserved seeds `426000..426999` were not executed; no effect estimate exists.
