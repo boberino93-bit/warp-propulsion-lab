@@ -146,13 +146,14 @@ def run_nonconfirmatory_trial(
     source_commit: str,
     violation_present: bool,
     feasible: bool,
+    _confirmatory_controller: bool = False,
 ) -> TrialResult:
     """Run one nonreserved in-memory fixture.
 
-    Reserved seeds are rejected here.  A later explicit controller must own
-    the confirmatory execution boundary after all production blobs are pinned.
+    Reserved seeds are rejected unless the explicit pinned controller invokes
+    this private gate after preflight. Fixtures must never set it.
     """
-    if RESERVED_FIRST <= seed <= RESERVED_LAST:
+    if RESERVED_FIRST <= seed <= RESERVED_LAST and not _confirmatory_controller:
         raise ValueError("reserved experiment-007 seed is not a fixture seed")
     if seed < 0:
         raise ValueError("seed must be nonnegative")

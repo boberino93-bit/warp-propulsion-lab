@@ -72,3 +72,8 @@ Preregistration 007 is frozen before implementation or outcomes. Fresh seeds `42
 ## Observation × authority implementation — 2026-09-29
 
 Preregistration 007's deterministic 4,000-row schedule, bounded finite-state policy and 13 nonconfirmatory tests are implemented. Schedule SHA-256: `a25622571b608b1f8879fce05fe6c96708ac2590004ada67bf86200674add15a`. Raw transfers are committed before monitor projection; observation dropout and controller authority remain independent factors; logging-only cannot stop and enforced authority stops before later events. Seeds `424000..424999` remain unexecuted, so no confirmatory estimate exists. The policy is a scripted toy, not a learned model.
+
+
+## Observation × authority controller — 2026-09-29
+
+The explicit-only experiment-007 controller and nine independent nonconfirmatory integrity tests are implemented. Preflight pins preregistration, policy, schedule-module and schedule-CSV blobs plus schedule SHA-256 `a25622571b608b1f8879fce05fe6c96708ac2590004ada67bf86200674add15a`. It verifies event chains, matched factors, observation projection, controller authority, five contrasts, H1–H4 and resource/containment gates. Import and preflight execute no trial. Seeds `424000..424999` remain unexecuted, so no confirmatory estimate exists.
