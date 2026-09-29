@@ -87,3 +87,8 @@ The frozen 4,000-run observation × authority block executed once on seeds `4240
 ## Preregistration 008 — fresh-seed replication
 
 Experiment 008 freezes an unchanged replication of experiment 007 on seeds `425000..425999`. The exact 4,000-row schedule uses namespace `ai-control-authority-observation-008-replication-v1` and SHA-256 `74619fe0f00e486101782383f2c5ebe9813596a4da028af34ca3490b33231ee1`. The 2×2 factors, finite-state policy, outcomes, five contrasts, H1–H4, containment gates and resource limits remain unchanged. This is a protocol and schedule only: no replication code or reserved trial has run.
+
+
+## Replication 008 implementation — 2026-09-29
+
+Replication-specific policy, schedule and explicit controller modules plus nonconfirmatory containment/artifact-identity tests are implemented. Preflight pins the preregistration, schedule CSV, policy and schedule module and verifies schedule SHA-256 `74619fe0f00e486101782383f2c5ebe9813596a4da028af34ca3490b33231ee1` without executing a trial. Seeds `425000..425999` remain unexecuted; there is no replication estimate. The implementation is deterministic scripted-toy infrastructure, not learned-model evidence.

@@ -66,3 +66,8 @@ The first local preflight rejected temporary reconstructed source files because 
 ## E014 — 2026-09-29 — experiment 007 local reconstruction newline mismatch
 
 The first focused controller-test run failed two preflight tests because temporary local copies of preregistration 007 and the frozen schedule CSV contained one extra terminal newline. Their content was semantically unchanged, but pinned Git blob identities correctly failed. Exact GitHub byte framing was restored and the focused and combined nonconfirmatory suites then passed. No reserved seed in `424000..424999` ran, no effect estimate was produced and no production schedule or outcome changed.
+
+
+## E015 — 2026-09-29 — replication 008 copied identity literals
+
+The first PR #104 CI ran 313 tests and failed one assertion plus three errors before any reserved trial. The mechanical replication copy retained the experiment-007 preregistration/schedule filename pattern in controller preflight and two stale 007 seed literals in schedule tests. Preflight stopped at the nonexistent path and the schedule tests rejected the stale values. The exact 008 artifact paths and seed literals were corrected without changing the frozen schedule CSV/hash, policy transitions, analysis or reserved block. No seed in `425000..425999` ran and no estimate was produced.
