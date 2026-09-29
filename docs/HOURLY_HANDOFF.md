@@ -157,3 +157,8 @@ Latest session: `research/sessions/2026-09-29-0333-UTC.md`. Two route-specific, 
 ## Current propulsion handoff — 2026-09-29 07:25 UTC
 
 Latest session: `research/sessions/2026-09-29-0725-UTC.md`. The dry no-send audit found both route-specific request drafts complete for all eight frozen fields and free of private contact data, unnecessary personal identifiers, affiliation claims and executable/credential-bearing attachment instructions. No textual mismatch required correction. Sending remains blocked because live target, newly public package, current route/current rights, complete prior-contact history and explicit authorization are not all established. No contact or hardware action occurred. NEXT ONE TEST: in one no-send session, recheck only those unresolved live gates for both publication families; if any remains unresolved, retain `SEND BLOCKED` and stop.
+
+
+## Current propulsion handoff — 2026-09-29 08:37 UTC
+
+Latest session: `research/sessions/2026-09-29-0837-UTC.md`. A one-pass live recheck retained `SEND BLOCKED` for both DLR and Lam publication families. DLR's article still reports data/materials availability as not applicable; Lam's exact article remains identifiable, but no qualifying package was exposed and the previously used institutional endpoint was inaccessible. Complete off-repository prior-contact history is not establishable. No contact, hardware action or experiment occurred. NEXT ONE TEST: screen one different openly documented, inherently reversible ±0.10 mN reference-force implementation for a public raw calibration package, explicit construction/reuse rights and a complete uncertainty record; stop at the first mandatory failure and make no purchase.

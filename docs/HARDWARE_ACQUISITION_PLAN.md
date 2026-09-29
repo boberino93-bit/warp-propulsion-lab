@@ -68,3 +68,8 @@ The [two route-specific drafts and pre-send table](../research/hardware/signed-f
 ## 2026-09-29 — signed-force request dry audit
 
 A field-for-field dry audit found both frozen publication-family drafts complete and redacted against the eight-field request protocol. This does not authorize contact or advance either candidate toward acquisition. Live target, newly public package, current route/current rights, complete prior-contact history and explicit authorization remain unresolved, so the request track stays `SEND BLOCKED`. No hardware was selected, purchased, built, calibrated or measured.
+
+
+## 2026-09-29 — signed-force live pre-send recheck
+
+The [one-pass live recheck](../research/hardware/signed-force-live-gate-recheck-2026-09-29.md) retained `SEND BLOCKED` for both publication families. DLR still exposes no qualifying package and reports data/materials as not applicable. The Lam publisher record still identifies the exact article, but no qualifying package was exposed and the previously used institutional endpoint was inaccessible. Complete off-repository prior-contact history remains unestablished. No contact, hardware choice, purchase, build, calibration or measurement occurred.
