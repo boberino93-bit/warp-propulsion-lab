@@ -213,3 +213,8 @@ Starting canonical main `ae48cf6f6d601464c5552d21b26fc5567dbd5c49`. Froze a pape
 Frozen artifact: `research/hardware/signed-force-route-specific-request-drafts-2026-09-29.md`.
 
 One draft per audited publication now maps field-for-field to the eight-item artifact-identity protocol. The DLR wording preserves the CC BY 4.0 article/unpublished-artifact boundary; the Lam wording requires explicit written permission for any nonpublic material. A pre-send table blocks sending until live identity, newly public package, external correction, route/rights, prior-contact and explicit authorization gates all pass in a later bounded session. No message, account, private contact detail, attachment, hardware action, measurement or propulsion result exists.
+
+
+## 2026-09-29 — signed-force request dry audit
+
+Both frozen DLR and Lam route-specific drafts contain all eight preregistered artifact-identity fields and pass the textual scope, privacy, affiliation and attachment controls. No private contact data or textual mismatch was found. The complete pre-send gate remains failed: live target, newly public package, current route/current rights, complete prior-contact history and explicit authorization are not all established. Decision: `SEND BLOCKED`; no message or hardware action occurred. Evidence: `research/hardware/signed-force-request-dry-audit-2026-09-29.md`.

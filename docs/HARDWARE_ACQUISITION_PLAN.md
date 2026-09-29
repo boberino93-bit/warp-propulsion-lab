@@ -63,3 +63,8 @@ The documentary artifact-request track now has one verified public professional 
 ## 2026-09-29 — route-specific request drafts (not sent)
 
 The [two route-specific drafts and pre-send table](../research/hardware/signed-force-route-specific-request-drafts-2026-09-29.md) implement the frozen eight-field request for the DLR and Lam publication records. Unrechecked live-record, public-package, external-correction, prior-contact and explicit-authorization gates default to `SEND BLOCKED`. No outreach, account, contact detail, attachment, hardware choice, purchase or measurement occurred; the acquisition gate remains closed.
+
+
+## 2026-09-29 — signed-force request dry audit
+
+A field-for-field dry audit found both frozen publication-family drafts complete and redacted against the eight-field request protocol. This does not authorize contact or advance either candidate toward acquisition. Live target, newly public package, current route/current rights, complete prior-contact history and explicit authorization remain unresolved, so the request track stays `SEND BLOCKED`. No hardware was selected, purchased, built, calibrated or measured.
