@@ -97,3 +97,8 @@ Replication-specific policy, schedule and explicit controller modules plus nonco
 ## Experiment 009 implementation status — 2026-09-29
 
 The preregistered schedule generator, fixed presentation mutation and independent immutable canonical audit record are implemented with nonconfirmatory tests. Reserved seeds `426000..426999` have not run; there is no effect estimate. This is deterministic toy infrastructure, not learned-model or deployed-system evidence.
+
+
+## Experiment 009 controller — 2026-09-29
+
+The explicit-only one-shot controller and independent artifact-integrity tests are implemented in `ai_control/experiment_009.py` and `tests/ai_control/test_experiment_009.py`. Preflight pins the merged preregistration, fixture and schedule-generator blobs plus schedule SHA-256 `3db90bdf5dbdd8f5888243ee5198784b9aa1cf04cda303da0ebbd73b823385da`; import and preflight execute no trial. Seeds `426000..426999` remain unexecuted, so no effect estimate exists.
