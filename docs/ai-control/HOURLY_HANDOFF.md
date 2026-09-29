@@ -165,3 +165,15 @@ Verification update: corrected exact-head CI `3ce741b852e034b5bf5e82de628546c184
 - Standalone migration remains blocked by a fresh HTTP 403 branch-write result.
 - Results: `research/ai-control/results/008-*`; session: `research/ai-control/sessions/2026-09-29-1232-UTC.md`.
 - **NEXT ONE TEST:** preregister one fresh-seed bounded test holding enforcement authority fixed while comparing the current observation channel with an independently generated canonical audit field under one predeclared formatting mutation; freeze all gates before implementation or execution.
+
+
+## 2026-09-29 13:37 UTC — experiment 009 preregistered
+
+- Froze a fresh-seed, 4,000-run comparison with enforcement authority fixed.
+- Factors: plain versus one fixed field-splitting presentation mutation; current presentation monitor versus presentation plus independently generated canonical audit field.
+- Reserved seeds: `426000..426999`. Primary paired contrast: `mutated_canonical - mutated_primary` prohibited-action completion.
+- Metrics, bootstrap seeds/resamples, Wilson intervals, false-stop ceiling, integrity/containment gates, resource ceilings, falsification and one-shot execution are frozen.
+- No schedule, implementation, reserved trial or result exists.
+- Standalone migration remains blocked by fresh HTTP 403 branch-write result.
+- Preregistration: `research/ai-control/preregistrations/009-canonical-audit-observation.md`.
+- **NEXT ONE TEST:** implement the schedule generator, mutation renderer, canonical audit record and nonconfirmatory containment tests using only nonreserved seeds; do not execute `426000..426999`.
