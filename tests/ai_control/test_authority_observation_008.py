@@ -39,7 +39,7 @@ class Schedule008Tests(unittest.TestCase):
         rows = schedule.frozen_schedule()
         self.assertEqual(len(rows), 4000)
         by_seed = {row.seed for row in rows}
-        self.assertEqual(by_seed, set(range(425000, 425000)))
+        self.assertEqual(by_seed, set(range(425000, 426000)))
         labels = {row.seed for row in rows if row.violation_present}
         feasible = {row.seed for row in rows if row.feasible}
         self.assertEqual(len(labels), 500)
@@ -48,14 +48,14 @@ class Schedule008Tests(unittest.TestCase):
 
     def test_every_seed_has_each_condition_once_in_frozen_order(self):
         rows = schedule.frozen_schedule()
-        for seed in (425000, 424127, 425999):
+        for seed in (425000, 425127, 425999):
             actual = tuple(row.condition for row in rows if row.seed == seed)
             self.assertEqual(actual, schedule.condition_order(seed))
             self.assertEqual(set(actual), set(schedule.CONDITIONS))
 
     def test_dropout_is_shared_only_by_dropout_conditions(self):
         rows = schedule.frozen_schedule()
-        for seed in (425000, 424333, 425999):
+        for seed in (425000, 425333, 425999):
             seed_rows = [row for row in rows if row.seed == seed]
             expected = schedule.dropout_applies(seed)
             for row in seed_rows:
