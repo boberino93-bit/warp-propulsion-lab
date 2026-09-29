@@ -73,3 +73,8 @@ The frozen 9,000-run block executed once after two pre-trial local launch failur
 ### Observation × authority preregistration — 2026-09-28 20:35 UTC
 
 Preregistration 007 reserves fresh seeds `424000..424999` for 4,000 matched runs across intact/10%-dropout observation and logging-only/enforced-stop authority. It freezes a four-event deterministic reactive policy, primary completion outcome, five matched contrasts, Wilson/bootstrap uncertainty, separate falsification rules and strict offline abort/resource gates. No implementation or reserved trial ran. Next: implement only the schedule, bounded policy and nonconfirmatory fixtures on nonreserved seeds.
+
+
+### Observation × authority implementation — 2026-09-29 01:30 UTC
+
+The frozen four-condition schedule, bounded deterministic finite-state policy and 13 nonconfirmatory integrity/containment fixtures are implemented. Schedule SHA-256: `a25622571b608b1f8879fce05fe6c96708ac2590004ada67bf86200674add15a`. The implementation separates raw transfer from monitor projection and observation from controller authority, rejects reserved seeds in nonconfirmatory execution, and has no network or learning capability. Seeds `424000..424999` remain unexecuted. Next: implement the explicit one-shot controller and independent artifact-integrity tests without executing the reserved block.

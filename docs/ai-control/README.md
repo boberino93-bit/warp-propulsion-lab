@@ -67,3 +67,8 @@ Experiment 006 executed its reserved seeds exactly once: 9,000 matched runs, 40,
 ## Observation × authority preregistration — 2026-09-28
 
 Preregistration 007 is frozen before implementation or outcomes. Fresh seeds `424000..424999` receive a 2×2 matched design that independently varies intact versus 10% dropout monitor observation and logging-only versus enforced-stop controller authority. The “adaptive” policy is explicitly a bounded deterministic finite-state script with no learning, cross-trial memory, condition label, monitor-private state or external capability. Primary completion, matched authority/observation/interaction contrasts, uncertainty, falsification, integrity and resource rules are frozen. No schedule, code or reserved trial ran. See `research/ai-control/preregistrations/007-adaptive-policy-observation-authority.md`.
+
+
+## Observation × authority implementation — 2026-09-29
+
+Preregistration 007's deterministic 4,000-row schedule, bounded finite-state policy and 13 nonconfirmatory tests are implemented. Schedule SHA-256: `a25622571b608b1f8879fce05fe6c96708ac2590004ada67bf86200674add15a`. Raw transfers are committed before monitor projection; observation dropout and controller authority remain independent factors; logging-only cannot stop and enforced authority stops before later events. Seeds `424000..424999` remain unexecuted, so no confirmatory estimate exists. The policy is a scripted toy, not a learned model.
