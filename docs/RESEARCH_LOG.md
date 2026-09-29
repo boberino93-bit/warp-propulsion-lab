@@ -196,3 +196,13 @@ Starting canonical main `ae48cf6f6d601464c5552d21b26fc5567dbd5c49`. Froze a pape
 - No message, form or social contact was sent; no account was opened. Candidate status remains `INCOMPLETE — REQUEST EXACT FIELD: artifact identity`.
 - No hardware, price, purchase, build, calibration, force measurement or propulsion result.
 - NEXT ONE TEST: audit one public professional contact route and rights statement per publication without sending or collecting private data.
+
+
+## 2026-09-29 02:34 UTC — signed-force contact-route and rights audit
+
+- Starting merged main: `301ae180944d7fa3d0c6c03dc4a40ba2acf330bf`.
+- Verified a public professional route for each target publication without sending a message or recording contact details.
+- DLR: Springer designates a corresponding author and DLR affiliation; the article is CC BY 4.0 with third-party exclusions and says data/materials are not applicable. These rights do not license unpublished artifacts.
+- Lam: Heriot-Watt identifies the corresponding-author role and institutional unit; ScienceDirect/institutional records expose no public artifact-package licence. Explicit written permission would be required for any nonpublic package.
+- This is a documentary route/rights result only. No hardware, purchase, calibration, measurement or propulsion result.
+- NEXT ONE TEST: freeze route-specific request drafts and a pre-send decision table; send nothing.
