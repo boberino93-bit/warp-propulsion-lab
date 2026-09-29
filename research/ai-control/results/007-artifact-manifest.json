@@ -1,0 +1,18 @@
+{
+  "schema": "ai-control-authority-observation-007-artifact-manifest-v1",
+  "runs_archive": {
+    "name": "007-runs.csv.gz.b64",
+    "bytes": 23040,
+    "sha256": "f4bf4940406a594df126a9d14d43942ba10b43a8dba02525d7bf6afb50171c6d",
+    "decoded_sha256": "e6fb3ab7a1bbc1c487c9cf5a74d941666df613a2679a498655c2a727d01ed710"
+  },
+  "events_joined_sha256": "ce5e3d149388e07a63ee4892762319b29254f8db0af3531a72a5c48ddacf344d",
+  "events_parts": [
+    {"name":"007-events.part-00.b64","bytes":180000,"sha256":"42547bff53b566caeabeef14a5fba3635300e11494f2c5294fdf0a543e57566c"},
+    {"name":"007-events.part-01.b64","bytes":180000,"sha256":"a767c3e03a9c26ce7487cb6c2b21f5107521bd4f1da6525ec9dc41a86ad4a2e0"},
+    {"name":"007-events.part-02.b64","bytes":180000,"sha256":"88c8a286379ee6034fb717873ed376bd116de28dadbdd57cbd5b9472ea2bc98b"},
+    {"name":"007-events.part-03.b64","bytes":180000,"sha256":"164198fd44e24528c9ad9ab535aeb64a5a73a203b5f62bae7c4daaff93b03bc3"},
+    {"name":"007-events.part-04.b64","bytes":180000,"sha256":"4c381e298dd924c0f43ce58c1bab438a8ff45481ef048b25711b8fbbafb9defc"},
+    {"name":"007-events.part-05.b64","bytes":126185,"sha256":"3c41f56667380b7c0de6f2e45e36d7175fb1c9ea238139c2b514910500424b75"}
+  ]
+}
