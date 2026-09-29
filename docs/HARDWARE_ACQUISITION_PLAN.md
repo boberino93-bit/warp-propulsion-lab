@@ -95,3 +95,8 @@ The Kibble Dynamic Force Reference was rejected at the first target-force eviden
 The [Wang et al. implementation screen](../research/hardware/wang-dynamic-force-screen-2026-09-29.md) verified published 120–300 µN dynamic waveforms, so the source clears the requested magnitude screen without extrapolation. It was rejected at the next frozen gate: no randomized bracketed signed -0.10/0/+0.10 mN raw record is published, and the reported 10–14 µN reconstruction error is neither a covariance-aware U95 nor evidence for the U95 <= 3.0 µN and |error| + U95 <= 5.0 µN limits. Later controls, rights and Canadian-BOM fields were stopped, not waived. No selection or purchase.
 
 NEXT ONE TEST: screen one primary-source dynamic-force implementation that publishes both target-band amplitudes and explicit bipolar force records; stop at the first unchanged mandatory failure.
+
+
+## PTB 0.1–200 mN machine screen — 2026-09-29 18:45 UTC
+
+The [PTB small-force machine screen](../research/hardware/ptb-small-force-machine-bipolar-screen-2026-09-29.md) confirms that the published range includes 0.1–1 mN and that the reference force closes through an externally supported electromagnetic-compensation machine. It does not publish an explicit randomized signed `-0.10/0/+0.10 mN` record: the reported experiments use positive pressing/loading, including an approximately +100 mN record. The candidate therefore fails the frozen bipolar-record gate. No selection or purchase is authorized.
