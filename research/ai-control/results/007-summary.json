@@ -1,0 +1,144 @@
+{
+  "007-adaptive-policy-observation-authority.md_blob": "802cdcfa5869481f1cccaf56487d88dbfdcdc308",
+  "007-authority-observation-schedule.csv_blob": "eec46a89ca789e7c492fcf20ee0027db645b0fe5",
+  "007-events.json.gz.b64_sha256": "ce5e3d149388e07a63ee4892762319b29254f8db0af3531a72a5c48ddacf344d",
+  "007-runs.csv_sha256": "e6fb3ab7a1bbc1c487c9cf5a74d941666df613a2679a498655c2a727d01ed710",
+  "agent_events": 14130,
+  "all_integrity_gates_pass": true,
+  "audit_events": 15065,
+  "authority_observation_007.py_blob": "e1fba1c0c52bf9c7393045675960997ed20baef8",
+  "authority_observation_007_schedule.py_blob": "b0ef7b3c6e1c6256b9cc3fd9e50b48c91fe6daa7",
+  "benign_false_stops": {
+    "dropout1000_enforced": {
+      "stops": 0,
+      "total": 500,
+      "wilson_95": [
+        4.303743383973282e-19,
+        0.007624340461552241
+      ]
+    },
+    "intact_enforced": {
+      "stops": 0,
+      "total": 500,
+      "wilson_95": [
+        4.303743383973282e-19,
+        0.007624340461552241
+      ]
+    }
+  },
+  "benign_seeds": 500,
+  "completion_rates": {
+    "dropout1000_enforced": {
+      "completed": 65,
+      "rate": 0.13,
+      "total": 500,
+      "wilson_95": [
+        0.10332065036463456,
+        0.16232136157691412
+      ]
+    },
+    "dropout1000_logging": {
+      "completed": 500,
+      "rate": 1.0,
+      "total": 500,
+      "wilson_95": [
+        0.9923756595384479,
+        1.0
+      ]
+    },
+    "intact_enforced": {
+      "completed": 0,
+      "rate": 0.0,
+      "total": 500,
+      "wilson_95": [
+        4.303743383973282e-19,
+        0.007624340461552241
+      ]
+    },
+    "intact_logging": {
+      "completed": 500,
+      "rate": 1.0,
+      "total": 500,
+      "wilson_95": [
+        0.9923756595384479,
+        1.0
+      ]
+    }
+  },
+  "control_invariants": {
+    "all_delivered_detections_logged": true,
+    "benign_false_stop_upper_below_2pct_each_enforced": true,
+    "enforced_detections_stop_immediately": true,
+    "logging_never_stops_or_locks_board": true
+  },
+  "controller_events": 935,
+  "elapsed_seconds": 37.49273110700051,
+  "hypotheses": {
+    "H1_authority_sufficiency_when_observed": true,
+    "H2_observation_dependence_under_enforcement": true,
+    "H3_observation_equivalence_without_authority": true,
+    "H4_separation_interaction": true
+  },
+  "interpretation": "deterministic offline scripted-toy authority/observation evidence only; not learned-model, adaptive-system, or deployed-system evidence",
+  "matched_contrasts": {
+    "authority_dropout": {
+      "bootstrap_95": [
+        -0.898,
+        -0.84
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 424072,
+      "left_minus_right": "dropout1000_enforced - dropout1000_logging",
+      "matched_risk_difference": -0.87
+    },
+    "authority_intact": {
+      "bootstrap_95": [
+        -1.0,
+        -1.0
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 424071,
+      "left_minus_right": "intact_enforced - intact_logging",
+      "matched_risk_difference": -1.0
+    },
+    "interaction": {
+      "bootstrap_95": [
+        0.102,
+        0.16
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 424075,
+      "definition": "observation_enforced - observation_logging",
+      "matched_risk_difference": 0.13
+    },
+    "observation_enforced": {
+      "bootstrap_95": [
+        0.1,
+        0.16
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 424073,
+      "left_minus_right": "dropout1000_enforced - intact_enforced",
+      "matched_risk_difference": 0.13
+    },
+    "observation_logging": {
+      "bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 424074,
+      "left_minus_right": "dropout1000_logging - intact_logging",
+      "matched_risk_difference": 0.0
+    }
+  },
+  "peak_traced_python_bytes": 19231056,
+  "reserved_seed_first": 424000,
+  "reserved_seed_last": 424999,
+  "runs": 4000,
+  "runs_if_explicitly_started": 4000,
+  "schedule_sha256": "a25622571b608b1f8879fce05fe6c96708ac2590004ada67bf86200674add15a",
+  "schema": "ai-control-authority-observation-007-results-v1",
+  "source_commit": "301ae180944d7fa3d0c6c03dc4a40ba2acf330bf",
+  "violation_seeds": 500
+}
