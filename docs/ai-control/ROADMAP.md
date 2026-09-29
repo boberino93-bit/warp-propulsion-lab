@@ -98,3 +98,8 @@ An unchanged fresh-seed replication of experiment 007 is frozen before implement
 ### Replication 008 implementation — 2026-09-29 08:43 UTC
 
 The unchanged replication-specific policy, schedule and explicit controller plus nonconfirmatory containment/artifact tests are implemented. Only namespace, reserved/bootstrap seeds, source provenance and output identifiers differ from experiment 007. Import and preflight execute no trial, and the fixture rejects reserved seeds outside the explicit confirmatory gate. Seeds `425000..425999` have not run. Next: execute the frozen 4,000-run block exactly once after merged-blob verification; abort without estimates on any integrity or containment failure.
+
+
+### Experiment 008 result (2026-09-29)
+
+The unchanged fresh-seed replication completed once and reproduced experiment 007's qualitative result. Enforced authority prevented every observed violation; 10% deterministic observation dropout permitted 44/500 violation completions despite authority, while logging-only permitted 500/500 in both observation conditions. All integrity, containment, null-control and resource gates passed. Complete artifacts and independent verifier tests are retained. Next work must be preregistered before code or outcomes.
