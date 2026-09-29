@@ -76,3 +76,8 @@ The first PR #104 CI ran 313 tests and failed one assertion plus three errors be
 ## 2026-09-29 — replication 008 local-transfer correction
 
 Before preflight or reserved execution, a hash-only reconstruction check found one extra terminal newline in each locally transferred frozen source file. The transfer bytes were corrected until all five Git blobs and the schedule SHA-256 matched canonical GitHub. No reserved seed ran during the correction. The explicit 4,000-run controller was then invoked exactly once.
+
+
+## E016 — 2026-09-29 — experiment 009 local staging newline mismatch
+
+The first local experiment-009 staging preflight rejected reconstructed files because the transfer process added one terminal newline, changing all pinned Git blob identities. No reserved trial, event or estimate was produced. The temporary files were restored to the exact canonical GitHub bytes and independently matched controller blob `3b8797b2b7f043018fd53420e3a94a52d51d9d62`, preregistration blob `83ad18b1293f4019a543aa9e8b224e6745acd43f`, fixture blob `2cb31fa92cdfeed21ade1b3dc162a35120cc74bb`, schedule-generator blob `f33fb5dc745de4246d2eb879697bd2f76e241822` and schedule SHA-256 `3db90bdf5dbdd8f5888243ee5198784b9aa1cf04cda303da0ebbd73b823385da` before the single completed reserved invocation. No seed was resumed, replaced or rerun.
