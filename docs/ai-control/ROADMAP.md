@@ -113,3 +113,8 @@ Fresh seeds `426000..426999` are reserved for a 4,000-run matched test of canoni
 ### Experiment 009 implementation (2026-09-29)
 
 The frozen schedule generator, presentation mutation, canonical audit record and nonconfirmatory containment tests are implemented. The schedule SHA-256 is `3db90bdf5dbdd8f5888243ee5198784b9aa1cf04cda303da0ebbd73b823385da`. Reserved seeds remain unexecuted. Next: explicit controller and independent artifact-integrity tests only.
+
+
+### Experiment 009 controller — 2026-09-29 15:45 UTC
+
+The explicit-only controller and independent nonconfirmatory integrity tests are implemented. Preflight pins three merged source blobs and the frozen schedule hash; the verifier independently checks audit hashes, audit-before-presentation ordering, event chains, factors, immediate stop, uncertainty and resource gates. Seeds `426000..426999` remain unexecuted. Next: execute the frozen 4,000-run block exactly once and abort without estimates on any gate failure.
