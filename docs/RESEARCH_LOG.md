@@ -247,3 +247,11 @@ The Kibble Dynamic Force Reference has a defined external reaction boundary and 
 ## 2026-09-29 15:35 UTC — target-band dynamic-force implementation screen
 
 Starting merged main `4c62fe2fc3f2d2bb3cc602263be6322c15fd287d`, screened Wang et al., DOI 10.1063/1.5037365. The paper publishes 120–300 µN dynamic waveforms and therefore clears the bounded 0.1–1 mN magnitude query. It fails the next frozen evidence field: no randomized bracketed signed ±0.10 mN raw sequence, and its 10–14 µN reconstruction error is not a covariance-aware expanded uncertainty meeting U95 <= 3.0 µN and |error| + U95 <= 5.0 µN. Later gates stopped, not waived. No hardware or physical experiment.
+
+
+## 2026-09-29 18:45 UTC — PTB small-force machine bipolar screen
+
+- Audited Schlegel, Slanina, Haucke and Kumme's PTB force-standard machine (0.1–200 mN; DOI `10.1016/j.measurement.2011.11.022`) against the frozen signed target-band acquisition gates.
+- The stated range covers 0.1–1 mN. The force closes through the externally supported transducer, electromagnetic compensated balance, nanopositioning table and frame; the balance's Lorentz-force compensation provides the reference indication.
+- Rejected at the first mandatory failure: the published record is positive pressing/loading, including approximately +100 mN, with no explicit randomized bracketed `-0.10/0/+0.10 mN` force record. Remaining uncertainty, raw-record, controls, rights and Canadian-BOM gates were stopped, not waived.
+- Evidence status: negative public-document screen only; no physical experiment, hardware selection, thrust measurement or propulsion discovery.

@@ -201,3 +201,12 @@ Latest session: `research/sessions/2026-09-29-0837-UTC.md`. A one-pass live rech
 - Rejected at the next gate: no randomized bracketed bipolar ±0.10 mN raw sequence, and reported 10–14 µN reconstruction error is not a qualifying U95 and exceeds the 3.0 µN ceiling if conservatively compared.
 - No hardware selection, purchase, build, calibration or thrust measurement.
 - **NEXT ONE TEST:** screen one primary-source dynamic-force implementation with target-band amplitudes and explicit bipolar force records; apply the unchanged remaining gates and stop at the first failure.
+
+
+## 2026-09-29 18:45 UTC handoff
+
+- Main base inspected: `db6933eb0420da5ded3d3569e6dd01f41be1a2b8`; no open PR or overlapping branch edit was found before this bounded advance.
+- Screened Schlegel et al.'s PTB 0.1–200 mN force-standard machine. Its stated range covers 0.1–1 mN and its momentum boundary closes through the transducer/ECB/nanopositioner/frame.
+- Rejected at the first mandatory gate: the paper publishes positive pressing/loading and an approximately +100 mN time record, not an explicit randomized signed `-0.10/0/+0.10 mN` record. Later uncertainty/raw-data/control/rights/BOM gates were stopped, not waived.
+- No hardware was selected, purchased, built or tested; no thrust was measured.
+- **NEXT ONE TEST:** screen one primary-source target-band force implementation publishing explicit negative, zero and positive force records; apply the unchanged gates and stop at the first mandatory failure.
