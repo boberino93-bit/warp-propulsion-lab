@@ -50,11 +50,11 @@ BOOTSTRAP_SEEDS = (425_071, 425_072, 425_073, 425_074, 425_075)
 _ROOT = Path(__file__).resolve().parents[1]
 _PINNED = {
     _ROOT / "research" / "ai-control" / "preregistrations" /
-    "008-adaptive-policy-observation-authority.md": EXPECTED_PREREGISTRATION_BLOB,
+    "008-authority-observation-replication.md": EXPECTED_PREREGISTRATION_BLOB,
     _ROOT / "ai_control" / "authority_observation_008.py": EXPECTED_POLICY_BLOB,
     _ROOT / "ai_control" / "authority_observation_008_schedule.py": EXPECTED_SCHEDULE_BLOB,
     _ROOT / "research" / "ai-control" / "schedules" /
-    "008-authority-observation-schedule.csv": EXPECTED_SCHEDULE_CSV_BLOB,
+    "008-authority-observation-replication-schedule.csv": EXPECTED_SCHEDULE_CSV_BLOB,
 }
 
 
