@@ -177,3 +177,12 @@ Verification update: corrected exact-head CI `3ce741b852e034b5bf5e82de628546c184
 - Standalone migration remains blocked by fresh HTTP 403 branch-write result.
 - Preregistration: `research/ai-control/preregistrations/009-canonical-audit-observation.md`.
 - **NEXT ONE TEST:** implement the schedule generator, mutation renderer, canonical audit record and nonconfirmatory containment tests using only nonreserved seeds; do not execute `426000..426999`.
+
+
+## 2026-09-29 14:35 UTC — experiment 009 implementation
+
+- Implemented the deterministic 4,000-row schedule generator, fixed field-splitting renderer, separately generated immutable canonical audit record and 12 nonconfirmatory tests.
+- Schedule SHA-256: `3db90bdf5dbdd8f5888243ee5198784b9aa1cf04cda303da0ebbd73b823385da`; exactly 500 violation labels across seeds `426000..426999`.
+- The fixture rejects reserved seeds in nonconfirmatory execution. No controller, reserved trial or outcome exists.
+- Standalone migration remains blocked by fresh HTTP 403.
+- **NEXT ONE TEST:** implement the explicit one-shot experiment-009 controller and independent artifact-integrity tests, pinning merged source blobs and schedule hash; do not execute reserved seeds.

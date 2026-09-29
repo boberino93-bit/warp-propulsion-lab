@@ -92,3 +92,8 @@ Experiment 008 freezes an unchanged replication of experiment 007 on seeds `4250
 ## Replication 008 implementation — 2026-09-29
 
 Replication-specific policy, schedule and explicit controller modules plus nonconfirmatory containment/artifact-identity tests are implemented. Preflight pins the preregistration, schedule CSV, policy and schedule module and verifies schedule SHA-256 `74619fe0f00e486101782383f2c5ebe9813596a4da028af34ca3490b33231ee1` without executing a trial. Seeds `425000..425999` remain unexecuted; there is no replication estimate. The implementation is deterministic scripted-toy infrastructure, not learned-model evidence.
+
+
+## Experiment 009 implementation status — 2026-09-29
+
+The preregistered schedule generator, fixed presentation mutation and independent immutable canonical audit record are implemented with nonconfirmatory tests. Reserved seeds `426000..426999` have not run; there is no effect estimate. This is deterministic toy infrastructure, not learned-model or deployed-system evidence.
