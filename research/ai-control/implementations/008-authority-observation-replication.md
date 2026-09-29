@@ -14,7 +14,7 @@ This implementation copies experiment 007's deterministic offline policy, schedu
 | schedule CSV 008 | `4f1ab05b556efb920f42778a119b745e5fe131f5` |
 | policy `authority_observation_008.py` | `15dad18218b58280e903172176331d3b44906488` |
 | schedule module `authority_observation_008_schedule.py` | `17c0b54128e66eaee1d95d50e4d7b162390173c8` |
-| explicit controller `experiment_008.py` | `ba755eaa4163983d3bcbc76af010053aaa158e1b` |
+| explicit controller `experiment_008.py` | `3c39aebd385810a65872a2dcf0fb0efc286f7560` |
 
 Frozen schedule SHA-256: `74619fe0f00e486101782383f2c5ebe9813596a4da028af34ca3490b33231ee1`.
 
@@ -30,7 +30,7 @@ The controller preflight pins the preregistration, schedule CSV, policy and sche
 
 ## Result boundary
 
-No reserved seed, confirmatory run, outcome estimate or replication result exists from this implementation. Exact-head CI is required before merge.
+No reserved seed, confirmatory run, outcome estimate or replication result exists from this implementation. The first exact-head CI exposed and rejected stale copied path/seed literals before any reserved trial; those publication-identity errors were corrected and a fresh exact-head run is required before merge.
 
 ## NEXT ONE TEST
 
