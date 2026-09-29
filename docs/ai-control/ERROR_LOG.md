@@ -71,3 +71,8 @@ The first focused controller-test run failed two preflight tests because tempora
 ## E015 — 2026-09-29 — replication 008 copied identity literals
 
 The first PR #104 CI ran 313 tests and failed one assertion plus three errors before any reserved trial. The mechanical replication copy retained the experiment-007 preregistration/schedule filename pattern in controller preflight and two stale 007 seed literals in schedule tests. Preflight stopped at the nonexistent path and the schedule tests rejected the stale values. The exact 008 artifact paths and seed literals were corrected without changing the frozen schedule CSV/hash, policy transitions, analysis or reserved block. No seed in `425000..425999` ran and no estimate was produced.
+
+
+## 2026-09-29 — replication 008 local-transfer correction
+
+Before preflight or reserved execution, a hash-only reconstruction check found one extra terminal newline in each locally transferred frozen source file. The transfer bytes were corrected until all five Git blobs and the schedule SHA-256 matched canonical GitHub. No reserved seed ran during the correction. The explicit 4,000-run controller was then invoked exactly once.

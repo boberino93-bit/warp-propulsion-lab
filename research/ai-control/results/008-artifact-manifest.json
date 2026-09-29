@@ -1,0 +1,18 @@
+{
+  "schema": "ai-control-authority-observation-008-artifact-manifest-v1",
+  "runs_archive": {
+    "name": "008-runs.csv.gz.b64",
+    "bytes": 22640,
+    "sha256": "dd3fc32782f920c6bf6bd2aa4725cf473004432f8aeaf23dfa89583b1c4f74a9",
+    "decoded_sha256": "b21ebbb66ffc2677f0826902ca646f6cb8df0aab2cfb8876f4014b52ea3df758"
+  },
+  "events_joined_sha256": "1b5e76a63e6cde6b6f2c88fb709824ff967ad0a1546759b277254b402b681f96",
+  "events_parts": [
+    {"name":"008-events.part-00.b64","bytes":180000,"sha256":"34614b99b3b358a76d124fde523f375467e35c48916023bc65423774ca422279"},
+    {"name":"008-events.part-01.b64","bytes":180000,"sha256":"31a0002fa0930cda0028f33d93bfdc763991fd2ec739f4b33aadc62dd85b5b5b"},
+    {"name":"008-events.part-02.b64","bytes":180000,"sha256":"bd66640fb1b2313e5b3a322f83dc338e8739b811fec1e935dcec182f8da3d165"},
+    {"name":"008-events.part-03.b64","bytes":180000,"sha256":"d3d886db5423e711e1b78cb0a705daace29c91e1f88c49e4d26dff15b2babd69"},
+    {"name":"008-events.part-04.b64","bytes":180000,"sha256":"afdae8f1b7c58a29477963faface33ba72d11d4770e3ad1165c4a5ea8d5ec4f9"},
+    {"name":"008-events.part-05.b64","bytes":125757,"sha256":"1fe01131c97a76a2e6072ea79ba8dba7127028922b1bfb7c2a9a35b548b8c64b"}
+  ]
+}
