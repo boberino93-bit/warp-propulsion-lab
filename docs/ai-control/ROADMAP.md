@@ -88,3 +88,8 @@ The explicit 4,000-run controller and nine independent nonreserved tests are imp
 ## 2026-09-29 — experiment 007 executed
 
 The preregistered 4,000-run authority × observation block ran exactly once and all integrity gates passed. Intact enforcement reduced scripted completions from 500/500 to 0/500; 10% deterministic observation dropout with enforcement yielded 65/500 completions, while logging-only remained 500/500 regardless of observation. No benign false stops occurred. Next: preregister an unchanged fresh-seed replication before implementation or execution.
+
+
+## 2026-09-29 — replication 008 preregistered
+
+An unchanged fresh-seed replication of experiment 007 is frozen before implementation or outcomes. Seeds `425000..425999`, the 4,000-row schedule, reference artifact identities, five contrasts, H1–H4, stopping criteria and integrity gates are fixed. No reserved trial ran. Next: implement replication-specific 008 modules and nonconfirmatory tests only.
