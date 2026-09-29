@@ -206,3 +206,10 @@ Starting canonical main `ae48cf6f6d601464c5552d21b26fc5567dbd5c49`. Froze a pape
 - Lam: Heriot-Watt identifies the corresponding-author role and institutional unit; ScienceDirect/institutional records expose no public artifact-package licence. Explicit written permission would be required for any nonpublic package.
 - This is a documentary route/rights result only. No hardware, purchase, calibration, measurement or propulsion result.
 - NEXT ONE TEST: freeze route-specific request drafts and a pre-send decision table; send nothing.
+
+
+## 2026-09-29 — route-specific request drafts (no send)
+
+Frozen artifact: `research/hardware/signed-force-route-specific-request-drafts-2026-09-29.md`.
+
+One draft per audited publication now maps field-for-field to the eight-item artifact-identity protocol. The DLR wording preserves the CC BY 4.0 article/unpublished-artifact boundary; the Lam wording requires explicit written permission for any nonpublic material. A pre-send table blocks sending until live identity, newly public package, external correction, route/rights, prior-contact and explicit authorization gates all pass in a later bounded session. No message, account, private contact detail, attachment, hardware action, measurement or propulsion result exists.
