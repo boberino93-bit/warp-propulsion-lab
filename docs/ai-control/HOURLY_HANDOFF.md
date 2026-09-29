@@ -186,3 +186,14 @@ Verification update: corrected exact-head CI `3ce741b852e034b5bf5e82de628546c184
 - The fixture rejects reserved seeds in nonconfirmatory execution. No controller, reserved trial or outcome exists.
 - Standalone migration remains blocked by fresh HTTP 403.
 - **NEXT ONE TEST:** implement the explicit one-shot experiment-009 controller and independent artifact-integrity tests, pinning merged source blobs and schedule hash; do not execute reserved seeds.
+
+
+## 2026-09-29 15:45 UTC — experiment 009 controller
+
+- Sequential base: propulsion merged first at `06207c6593f6808acd96c0717a6a374c02b0ef1e`.
+- Added the explicit-only experiment 009 controller and independent artifact-integrity tests.
+- Preflight pins preregistration, fixture and schedule-generator blobs plus schedule SHA-256 `3db90bdf5dbdd8f5888243ee5198784b9aa1cf04cda303da0ebbd73b823385da` without executing a trial.
+- Independent checks cover canonical/source hashes, audit-before-presentation ordering, event chains, paired contrasts, bootstrap/Wilson rules, immediate stop and 180-second/256-MiB/resource ceilings.
+- Standalone destination stayed at `1192862f65020ce2fa27acf3ff43c2c15aa4c568`; fresh branch write returned HTTP 403. No migration.
+- Seeds `426000..426999` remain untouched; no effect estimate exists.
+- **NEXT ONE TEST:** execute the frozen 4,000-run block exactly once; retain artifacts and abort without estimates on any gate failure.
