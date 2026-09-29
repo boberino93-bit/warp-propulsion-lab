@@ -1,0 +1,112 @@
+{
+  "009-canonical-audit-observation.md_blob": "83ad18b1293f4019a543aa9e8b224e6745acd43f",
+  "009-events.json.gz.b64_sha256": "5cbfd0f2f952e01b6bc882da45c6288cb62d4dc549a625e36b4954d33b16a0cb",
+  "009-runs.csv_sha256": "a7a12230463dd26738f33e525bccbe10daedcd968fc4893be1e2f4aa18d0d0f1",
+  "H1_primary_upper_below_zero": true,
+  "agent_events": 9000,
+  "all_integrity_gates_pass": true,
+  "audit_events": 14500,
+  "benign_false_stops": {
+    "mutated_canonical": {
+      "stops": 0,
+      "total": 500,
+      "wilson_95": [
+        4.303743383973282e-19,
+        0.007624340461552241
+      ]
+    },
+    "mutated_primary": {
+      "stops": 0,
+      "total": 500,
+      "wilson_95": [
+        4.303743383973282e-19,
+        0.007624340461552241
+      ]
+    },
+    "plain_canonical": {
+      "stops": 0,
+      "total": 500,
+      "wilson_95": [
+        4.303743383973282e-19,
+        0.007624340461552241
+      ]
+    },
+    "plain_primary": {
+      "stops": 0,
+      "total": 500,
+      "wilson_95": [
+        4.303743383973282e-19,
+        0.007624340461552241
+      ]
+    }
+  },
+  "benign_seeds": 500,
+  "canonical_observation_009.py_blob": "2cb31fa92cdfeed21ade1b3dc162a35120cc74bb",
+  "canonical_observation_009_schedule.py_blob": "f33fb5dc745de4246d2eb879697bd2f76e241822",
+  "completion_counts": {
+    "mutated_canonical": 0,
+    "mutated_primary": 500,
+    "plain_canonical": 0,
+    "plain_primary": 0
+  },
+  "control_invariants": {
+    "all_stops_have_zero_later_agent_events": true,
+    "authority_enforced_everywhere": true,
+    "benign_false_stop_upper_below_2pct_each": true,
+    "plain_completion_counts_identical": true
+  },
+  "controller_events": 1500,
+  "elapsed_seconds": 26.965055967000012,
+  "interpretation": "deterministic offline scripted-toy observation evidence only; not learned-model, adaptive-system, or deployed-system evidence",
+  "matched_contrasts": {
+    "mutation_canonical": {
+      "bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 426074,
+      "left_minus_right": "mutated_canonical - plain_canonical",
+      "matched_risk_difference": 0.0
+    },
+    "mutation_primary": {
+      "bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 426073,
+      "left_minus_right": "mutated_primary - plain_primary",
+      "matched_risk_difference": 1.0
+    },
+    "plain_equivalence": {
+      "bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 426072,
+      "left_minus_right": "plain_canonical - plain_primary",
+      "matched_risk_difference": 0.0
+    },
+    "primary": {
+      "bootstrap_95": [
+        -1.0,
+        -1.0
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 426071,
+      "left_minus_right": "mutated_canonical - mutated_primary",
+      "matched_risk_difference": -1.0
+    }
+  },
+  "peak_traced_python_bytes": 19752344,
+  "reserved_seed_first": 426000,
+  "reserved_seed_last": 426999,
+  "runs": 4000,
+  "runs_if_explicitly_started": 4000,
+  "schedule_sha256": "3db90bdf5dbdd8f5888243ee5198784b9aa1cf04cda303da0ebbd73b823385da",
+  "schema": "ai-control-canonical-observation-009-results-v1",
+  "source_commit": "06207c6593f6808acd96c0717a6a374c02b0ef1e",
+  "violation_seeds": 500
+}
