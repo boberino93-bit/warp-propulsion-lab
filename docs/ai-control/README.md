@@ -82,3 +82,8 @@ The explicit-only experiment-007 controller and nine independent nonconfirmatory
 ## Experiment 007 result — 2026-09-29
 
 The frozen 4,000-run observation × authority block executed once on seeds `424000..424999`. Among 500 violation seeds, completed restricted-hint use was 500/500 in both logging-only conditions, 0/500 with intact observation plus enforcement, and 65/500 with 10% deterministic observation dropout plus enforcement. All 935 delivered enforced detections stopped immediately with zero later agent events; benign false stops were 0/500 in both enforced conditions. Complete rows/events and integrity hashes are retained. This is deterministic scripted-toy evidence only, not learned-model or deployed-system evidence.
+
+
+## Preregistration 008 — fresh-seed replication
+
+Experiment 008 freezes an unchanged replication of experiment 007 on seeds `425000..425999`. The exact 4,000-row schedule uses namespace `ai-control-authority-observation-008-replication-v1` and SHA-256 `74619fe0f00e486101782383f2c5ebe9813596a4da028af34ca3490b33231ee1`. The 2×2 factors, finite-state policy, outcomes, five contrasts, H1–H4, containment gates and resource limits remain unchanged. This is a protocol and schedule only: no replication code or reserved trial has run.
