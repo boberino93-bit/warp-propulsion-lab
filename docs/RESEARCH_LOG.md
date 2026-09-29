@@ -242,3 +242,8 @@ The official NIST record establishes a 1 mg–20 g mass-realization range and la
 ## 2026-09-29 14:28 UTC — NIST KDFR target-force screen
 
 The Kibble Dynamic Force Reference has a defined external reaction boundary and corrected electrodynamic force model, but the 2024 NIST primary record targets 10 N amplitude over 100 Hz–10 kHz. It publishes no signed ±0.10 mN data. Because the requested 0.0001 N target is 100,000 times smaller, the candidate failed the first mandatory target-force evidence gate and no extrapolation was made. Later uncertainty, raw-record, rights and BOM gates were stopped, not waived. Retained as a negative literature result; no hardware, calibration, thrust or propulsion evidence.
+
+
+## 2026-09-29 15:35 UTC — target-band dynamic-force implementation screen
+
+Starting merged main `4c62fe2fc3f2d2bb3cc602263be6322c15fd287d`, screened Wang et al., DOI 10.1063/1.5037365. The paper publishes 120–300 µN dynamic waveforms and therefore clears the bounded 0.1–1 mN magnitude query. It fails the next frozen evidence field: no randomized bracketed signed ±0.10 mN raw sequence, and its 10–14 µN reconstruction error is not a covariance-aware expanded uncertainty meeting U95 <= 3.0 µN and |error| + U95 <= 5.0 µN. Later gates stopped, not waived. No hardware or physical experiment.
