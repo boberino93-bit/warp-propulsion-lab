@@ -137,3 +137,8 @@ Latest session: `research/sessions/2026-09-28-1934-UTC.md`. Froze a minimum evid
 ## Current propulsion handoff — 2026-09-28 20:27 UTC
 
 Latest session: `research/sessions/2026-09-28-2027-UTC.md`. Applied the frozen evidence-request matrix to public supplementary/raw-data locations for the DLR AST and Lam voice-coil publications. Both stopped at the first mandatory missing field: no versioned exact-apparatus/raw-package identity and hash was publicly verifiable. DLR’s official article says data/materials availability is not applicable; the Lam publisher endpoint exposed no such package and direct access returned HTTP 403. Later fields were not scored. No contact, purchase, build, calibration, force measurement or propulsion result. NEXT ONE TEST: preregister a bounded privacy-preserving author data-request protocol asking only for the missing artifact-identity fields; freeze consent/credit/licensing handling and send nothing.
+
+
+## Current propulsion handoff — 2026-09-29 01:26 UTC
+
+Latest session: `research/sessions/2026-09-29-0126-UTC.md`. Froze a privacy-preserving request protocol for the exact artifact-identity fields missing from the DLR AST and Lam voice-coil public records. It limits any later request to existing apparatus/drawing/BOM/software revisions, raw-package identifier/hash, location and reuse terms; freezes consent, credit, rights, attachment quarantine, redaction, contact-count and stopping rules. No message was sent, no person contacted and no candidate status changed. No hardware or measurement. NEXT ONE TEST: audit one public institutional or publisher-designated professional contact route and current rights statement for each publication without sending, opening an account or collecting private contact data.

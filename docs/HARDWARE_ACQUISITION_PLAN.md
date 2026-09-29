@@ -48,3 +48,8 @@ Before any author/supplier contact or pricing, apply `research/hardware/signed-f
 ## Public artifact audit result — 2026-09-28
 
 The [bounded public artifact audit](../research/hardware/signed-force-public-artifact-audit-2026-09-28.md) stopped both the DLR AST and Lam voice-coil candidates at the first mandatory evidence-request field after source identity: no versioned exact-apparatus/raw-package identity and integrity hash was publicly verifiable through the inspected official locations. DLR explicitly reports data/materials availability as not applicable; the accessible Lam publisher record exposed no qualifying package. Later acquisition fields remain unscored. This is not evidence that unpublished artifacts do not exist and does not authorize contact or purchase. Next: preregister a privacy-preserving request limited to the exact missing fields; send nothing during preregistration.
+
+
+## Signed-force author-request protocol — 2026-09-29
+
+The [frozen request protocol](../research/hardware/signed-force-author-request-preregistration-2026-09-29.md) limits any later author contact to existing artifact-identity fields for the DLR AST and Lam voice-coil publications. It does not authorize a message, account, attachment use, hardware choice or purchase. Consent, reuse rights, credit, redaction, attachment quarantine and stopping rules must be satisfied before any received material enters the public evidence track. Both candidates remain incomplete.

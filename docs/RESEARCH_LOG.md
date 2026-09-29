@@ -186,3 +186,13 @@ Starting canonical main `ae48cf6f6d601464c5552d21b26fc5567dbd5c49`. Froze a pape
 - No contact, hardware, price, purchase, build, calibration, force measurement or propulsion result.
 - Sources: https://doi.org/10.1140/epjti/s40485-021-00074-7 ; https://doi.org/10.1016/j.measurement.2018.09.029
 - NEXT ONE TEST: preregister a bounded privacy-preserving author data-request protocol for the missing artifact identities; send nothing.
+
+
+## 2026-09-29 01:26 UTC — signed-force artifact request preregistration
+
+- Froze a minimum privacy-preserving request protocol for the DLR AST and Lam voice-coil candidates before any contact.
+- A later request may ask only for existing apparatus/drawing/BOM/software revisions, raw-package identifier and digest, public location, reuse terms, or a concise no-package/not-shareable status.
+- Private contact data, new analysis, proprietary/safety-sensitive material, endorsement and new experiments are out of scope. Consent, credit, rights, redaction, attachment quarantine, one-request/one-follow-up limits and stop rules are frozen.
+- No message, form or social contact was sent; no account was opened. Candidate status remains `INCOMPLETE — REQUEST EXACT FIELD: artifact identity`.
+- No hardware, price, purchase, build, calibration, force measurement or propulsion result.
+- NEXT ONE TEST: audit one public professional contact route and rights statement per publication without sending or collecting private data.
