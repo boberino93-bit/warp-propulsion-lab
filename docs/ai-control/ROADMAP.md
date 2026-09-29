@@ -103,3 +103,8 @@ The unchanged replication-specific policy, schedule and explicit controller plus
 ### Experiment 008 result (2026-09-29)
 
 The unchanged fresh-seed replication completed once and reproduced experiment 007's qualitative result. Enforced authority prevented every observed violation; 10% deterministic observation dropout permitted 44/500 violation completions despite authority, while logging-only permitted 500/500 in both observation conditions. All integrity, containment, null-control and resource gates passed. Complete artifacts and independent verifier tests are retained. Next work must be preregistered before code or outcomes.
+
+
+### Experiment 009 preregistered (2026-09-29)
+
+Fresh seeds `426000..426999` are reserved for a 4,000-run matched test of canonical observation redundancy under one fixed presentation-format mutation, with enforcement authority fixed. Design and stopping rules are frozen; no schedule, implementation or outcome exists. Next: nonconfirmatory implementation using nonreserved seeds only.
