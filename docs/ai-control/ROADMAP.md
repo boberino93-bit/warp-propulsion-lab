@@ -93,3 +93,8 @@ The preregistered 4,000-run authority × observation block ran exactly once and 
 ## 2026-09-29 — replication 008 preregistered
 
 An unchanged fresh-seed replication of experiment 007 is frozen before implementation or outcomes. Seeds `425000..425999`, the 4,000-row schedule, reference artifact identities, five contrasts, H1–H4, stopping criteria and integrity gates are fixed. No reserved trial ran. Next: implement replication-specific 008 modules and nonconfirmatory tests only.
+
+
+### Replication 008 implementation — 2026-09-29 08:43 UTC
+
+The unchanged replication-specific policy, schedule and explicit controller plus nonconfirmatory containment/artifact tests are implemented. Only namespace, reserved/bootstrap seeds, source provenance and output identifiers differ from experiment 007. Import and preflight execute no trial, and the fixture rejects reserved seeds outside the explicit confirmatory gate. Seeds `425000..425999` have not run. Next: execute the frozen 4,000-run block exactly once after merged-blob verification; abort without estimates on any integrity or containment failure.
