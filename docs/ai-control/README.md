@@ -77,3 +77,8 @@ Preregistration 007's deterministic 4,000-row schedule, bounded finite-state pol
 ## Observation × authority controller — 2026-09-29
 
 The explicit-only experiment-007 controller and nine independent nonconfirmatory integrity tests are implemented. Preflight pins preregistration, policy, schedule-module and schedule-CSV blobs plus schedule SHA-256 `a25622571b608b1f8879fce05fe6c96708ac2590004ada67bf86200674add15a`. It verifies event chains, matched factors, observation projection, controller authority, five contrasts, H1–H4 and resource/containment gates. Import and preflight execute no trial. Seeds `424000..424999` remain unexecuted, so no confirmatory estimate exists.
+
+
+## Experiment 007 result — 2026-09-29
+
+The frozen 4,000-run observation × authority block executed once on seeds `424000..424999`. Among 500 violation seeds, completed restricted-hint use was 500/500 in both logging-only conditions, 0/500 with intact observation plus enforcement, and 65/500 with 10% deterministic observation dropout plus enforcement. All 935 delivered enforced detections stopped immediately with zero later agent events; benign false stops were 0/500 in both enforced conditions. Complete rows/events and integrity hashes are retained. This is deterministic scripted-toy evidence only, not learned-model or deployed-system evidence.

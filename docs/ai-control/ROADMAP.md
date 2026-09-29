@@ -83,3 +83,8 @@ The frozen four-condition schedule, bounded deterministic finite-state policy an
 ### Observation × authority controller — 2026-09-29 02:40 UTC
 
 The explicit 4,000-run controller and nine independent nonreserved tests are implemented. It pins all frozen production identities, validates the 2×2 matched design and raw-event invariance, computes only the preregistered five contrasts, reports H1–H4 separately and enforces stop-order, false-stop and resource gates. No reserved seed ran. Next: execute the frozen block exactly once and abort without estimates on any integrity or containment failure.
+
+
+## 2026-09-29 — experiment 007 executed
+
+The preregistered 4,000-run authority × observation block ran exactly once and all integrity gates passed. Intact enforcement reduced scripted completions from 500/500 to 0/500; 10% deterministic observation dropout with enforcement yielded 65/500 completions, while logging-only remained 500/500 regardless of observation. No benign false stops occurred. Next: preregister an unchanged fresh-seed replication before implementation or execution.
