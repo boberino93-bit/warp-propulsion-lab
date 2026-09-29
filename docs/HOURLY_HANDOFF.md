@@ -172,3 +172,13 @@ Latest session: `research/sessions/2026-09-29-0837-UTC.md`. A one-pass live rech
 - Artifact: `research/hardware/pb1-signed-force-screen-2026-09-29.md`.
 - Session: `research/sessions/2026-09-29-0930-UTC.md`.
 - **NEXT ONE TEST:** screen NIST KIBB-g2.0 for documented signed low-force cycles, complete uncertainty near ±0.10 mN, public raw records, and explicit reusable construction/source rights; stop at the first mandatory failure and make no purchase.
+
+
+## 2026-09-29 13:32 UTC handoff
+
+- Screened NIST KIBB-g2.0 against the frozen signed ±0.10 mN gate.
+- Range passes: NIST reports 1 mg–20 g, including the 10.197162130 mg equivalent of 0.10 mN.
+- First mandatory failure: the public record describes upward electromagnetic force balancing downward gravity, not randomized signed `-0.10/0/+0.10 mN` cycles or complete physical reversal at target.
+- Later uncertainty, raw-data, rights and BOM gates were stopped, not waived. No hardware action or measurement.
+- Artifact: `research/hardware/nist-kibbg2-signed-force-screen-2026-09-29.md`.
+- **NEXT ONE TEST:** screen NIST's Kibble Dynamic Force Reference for signed ±0.10 mN data, complete target uncertainty, public raw records and reusable construction rights; stop at first failure.
