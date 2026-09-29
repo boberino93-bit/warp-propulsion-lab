@@ -58,3 +58,8 @@ The [frozen request protocol](../research/hardware/signed-force-author-request-p
 ## 2026-09-29 — author-route rights gate
 
 The documentary artifact-request track now has one verified public professional route role per target publication. The DLR article is CC BY 4.0 with third-party exclusions, but unpublished artifacts remain outside that automatic grant. The Lam record exposes no public package licence, so explicit written permission is mandatory before inspection or redistribution of any nonpublic material. No contact, account, purchase or hardware action occurred. The acquisition gate remains closed.
+
+
+## 2026-09-29 — route-specific request drafts (not sent)
+
+The [two route-specific drafts and pre-send table](../research/hardware/signed-force-route-specific-request-drafts-2026-09-29.md) implement the frozen eight-field request for the DLR and Lam publication records. Unrechecked live-record, public-package, external-correction, prior-contact and explicit-authorization gates default to `SEND BLOCKED`. No outreach, account, contact detail, attachment, hardware choice, purchase or measurement occurred; the acquisition gate remains closed.
