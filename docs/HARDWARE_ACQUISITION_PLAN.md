@@ -53,3 +53,8 @@ The [bounded public artifact audit](../research/hardware/signed-force-public-art
 ## Signed-force author-request protocol — 2026-09-29
 
 The [frozen request protocol](../research/hardware/signed-force-author-request-preregistration-2026-09-29.md) limits any later author contact to existing artifact-identity fields for the DLR AST and Lam voice-coil publications. It does not authorize a message, account, attachment use, hardware choice or purchase. Consent, reuse rights, credit, redaction, attachment quarantine and stopping rules must be satisfied before any received material enters the public evidence track. Both candidates remain incomplete.
+
+
+## 2026-09-29 — author-route rights gate
+
+The documentary artifact-request track now has one verified public professional route role per target publication. The DLR article is CC BY 4.0 with third-party exclusions, but unpublished artifacts remain outside that automatic grant. The Lam record exposes no public package licence, so explicit written permission is mandatory before inspection or redistribution of any nonpublic material. No contact, account, purchase or hardware action occurred. The acquisition gate remains closed.

@@ -142,3 +142,8 @@ Latest session: `research/sessions/2026-09-28-2027-UTC.md`. Applied the frozen e
 ## Current propulsion handoff — 2026-09-29 01:26 UTC
 
 Latest session: `research/sessions/2026-09-29-0126-UTC.md`. Froze a privacy-preserving request protocol for the exact artifact-identity fields missing from the DLR AST and Lam voice-coil public records. It limits any later request to existing apparatus/drawing/BOM/software revisions, raw-package identifier/hash, location and reuse terms; freezes consent, credit, rights, attachment quarantine, redaction, contact-count and stopping rules. No message was sent, no person contacted and no candidate status changed. No hardware or measurement. NEXT ONE TEST: audit one public institutional or publisher-designated professional contact route and current rights statement for each publication without sending, opening an account or collecting private contact data.
+
+
+## Current propulsion handoff — 2026-09-29 02:34 UTC
+
+Latest session: `research/sessions/2026-09-29-0234-UTC.md`. The public route/rights audit verified a publisher-designated corresponding-author role and institutional route for both the DLR AST and Lam voice-coil publications. The DLR article is CC BY 4.0 with third-party exclusions and states data/materials are not applicable; that article licence does not cover unpublished apparatus/software/raw packages. The Lam publisher/institutional records expose no public artifact-package licence; any nonpublic package requires explicit written permission. No message was sent, no account opened and no contact detail retained. Candidate evidence remains incomplete. NEXT ONE TEST: freeze two route-specific, field-for-field request drafts and a pre-send decision table; send nothing and expose no contact details.
