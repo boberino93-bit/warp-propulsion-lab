@@ -23,3 +23,10 @@ Tests demonstrate programmed invariants only. They are not a confirmatory experi
 ## Next one test
 
 Implement an explicit one-shot experiment-009 controller and independent artifact-integrity tests that pin the merged preregistration, schedule generator, fixture and schedule hash. Do not execute reserved seeds.
+
+
+## One-shot controller status — 2026-09-29 15:45 UTC
+
+`ai_control/experiment_009.py` and `tests/ai_control/test_experiment_009.py` implement explicit-only execution, merged-source and schedule preflight, independent canonical/event integrity checks, frozen contrasts and uncertainty, containment/resource gates and deterministic artifact writing. Import and preflight execute no trial. Reserved seeds `426000..426999` remain unexecuted.
+
+NEXT ONE TEST: execute the frozen 4,000-run block exactly once after merged readback; abort without estimates on any failure.
