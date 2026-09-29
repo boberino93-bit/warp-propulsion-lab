@@ -232,3 +232,8 @@ Both frozen DLR and Lam route-specific drafts contain all eight preregistered ar
 ## 2026-09-29 09:30 UTC — PB1 signed-force screen
 
 Planck-Balance 1 was screened as one additional reversible reference-force implementation. `0.100000 mN` equals `10.197162130 mg` at standard gravity. The candidate failed the first mandatory experimental gate: its published mass-on/mass-off ABBA work does not demonstrate randomized signed `-0.10/0/+0.10 mN` applied-force cycles, and the paper says equal-magnitude opposite-current tare operation becomes difficult below 1 g. Later gates were not reached. The article license was not generalized to apparatus-source rights. Retained as a negative literature result; no purchase, build, calibration, thrust measurement, propulsion evidence, or discovery. Primary source: https://doi.org/10.21014/acta_imeko.v9i5.937
+
+
+## 2026-09-29 13:32 UTC — NIST KIBB-g2.0 screen
+
+The official NIST record establishes a 1 mg–20 g mass-realization range and laboratory-supported electromagnetic force balance. The 0.10 mN target equals 10.197162130 mg at standard gravity. The candidate failed the first mandatory signed-cycle gate because the public record describes upward electromagnetic balancing of downward gravity, not randomized signed `-0.10/0/+0.10 mN` applied-force cycles or complete reversal at target. Later gates were stopped, not waived. Retained negative screen; no hardware, calibration, thrust or propulsion evidence.
