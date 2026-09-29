@@ -83,3 +83,8 @@ Planck-Balance 1 was rejected before BOM work. It did not publish randomized sig
 ### 2026-09-29 — NIST KIBB-g2.0 screen
 
 KIBB-g2.0 was rejected at the first signed-cycle evidence gate. Its reported 1 mg–20 g range includes the target mass equivalent, but the public record does not demonstrate randomized signed ±0.10 mN applied-force cycles or full reversal. Later uncertainty, raw-data, rights and BOM gates were not reached. Patent/commercialization notices were not treated as open construction rights. No purchase or hardware selection occurred.
+
+
+### 2026-09-29 — NIST KDFR target-force screen
+
+The Kibble Dynamic Force Reference was rejected at the first target-force evidence gate. NIST's 2024 primary record targets 10 N amplitude over 100 Hz–10 kHz with 1% uncertainty and does not publish a signed ±0.10 mN dataset. The target-force ratio is 100,000:1, so no lower-force extrapolation was accepted. Later raw-data, target-specific uncertainty, construction-rights and Canadian-BOM gates were not reached. No component was selected or purchased.

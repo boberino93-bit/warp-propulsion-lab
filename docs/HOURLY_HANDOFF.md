@@ -182,3 +182,13 @@ Latest session: `research/sessions/2026-09-29-0837-UTC.md`. A one-pass live rech
 - Later uncertainty, raw-data, rights and BOM gates were stopped, not waived. No hardware action or measurement.
 - Artifact: `research/hardware/nist-kibbg2-signed-force-screen-2026-09-29.md`.
 - **NEXT ONE TEST:** screen NIST's Kibble Dynamic Force Reference for signed ±0.10 mN data, complete target uncertainty, public raw records and reusable construction rights; stop at first failure.
+
+
+## 2026-09-29 14:28 UTC handoff
+
+- Screened NIST's Kibble Dynamic Force Reference against the frozen signed ±0.10 mN acquisition gates.
+- First mandatory failure: the 2024 primary record targets 10 N amplitude over 100 Hz–10 kHz and publishes no ±0.10 mN dataset. The requested force is 100,000 times smaller; no extrapolation was made.
+- Later target-specific uncertainty, raw-record, construction-rights and Canadian-BOM gates were stopped, not waived. No hardware action or measurement.
+- Artifact: `research/hardware/nist-kdfr-target-force-screen-2026-09-29.md`.
+- Session: `research/sessions/2026-09-29-1428-UTC.md`.
+- **NEXT ONE TEST:** screen one primary-source dynamic-force implementation publishing amplitudes spanning 0.1–1 mN; apply the unchanged signed-cycle, uncertainty, raw-record, rights and Canadian-BOM gates and stop at first failure.

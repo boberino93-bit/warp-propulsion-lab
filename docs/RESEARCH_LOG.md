@@ -237,3 +237,8 @@ Planck-Balance 1 was screened as one additional reversible reference-force imple
 ## 2026-09-29 13:32 UTC — NIST KIBB-g2.0 screen
 
 The official NIST record establishes a 1 mg–20 g mass-realization range and laboratory-supported electromagnetic force balance. The 0.10 mN target equals 10.197162130 mg at standard gravity. The candidate failed the first mandatory signed-cycle gate because the public record describes upward electromagnetic balancing of downward gravity, not randomized signed `-0.10/0/+0.10 mN` applied-force cycles or complete reversal at target. Later gates were stopped, not waived. Retained negative screen; no hardware, calibration, thrust or propulsion evidence.
+
+
+## 2026-09-29 14:28 UTC — NIST KDFR target-force screen
+
+The Kibble Dynamic Force Reference has a defined external reaction boundary and corrected electrodynamic force model, but the 2024 NIST primary record targets 10 N amplitude over 100 Hz–10 kHz. It publishes no signed ±0.10 mN data. Because the requested 0.0001 N target is 100,000 times smaller, the candidate failed the first mandatory target-force evidence gate and no extrapolation was made. Later uncertainty, raw-record, rights and BOM gates were stopped, not waived. Retained as a negative literature result; no hardware, calibration, thrust or propulsion evidence.
