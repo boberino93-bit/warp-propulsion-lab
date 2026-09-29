@@ -73,3 +73,8 @@ A field-for-field dry audit found both frozen publication-family drafts complete
 ## 2026-09-29 — signed-force live pre-send recheck
 
 The [one-pass live recheck](../research/hardware/signed-force-live-gate-recheck-2026-09-29.md) retained `SEND BLOCKED` for both publication families. DLR still exposes no qualifying package and reports data/materials as not applicable. The Lam publisher record still identifies the exact article, but no qualifying package was exposed and the previously used institutional endpoint was inaccessible. Complete off-repository prior-contact history remains unestablished. No contact, hardware choice, purchase, build, calibration or measurement occurred.
+
+
+### 2026-09-29 — PB1 candidate screen
+
+Planck-Balance 1 was rejected before BOM work. It did not publish randomized signed `-0.10/0/+0.10 mN` applied-force cycles with the reported apparatus; equal/opposite-current tare operation is described as difficult below 1 g. Later public-data, construction-rights, uncertainty, and cost gates were stopped rather than waived. The paper's CC BY 4.0 license does not establish reusable apparatus source. See `research/hardware/pb1-signed-force-screen-2026-09-29.md`. No component was selected or purchased.

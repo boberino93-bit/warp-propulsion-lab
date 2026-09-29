@@ -162,3 +162,13 @@ Latest session: `research/sessions/2026-09-29-0725-UTC.md`. The dry no-send audi
 ## Current propulsion handoff — 2026-09-29 08:37 UTC
 
 Latest session: `research/sessions/2026-09-29-0837-UTC.md`. A one-pass live recheck retained `SEND BLOCKED` for both DLR and Lam publication families. DLR's article still reports data/materials availability as not applicable; Lam's exact article remains identifiable, but no qualifying package was exposed and the previously used institutional endpoint was inaccessible. Complete off-repository prior-contact history is not establishable. No contact, hardware action or experiment occurred. NEXT ONE TEST: screen one different openly documented, inherently reversible ±0.10 mN reference-force implementation for a public raw calibration package, explicit construction/reuse rights and a complete uncertainty record; stop at the first mandatory failure and make no purchase.
+
+
+## 2026-09-29 09:30 UTC handoff
+
+- Screened Planck-Balance 1 against the frozen ±0.10 mN reversible reference-force gate.
+- Retained negative result: the paper documents mass-on/mass-off ABBA operation and opposite coil currents, but not randomized signed `-0.10/0/+0.10 mN` applied-force cycles; it states equal-and-opposite-current tare operation becomes difficult below 1 g.
+- Later acquisition gates were stopped, not waived. Article CC BY 4.0 was not treated as hardware/source licensing. No purchase, build, calibration, or thrust measurement.
+- Artifact: `research/hardware/pb1-signed-force-screen-2026-09-29.md`.
+- Session: `research/sessions/2026-09-29-0930-UTC.md`.
+- **NEXT ONE TEST:** screen NIST KIBB-g2.0 for documented signed low-force cycles, complete uncertainty near ±0.10 mN, public raw records, and explicit reusable construction/source rights; stop at the first mandatory failure and make no purchase.

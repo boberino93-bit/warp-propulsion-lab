@@ -227,3 +227,8 @@ Both frozen DLR and Lam route-specific drafts contain all eight preregistered ar
 - The Lam publisher record still identifies the exact article, but no qualifying package was exposed; the institutional endpoint was inaccessible, so current route/artifact-rights evidence remained unresolved.
 - Complete off-repository prior-contact history could not be established. Both families remain `SEND BLOCKED`; no contact, hardware action or propulsion result.
 - NEXT ONE TEST: screen one different openly documented, inherently reversible ±0.10 mN reference-force implementation for public raw calibration, explicit reuse rights and complete uncertainty evidence.
+
+
+## 2026-09-29 09:30 UTC — PB1 signed-force screen
+
+Planck-Balance 1 was screened as one additional reversible reference-force implementation. `0.100000 mN` equals `10.197162130 mg` at standard gravity. The candidate failed the first mandatory experimental gate: its published mass-on/mass-off ABBA work does not demonstrate randomized signed `-0.10/0/+0.10 mN` applied-force cycles, and the paper says equal-magnitude opposite-current tare operation becomes difficult below 1 g. Later gates were not reached. The article license was not generalized to apparatus-source rights. Retained as a negative literature result; no purchase, build, calibration, thrust measurement, propulsion evidence, or discovery. Primary source: https://doi.org/10.21014/acta_imeko.v9i5.937
