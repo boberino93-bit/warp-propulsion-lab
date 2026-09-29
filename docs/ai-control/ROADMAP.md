@@ -78,3 +78,8 @@ Preregistration 007 reserves fresh seeds `424000..424999` for 4,000 matched runs
 ### Observation × authority implementation — 2026-09-29 01:30 UTC
 
 The frozen four-condition schedule, bounded deterministic finite-state policy and 13 nonconfirmatory integrity/containment fixtures are implemented. Schedule SHA-256: `a25622571b608b1f8879fce05fe6c96708ac2590004ada67bf86200674add15a`. The implementation separates raw transfer from monitor projection and observation from controller authority, rejects reserved seeds in nonconfirmatory execution, and has no network or learning capability. Seeds `424000..424999` remain unexecuted. Next: implement the explicit one-shot controller and independent artifact-integrity tests without executing the reserved block.
+
+
+### Observation × authority controller — 2026-09-29 02:40 UTC
+
+The explicit 4,000-run controller and nine independent nonreserved tests are implemented. It pins all frozen production identities, validates the 2×2 matched design and raw-event invariance, computes only the preregistered five contrasts, reports H1–H4 separately and enforces stop-order, false-stop and resource gates. No reserved seed ran. Next: execute the frozen block exactly once and abort without estimates on any integrity or containment failure.
