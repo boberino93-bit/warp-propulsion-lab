@@ -78,3 +78,8 @@ The [one-pass live recheck](../research/hardware/signed-force-live-gate-recheck-
 ### 2026-09-29 — PB1 candidate screen
 
 Planck-Balance 1 was rejected before BOM work. It did not publish randomized signed `-0.10/0/+0.10 mN` applied-force cycles with the reported apparatus; equal/opposite-current tare operation is described as difficult below 1 g. Later public-data, construction-rights, uncertainty, and cost gates were stopped rather than waived. The paper's CC BY 4.0 license does not establish reusable apparatus source. See `research/hardware/pb1-signed-force-screen-2026-09-29.md`. No component was selected or purchased.
+
+
+### 2026-09-29 — NIST KIBB-g2.0 screen
+
+KIBB-g2.0 was rejected at the first signed-cycle evidence gate. Its reported 1 mg–20 g range includes the target mass equivalent, but the public record does not demonstrate randomized signed ±0.10 mN applied-force cycles or full reversal. Later uncertainty, raw-data, rights and BOM gates were not reached. Patent/commercialization notices were not treated as open construction rights. No purchase or hardware selection occurred.
