@@ -108,3 +108,8 @@ The unchanged fresh-seed replication completed once and reproduced experiment 00
 ### Experiment 009 preregistered (2026-09-29)
 
 Fresh seeds `426000..426999` are reserved for a 4,000-run matched test of canonical observation redundancy under one fixed presentation-format mutation, with enforcement authority fixed. Design and stopping rules are frozen; no schedule, implementation or outcome exists. Next: nonconfirmatory implementation using nonreserved seeds only.
+
+
+### Experiment 009 implementation (2026-09-29)
+
+The frozen schedule generator, presentation mutation, canonical audit record and nonconfirmatory containment tests are implemented. The schedule SHA-256 is `3db90bdf5dbdd8f5888243ee5198784b9aa1cf04cda303da0ebbd73b823385da`. Reserved seeds remain unexecuted. Next: explicit controller and independent artifact-integrity tests only.
