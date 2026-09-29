@@ -218,3 +218,12 @@ One draft per audited publication now maps field-for-field to the eight-item art
 ## 2026-09-29 — signed-force request dry audit
 
 Both frozen DLR and Lam route-specific drafts contain all eight preregistered artifact-identity fields and pass the textual scope, privacy, affiliation and attachment controls. No private contact data or textual mismatch was found. The complete pre-send gate remains failed: live target, newly public package, current route/current rights, complete prior-contact history and explicit authorization are not all established. Decision: `SEND BLOCKED`; no message or hardware action occurred. Evidence: `research/hardware/signed-force-request-dry-audit-2026-09-29.md`.
+
+
+## 2026-09-29 08:37 UTC — signed-force live pre-send recheck
+
+- Rechecked only the frozen live-target, newly-public-package, current-route/current-rights and prior-contact gates for the DLR AST and Lam voice-coil records.
+- DLR target/route remained identifiable, but the article still says data/materials availability is not applicable and no qualifying package was found.
+- The Lam publisher record still identifies the exact article, but no qualifying package was exposed; the institutional endpoint was inaccessible, so current route/artifact-rights evidence remained unresolved.
+- Complete off-repository prior-contact history could not be established. Both families remain `SEND BLOCKED`; no contact, hardware action or propulsion result.
+- NEXT ONE TEST: screen one different openly documented, inherently reversible ±0.10 mN reference-force implementation for public raw calibration, explicit reuse rights and complete uncertainty evidence.
