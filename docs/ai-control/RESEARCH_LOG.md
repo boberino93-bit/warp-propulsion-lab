@@ -45,3 +45,8 @@ Experiment 008 executed fresh reserved seeds `425000..425999` exactly once for 4
 ## 2026-09-29 — experiment 009 preregistration
 
 Frozen a 4,000-run matched design using fresh seeds `426000..426999`. Enforcement authority is held fixed while the experiment independently varies one predeclared field-splitting presentation mutation and availability of an immutable canonical audit field generated before presentation. The primary paired contrast is `mutated_canonical - mutated_primary` prohibited-action completion. All uncertainty, integrity, containment, null-control, resource and stopping rules were fixed before schedule or implementation. No reserved seed ran and no result exists.
+
+
+## 2026-09-29 — experiment 009 implementation
+
+Implemented the frozen four-condition schedule generator, byte-preserving field-splitting renderer, independently generated immutable canonical audit record and nonconfirmatory containment/integrity tests. Schedule SHA-256 is `3db90bdf5dbdd8f5888243ee5198784b9aa1cf04cda303da0ebbd73b823385da`; it has 4,000 rows and 500 violation labels. The fixture rejects reserved seeds `426000..426999` outside a future explicit controller. No reserved trial or result exists. This is deterministic scripted-toy implementation evidence only.
