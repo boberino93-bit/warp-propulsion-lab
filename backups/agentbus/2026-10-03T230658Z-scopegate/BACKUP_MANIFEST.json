@@ -1,0 +1,22 @@
+{
+  "schema": "warp-propulsion-github-backup-mirror/v1",
+  "project_id": "warp-propulsion-lab",
+  "mode": "BACKUP_RECOVERY_MIRROR_ONLY",
+  "canonical_coordination_root": "/Warp-Propulsion-AgentBus",
+  "artifactory_snapshot": "20261003T230658Z",
+  "mirrored_records": {
+    "scope-hardening-20261003T230658Z.json": "a6fbf59a48f75598411f5b022267b5a664cb757ef5e1bc976518cd9220b5e6c9",
+    "README.md": "9d176ad3f500e7ba1fdcf825cd021626312e01724d7a3b41cfc37f51a01a43ee"
+  },
+  "role_packages": {
+    "warp-propulsion-lab-manager-agent-1.0.0-scopegate.1.zip": "fedf94eef645f89849538189ae3f792fbe1a1c9570f19226024bd04fde8a52c7",
+    "warp-propulsion-lab-primary-agent-1.0.0-scopegate.1.zip": "302e832c51777ff18ea72cd9438696db47738c56b2eb0cdee1bb226918957409",
+    "warp-propulsion-lab-research-agent-1.0.0-scopegate.1.zip": "57c8ec78bad530174eace9d76c6c4c5998f20fd411f64609fc19c01881ff6e5d"
+  },
+  "local_only_builder_surfaces": [
+    "/Warp-Propulsion-AgentBus/packages/src/build_agent_packages.py",
+    "/Warp-Propulsion-AgentBus/packages/src/validate_agent_packages.py",
+    "/Warp-Propulsion-AgentBus/packages/src/PACKAGE_DEPENDENCY_MAP.json"
+  ],
+  "note": "GitHub copy is non-authoritative. Exact builder sources and mutable coordination state remain canonical in local Artifactory; this mirror preserves the directive/completion/verification snapshot and validated deployment ZIPs."
+}

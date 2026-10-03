@@ -1,0 +1,123 @@
+{
+  "schema": "warp-propulsion-agentbus/github-backup-snapshot/v1",
+  "project_id": "warp-propulsion-lab",
+  "mode": "BACKUP_RECOVERY_MIRROR_ONLY",
+  "canonical_coordination_root": "/Warp-Propulsion-AgentBus",
+  "snapshot_id": "scope-hardening-20261003T230658Z",
+  "records": [
+    {
+      "schema": "org-agent-mesh/message/v1",
+      "protocol_version": "2.2.0-alpha.1",
+      "id": "msg-warp-scope-recovery-hardening-20261003T230658Z",
+      "project_id": "warp-propulsion-lab",
+      "destination_project_id": "warp-propulsion-lab",
+      "timestamp_utc": "2026-10-03T23:06:58Z",
+      "from_agent": "primary",
+      "from_role": "PRIMARY",
+      "to": [
+        "all",
+        "manager-reviewer",
+        "research"
+      ],
+      "kind": "DIRECTIVE",
+      "priority": "critical",
+      "subject": "Recent context is not project authority; scope gate is mandatory before recovery state",
+      "summary": "All Warp agents must resolve current human project intent, validate the Warp machine-readable identity lock, and only then activate local tasks/handoffs/state. Foreign project state is read-only/non-authoritative. Ambiguous intent means ask the human and write nowhere. Role deployment packages must carry and validate the same controls.",
+      "artifacts": [
+        "/Warp-Propulsion-AgentBus/control/PROJECT_IDENTITY_LOCK.json",
+        "/Warp-Propulsion-AgentBus/control/PROJECT_SCOPE_GATE.py",
+        "/Warp-Propulsion-AgentBus/control/DISCOVERY_BOOTSTRAP.json",
+        "/Warp-Propulsion-AgentBus/packages"
+      ],
+      "requires_ack": false,
+      "tags": [
+        "project-identity",
+        "recovery",
+        "fail-closed",
+        "package-hardening"
+      ],
+      "idempotency_key": "warp-scope-recovery-hardening-v1"
+    },
+    {
+      "schema": "org-agent-mesh/message/v1",
+      "protocol_version": "2.2.0-alpha.1",
+      "id": "msg-warp-scope-recovery-hardening-completed-20261003T230658Z",
+      "project_id": "warp-propulsion-lab",
+      "destination_project_id": "warp-propulsion-lab",
+      "timestamp_utc": "2026-10-03T23:06:58Z",
+      "from_agent": "primary",
+      "from_role": "PRIMARY",
+      "to": [
+        "all",
+        "manager-reviewer",
+        "research"
+      ],
+      "kind": "COMPLETED",
+      "priority": "critical",
+      "subject": "Scope/recovery hardening implemented and regression-verified",
+      "summary": "Warp now fails closed on ambiguous or conflicting project identity before task/handoff activation. Primary/Manager/Research packages carry the same controls and passed readback verification. No foreign project repository or namespace was mutated.",
+      "artifacts": [
+        "/Warp-Propulsion-AgentBus/artifacts/primary/20261003T230658Z-scope-hardening/HARDENING_REPORT.md",
+        "/Warp-Propulsion-AgentBus/artifacts/primary/20261003T230658Z-scope-hardening/VERIFICATION.json"
+      ],
+      "requires_ack": false,
+      "tags": [
+        "project-identity",
+        "recovery",
+        "verified",
+        "packages"
+      ],
+      "idempotency_key": "warp-scope-recovery-hardening-completed-v1"
+    },
+    {
+      "schema": "warp-propulsion-agentbus/scope-hardening-verification/v1",
+      "project_id": "warp-propulsion-lab",
+      "timestamp_utc": "2026-10-03T23:06:58Z",
+      "tests": {
+        "stale_other_project_context_recovery": "PASS",
+        "ambiguous_project_intent": "PASS_FAIL_CLOSED_ASK_HUMAN_WRITE_NOWHERE",
+        "foreign_write_target": "PASS_DENIED",
+        "package_readback_primary": "PASS",
+        "package_readback_manager": "PASS",
+        "package_readback_research": "PASS"
+      },
+      "packages": [
+        {
+          "path": "warp-propulsion-lab-manager-agent-1.0.0-scopegate.1.zip",
+          "role": "MANAGER",
+          "sha256": "fedf94eef645f89849538189ae3f792fbe1a1c9570f19226024bd04fde8a52c7",
+          "source_revision": {
+            "github_backup_base_commit": "cbba8d5bafe788c8f264e0c44817957df692e5ab",
+            "id": "artifactory:warp-scope-hardening-20261003T230658Z",
+            "kind": "LOCAL_ARTIFACT_SET",
+            "source_set_sha256": "d919090338b2734e9c540a125c8a2c899326093f82d766908c0bd22d6bec492d"
+          }
+        },
+        {
+          "path": "warp-propulsion-lab-primary-agent-1.0.0-scopegate.1.zip",
+          "role": "PRIMARY",
+          "sha256": "302e832c51777ff18ea72cd9438696db47738c56b2eb0cdee1bb226918957409",
+          "source_revision": {
+            "github_backup_base_commit": "cbba8d5bafe788c8f264e0c44817957df692e5ab",
+            "id": "artifactory:warp-scope-hardening-20261003T230658Z",
+            "kind": "LOCAL_ARTIFACT_SET",
+            "source_set_sha256": "0fafc6daf04370974a76816b6cbe8bf7b13d70cd09019243cbeb58e78a539cf7"
+          }
+        },
+        {
+          "path": "warp-propulsion-lab-research-agent-1.0.0-scopegate.1.zip",
+          "role": "RESEARCH",
+          "sha256": "57c8ec78bad530174eace9d76c6c4c5998f20fd411f64609fc19c01881ff6e5d",
+          "source_revision": {
+            "github_backup_base_commit": "cbba8d5bafe788c8f264e0c44817957df692e5ab",
+            "id": "artifactory:warp-scope-hardening-20261003T230658Z",
+            "kind": "LOCAL_ARTIFACT_SET",
+            "source_set_sha256": "8e5aadea65b305f8d6758f451cd6fe4c65908577a33f0b59d75fc18f9cec71ec"
+          }
+        }
+      ],
+      "github_backup_base_commit": "cbba8d5bafe788c8f264e0c44817957df692e5ab",
+      "foreign_project_repositories_mutated": false
+    }
+  ]
+}
