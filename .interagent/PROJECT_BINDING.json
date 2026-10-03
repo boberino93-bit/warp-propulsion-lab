@@ -1,0 +1,25 @@
+{
+  "schema": "org-agent-mesh/project-binding/v1",
+  "project_id": "warp-propulsion-lab",
+  "project_name": "Warp Propulsion Lab",
+  "repository_identity": "boberino93-bit/warp-propulsion-lab",
+  "default_branch": "main",
+  "framework_source_repository": "boberino93-bit/intercommunicationsenhancements",
+  "framework_source_revision": "fcd7f3cff40d3f3628dfebbfc30eeb3cdb0dd74e",
+  "framework_version": "1.3.0-alpha.1",
+  "protocol_version": "2.2.0-alpha.1",
+  "primary_role": "PRIMARY",
+  "primary_authority_tier": "ORCHESTRATOR",
+  "message_root": ".interagent/messages",
+  "message_policy": {
+    "append_only": true,
+    "supersession_not_deletion": true,
+    "project_identity_required": true,
+    "cross_project_default": "DENY",
+    "github_write_through_required": true,
+    "canonical_persistence_before_external_delivery": true,
+    "slack_is_canonical_state": false
+  },
+  "peer_repository_access_for_learning": "READ_ONLY",
+  "promotion_authority": "ORCHESTRATOR"
+}
