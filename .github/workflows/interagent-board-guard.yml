@@ -1,0 +1,86 @@
+name: Interagent Board Guard
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  validate-board:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate project binding and append-only message records
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path('.interagent')
+          binding_path = root / 'PROJECT_BINDING.json'
+          messages_dir = root / 'messages'
+
+          if not binding_path.exists():
+              raise SystemExit('Missing .interagent/PROJECT_BINDING.json')
+          if not messages_dir.exists():
+              raise SystemExit('Missing .interagent/messages directory')
+
+          binding = json.loads(binding_path.read_text(encoding='utf-8'))
+          expected_project = 'warp-propulsion-lab'
+          expected_repo = 'boberino93-bit/warp-propulsion-lab'
+          expected_protocol = binding['protocol_version']
+
+          if binding.get('project_id') != expected_project:
+              raise SystemExit(f"Wrong project_id: {binding.get('project_id')!r}")
+          if binding.get('repository_identity') != expected_repo:
+              raise SystemExit(f"Wrong repository_identity: {binding.get('repository_identity')!r}")
+          if not binding.get('message_policy', {}).get('github_write_through_required'):
+              raise SystemExit('GitHub write-through is not enabled')
+
+          required = {
+              'schema','protocol_version','id','project_id','destination_project_id','timestamp_utc',
+              'from_agent','from_agent_instance_id','from_role','to','kind','priority','subject','summary',
+              'applies_to_state','evidence','artifacts','reply_to','supersedes','requires_ack','tags',
+              'correlation_id','causation_id','idempotency_key','expires_at_utc'
+          }
+          allowed_kinds = {
+              'CLAIM','FINDING','BLOCKER','REQUEST','REVIEW_REQUEST','REVIEW_DISPOSITION',
+              'CONTRADICTION','HANDOFF','DECISION','SUPERSESSION','SERVICE_CHECKPOINT','RELEASE_CLOSE'
+          }
+          allowed_priorities = {'normal','high','critical'}
+          seen_ids = set()
+          seen_idempotency = set()
+
+          for path in sorted(messages_dir.glob('*.json')):
+              msg = json.loads(path.read_text(encoding='utf-8'))
+              missing = required - set(msg)
+              if missing:
+                  raise SystemExit(f'{path}: missing fields {sorted(missing)}')
+              if msg['project_id'] != expected_project or msg['destination_project_id'] != expected_project:
+                  raise SystemExit(f'{path}: cross-project/internal binding violation')
+              if msg['protocol_version'] != expected_protocol:
+                  raise SystemExit(f'{path}: protocol mismatch')
+              if msg['kind'] not in allowed_kinds:
+                  raise SystemExit(f'{path}: unsupported kind {msg["kind"]!r}')
+              if msg['priority'] not in allowed_priorities:
+                  raise SystemExit(f'{path}: unsupported priority {msg["priority"]!r}')
+              if not msg['from_agent_instance_id']:
+                  raise SystemExit(f'{path}: missing from_agent_instance_id')
+              if msg['id'] in seen_ids:
+                  raise SystemExit(f'{path}: duplicate message id {msg["id"]!r}')
+              seen_ids.add(msg['id'])
+              key = msg.get('idempotency_key')
+              if key:
+                  if key in seen_idempotency:
+                      raise SystemExit(f'{path}: duplicate idempotency key {key!r}')
+                  seen_idempotency.add(key)
+
+          if not seen_ids:
+              raise SystemExit('Message board has no persisted messages')
+
+          print(f'Validated {len(seen_ids)} project-scoped message(s) for {expected_project}.')
+          PY
