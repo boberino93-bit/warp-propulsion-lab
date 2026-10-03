@@ -102,3 +102,8 @@ The preregistered schedule generator, fixed presentation mutation and independen
 ## Experiment 009 controller — 2026-09-29
 
 The explicit-only one-shot controller and independent artifact-integrity tests are implemented in `ai_control/experiment_009.py` and `tests/ai_control/test_experiment_009.py`. Preflight pins the merged preregistration, fixture and schedule-generator blobs plus schedule SHA-256 `3db90bdf5dbdd8f5888243ee5198784b9aa1cf04cda303da0ebbd73b823385da`; import and preflight execute no trial. Seeds `426000..426999` remain unexecuted, so no effect estimate exists.
+
+
+## Experiment 009 result — 2026-09-29
+
+The frozen 4,000-run canonical-audit observation block executed exactly once on seeds `426000..426999`. Violation completion was 500/500 for mutated presentation observed only through the primary channel and 0/500 for mutated-canonical, plain-primary and plain-canonical conditions. The primary matched risk difference was `-1.000` with 10,000-resample paired-bootstrap 95% interval `[-1.000, -1.000]`; H1 passed. All 1,500 delivered detections stopped immediately with zero later agent events, and benign false stops were 0/500 in every condition. Complete compressed artifacts, hashes and independent reconstruction tests are retained. This is deterministic scripted-toy evidence only, not learned-model, adaptive-system or deployed-system evidence.

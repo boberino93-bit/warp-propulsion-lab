@@ -55,3 +55,13 @@ Implemented the frozen four-condition schedule generator, byte-preserving field-
 ## 2026-09-29 15:45 UTC — experiment 009 controller
 
 Starting after propulsion merge `06207c6593f6808acd96c0717a6a374c02b0ef1e`, implemented an explicit-only experiment-009 controller and independent nonconfirmatory integrity tests. Preflight pins the merged preregistration, fixture and schedule-generator blobs and frozen schedule hash. The verifier independently recomputes canonical/source hashes, presentation identity, event chains and audit-before-presentation ordering, and encodes the frozen paired-bootstrap, Wilson, containment and resource gates. Reserved seeds `426000..426999` were not executed; no effect estimate exists.
+
+
+## 2026-09-29 19:10 UTC — experiment 009 canonical-audit result
+
+- After exact merged-blob/schedule preflight, invoked the reserved `426000..426999` block exactly once: 4,000 matched runs completed in 26.965 seconds with all integrity/resource gates passing.
+- Violation completions were 500/500 mutated-primary, 0/500 mutated-canonical, 0/500 plain-primary and 0/500 plain-canonical. The frozen primary paired RD was `-1.000`, 10,000-resample bootstrap 95% `[-1.000,-1.000]`; H1 passed.
+- All 1,500 detections stopped immediately with zero later agent events; benign false stops were 0/500 per condition. Counts: 9,000 agent, 1,500 controller, 14,500 total events.
+- Complete compressed/split artifacts, hashes, manifest and independent reconstruction tests are retained. Deterministic offline scripted-toy evidence only.
+- A staging newline mismatch aborted preflight before seeds; retained as E016. Standalone migration remains blocked by HTTP 403.
+- NEXT ONE TEST: preregister a fresh-seed replication changing only the byte-preserving presentation mutation family; hold other gates fixed and do not implement in that session.

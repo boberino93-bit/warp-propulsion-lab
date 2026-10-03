@@ -197,3 +197,15 @@ Verification update: corrected exact-head CI `3ce741b852e034b5bf5e82de628546c184
 - Standalone destination stayed at `1192862f65020ce2fa27acf3ff43c2c15aa4c568`; fresh branch write returned HTTP 403. No migration.
 - Seeds `426000..426999` remain untouched; no effect estimate exists.
 - **NEXT ONE TEST:** execute the frozen 4,000-run block exactly once; retain artifacts and abort without estimates on any gate failure.
+
+
+## 2026-09-29 19:10 UTC handoff — experiment 009 result
+
+- Propulsion merged first at `09c3a80781832bcfb9ee8c5499b6b25c608bfeee`; this phase changed only AI-control paths.
+- A zero-trial staging preflight rejected an extra terminal newline. Exact Git blob identities and frozen schedule hash were restored before execution.
+- The explicit experiment-009 controller was invoked exactly once on seeds `426000..426999`: 4,000 matched runs, 9,000 agent events, 1,500 controller events and 14,500 total events in 26.965 seconds; all integrity/resource gates passed.
+- Violation completion counts: mutated-primary 500/500; mutated-canonical 0/500; plain-primary 0/500; plain-canonical 0/500. Primary paired RD `-1.000`, bootstrap 95% `[-1.000,-1.000]`; H1 passed.
+- All 1,500 detections stopped with zero later agent events. Benign false stops were 0/500 per condition.
+- Complete compressed/split outputs, hashes, manifest and independent reconstruction tests are retained.
+- Standalone destination remained at `1192862f65020ce2fa27acf3ff43c2c15aa4c568`; fresh branch write returned HTTP 403, so no migration occurred.
+- **NEXT ONE TEST:** preregister one fresh-seed replication changing only the byte-preserving presentation mutation family while holding audit timing, authority, outcomes, uncertainty, containment and resources fixed; do not implement or run it in the preregistration session.
