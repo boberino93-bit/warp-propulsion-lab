@@ -1,0 +1,38 @@
+{
+  "packages": [
+    {
+      "archive_sha256": "1b01df991324c7712a1d638b6bfa95f53e79a3da20eb8fae3551654fa8b8eea4",
+      "content_digest": "37415f574eef1403c678b7745f6f9ad9b864d269d0b3e1641d0d50ad8890d658",
+      "filename": "warp-propulsion-lab-primary-agent-v0.1.0.zip",
+      "framework_version": "1.4.0-alpha.1",
+      "package_version": "0.1.0",
+      "project_id": "warp-propulsion-lab",
+      "protocol_version": "2.3.0-alpha.1",
+      "role": "PRIMARY",
+      "source_revision": "warp-repo:cbba8d5bafe788c8f264e0c44817957df692e5ab"
+    },
+    {
+      "archive_sha256": "8fbf602f355a9cd01c5b7c36d95969e3804145d5285c7df88cb67640235d0b41",
+      "content_digest": "5e93e65789814ad76c733b780ab8192ac16cf922e1d283daf910bbfc141b648e",
+      "filename": "warp-propulsion-lab-manager-agent-v0.1.0.zip",
+      "framework_version": "1.4.0-alpha.1",
+      "package_version": "0.1.0",
+      "project_id": "warp-propulsion-lab",
+      "protocol_version": "2.3.0-alpha.1",
+      "role": "MANAGER",
+      "source_revision": "warp-repo:cbba8d5bafe788c8f264e0c44817957df692e5ab"
+    },
+    {
+      "archive_sha256": "37c19ea9331cd706a6029a0af15a53d700124d8cb1ee67b269828f1c9a88326a",
+      "content_digest": "1ff581795adf450281f1faeed372fc9eb394f91db2f1cbe688298d8e6622f599",
+      "filename": "warp-propulsion-lab-research-agent-v0.1.0.zip",
+      "framework_version": "1.4.0-alpha.1",
+      "package_version": "0.1.0",
+      "project_id": "warp-propulsion-lab",
+      "protocol_version": "2.3.0-alpha.1",
+      "role": "RESEARCH",
+      "source_revision": "warp-repo:cbba8d5bafe788c8f264e0c44817957df692e5ab"
+    }
+  ],
+  "release_set": "warp-agent-packages-0.1.0"
+}

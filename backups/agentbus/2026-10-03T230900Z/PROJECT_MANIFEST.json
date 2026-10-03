@@ -1,0 +1,33 @@
+{
+  "schema": "org-agent-mesh/project-manifest/v1",
+  "framework_version": "1.4.0-alpha.1",
+  "protocol_version": "2.3.0-alpha.1",
+  "project_id": "warp-propulsion-lab",
+  "project_name": "Warp Propulsion Lab",
+  "project_version": "main@cbba8d5bafe788c8f264e0c44817957df692e5ab",
+  "package_version": "0.1.0",
+  "repository_identity": "boberino93-bit/warp-propulsion-lab",
+  "project_root": "/Warp-Propulsion-AgentBus",
+  "agent_namespace": "warp-propulsion-lab::agents",
+  "artifact_namespace": "warp-propulsion-lab::artifacts",
+  "message_namespace": "warp-propulsion-lab::messages",
+  "task_namespace": "warp-propulsion-lab::tasks",
+  "lock_namespace": "warp-propulsion-lab::locks",
+  "created_at": "2026-10-03T23:09:00Z",
+  "canonical_state": "/Warp-Propulsion-AgentBus",
+  "backup_repository": "boberino93-bit/warp-propulsion-lab",
+  "backup_policy": "GitHub is backup/recovery only; never the live message board or canonical coordination state.",
+  "cross_project_default": "DENY",
+  "slack_policy": {
+    "enabled_as_transport": true,
+    "canonical_state": false,
+    "explicit_destination_required": true,
+    "canonical_persistence_before_completion_post": true,
+    "execution_scheduler": "AUTOMATION"
+  },
+  "roles": {
+    "PRIMARY": {"authority": "ORCHESTRATOR", "capabilities": ["READ_SOURCE", "WRITE_WORKING_ARTIFACTS", "WRITE_ACCEPTED_STATE", "APPROVE_RELEASE", "BUILD_DEPLOYMENT_PACKAGE", "PUBLISH_DEPLOYMENT_PACKAGE"]},
+    "MANAGER": {"authority": "REVIEWER", "capabilities": ["READ_SOURCE", "WRITE_WORKING_ARTIFACTS", "REVIEW_CHANGE", "CLAIM_TASK"]},
+    "RESEARCH": {"authority": "SPECIALIST", "capabilities": ["READ_SOURCE", "WRITE_WORKING_ARTIFACTS", "CLAIM_TASK"]}
+  }
+}

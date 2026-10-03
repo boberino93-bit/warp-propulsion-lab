@@ -1,0 +1,15 @@
+{
+  "backup_only": true,
+  "canonical_state": "/Warp-Propulsion-AgentBus",
+  "files": [
+    {"bytes": 1878, "name": "PROJECT_MANIFEST.json", "sha256": "70a93f4a36f10fe9bd90d72a019817c28a0ef5cfa6d5efd097e3fbf35261f9d2"},
+    {"bytes": 1122, "name": "MESSAGE_BOARD.snapshot.jsonl", "sha256": "28cf1f37119bd601be97436dccb7a07a12c1d171188971ba67805da53cc3d8f2"},
+    {"bytes": 1661, "name": "PACKAGE_REGISTRY.json", "sha256": "b11ecf5738f7850838e420f616bf0938045b55386f9e791c545938827eb129b7"},
+    {"bytes": 611, "name": "BACKUP_POLICY.md", "sha256": "2dd3b7468cc3e31c67b6757f34ea1935aff78e4d38efc0bf9ded55770d1baa46"}
+  ],
+  "message_board_sha256": "28cf1f37119bd601be97436dccb7a07a12c1d171188971ba67805da53cc3d8f2",
+  "project_id": "warp-propulsion-lab",
+  "schema": "warp-propulsion-agentbus/backup-snapshot/v1",
+  "snapshot_created_at": "2026-10-03T23:09:00Z",
+  "source_repository_revision": "cbba8d5bafe788c8f264e0c44817957df692e5ab"
+}
