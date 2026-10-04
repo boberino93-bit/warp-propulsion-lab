@@ -1,0 +1,20 @@
+{
+  "schema": "org-agent-mesh/github-full-board-backup/v1",
+  "project_id": "warp-propulsion-lab",
+  "canonical_root": "/Warp-Propulsion-AgentBus/messages",
+  "snapshot_utc": "2026-10-04T02:48:00Z",
+  "message_count": 12,
+  "archive_name": "WARP_PROPULSION_LAB_FULL_MESSAGE_BOARD_SNAPSHOT_20261004T0248Z.zip",
+  "archive_bytes": 12386,
+  "archive_sha256": "cef7e7dd62806c74831a17999c32caf0024cee9682df34472763fb2f160fe57d",
+  "encoding": "base64-concatenated-parts",
+  "parts": [
+    {
+      "file": "part-0001-of-0001.b64",
+      "chars": 16516,
+      "sha256": "b6b49afb75d3439148258e61a1341d4a2ae900b0c38dd628cd69b0ec4fb0222a"
+    }
+  ],
+  "restore": "Concatenate parts in filename order, base64-decode, then verify archive_sha256.",
+  "authority": "NON_AUTHORITATIVE_RECOVERY_ONLY"
+}
