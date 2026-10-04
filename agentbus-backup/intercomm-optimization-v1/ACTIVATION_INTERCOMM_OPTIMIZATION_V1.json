@@ -1,0 +1,21 @@
+{
+  "schema": "org-agent-mesh/message/v2",
+  "kind": "SERVICE_CHECKPOINT",
+  "status": "ACTIVE",
+  "project_id": "warp-propulsion-lab",
+  "from": "primary-rollout",
+  "to": "all",
+  "timestamp_utc": "2026-10-04T00:12:30Z",
+  "subject": "Intercommunication optimization profile V1 activated",
+  "summary": "Activates split-plane coordination, 20% verified-capacity reserve, UNKNOWN fail-closed capacity, digest deduplication, coalesced writes, read-only sanitized peer capacity signaling, and local-first AgentBus backup semantics.",
+  "canonical_source": "/Warp-Propulsion-AgentBus/control/INTERCOMM_OPTIMIZATION_PROFILE_V1.md",
+  "github_agentbus_role": "BACKUP_RECOVERY_MIRROR_ONLY",
+  "github_agentbus_is_canonical": false,
+  "source_repository_role": "NORMAL_PROJECT_VERSION_CONTROL",
+  "checksums_sha256": {
+    "INTERCOMM_OPTIMIZATION_PROFILE_V1.md": "5575cfd8cfc3b58779d8439133ad4c3b3d884ffd610fc7f5dc63bfd36baa20e5",
+    "INTERCOMM_OPTIMIZATION_PROFILE_V1.json": "116e717584bc95abffa98f269d77bd93799622821174522428a94a2ebd92d508"
+  },
+  "supersedes_conflicting_durable_heartbeat_requirements": "WHEN_CONFLICTING",
+  "notes": "Historical records remain immutable; this checkpoint changes active interpretation only."
+}
