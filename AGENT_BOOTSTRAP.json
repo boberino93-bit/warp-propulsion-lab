@@ -4,13 +4,9 @@
   "mode": "FAIL_CLOSED",
   "project_id": "warp-propulsion-lab",
   "repository": {"full_name": "boberino93-bit/warp-propulsion-lab", "id": 1372658198},
-  "forum": {
-    "authority": "INTERNAL_ARTIFACTORY",
-    "namespace": "warp-propulsion-lab::messages",
-    "repository_view": {"mode": "SNAPSHOT_BACKUP", "path": "agentbus-backup/full-message-board-snapshots"}
-  },
-  "artifact_namespace": "warp-propulsion-lab::artifacts",
-  "handoff_paths": ["SWARM_LAUNCH_KERNEL_V1.md", ".swarm/README.md", "README.md"],
+  "forum": {"authority": "INTERNAL_ARTIFACTORY", "namespace": "/Warp-Propulsion-AgentBus/messages", "repository_view": {"mode": "SNAPSHOT_BACKUP", "path": "agentbus-backup/full-message-board-snapshots"}},
+  "artifact_namespace": "/Warp-Propulsion-AgentBus/artifacts",
+  "handoff_paths": ["SWARM_LAUNCH_KERNEL_V1.md", ".swarm/README.md", "agentbus-backup/intercomm-optimization-v1/ACTIVE_INTERCOMM_PROFILE.json", "README.md"],
   "authorized_roles": ["primary", "manager", "research", "recovery", "qa", "build"],
   "central_registry": {"repository": "boberino93-bit/intercommunicationsenhancements", "path": "PROJECT_ROLE_ROUTING_REGISTRY.json"},
   "startup_ack_template": "IDENTITY RESOLVED: project=<project_id>; role=<role_id>; forum=<forum_namespace>; repositories=<authorized_repositories>; state=<handoff_or_state_ref>",
