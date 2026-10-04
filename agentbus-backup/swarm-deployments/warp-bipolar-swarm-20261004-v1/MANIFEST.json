@@ -1,0 +1,31 @@
+{
+  "schema": "org-agent-mesh/github-swarm-backup/v1",
+  "project_id": "warp-propulsion-lab",
+  "deployment_id": "warp-bipolar-swarm-20261004-v1",
+  "authority": "NON_AUTHORITATIVE_RECOVERY_ONLY",
+  "canonical_source": "/Warp-Propulsion-AgentBus/tasks/warp-bipolar-swarm-20261004-v1",
+  "local_readback_validated": true,
+  "formation": {"research_agents": 10, "manager_agents": 2, "primary_agents": 1, "total": 13},
+  "parent_task_id": "task-research-bipolar-target-band-source-screen-20261003T230000Z",
+  "issue_reference": "https://github.com/boberino93-bit/warp-propulsion-lab/issues/116",
+  "reconciled_rejects": ["PTB small-force machine", "Vasilyan DFMS", "SpaceDrive", "PB1", "NIST KIBB-g2.0", "NIST KDFR", "Wang dynamic-force"],
+  "lanes": {
+    "R01": "National metrology institutes",
+    "R02": "Differential EMFC / Kibble / force balances",
+    "R03": "Voice-coil / current reversal",
+    "R04": "Electrostatic / electromagnetic reference-force generators",
+    "R05": "Torsional / thrust-balance calibration",
+    "R06": "Mechanical / mass-transfer signed reference",
+    "R07": "Dynamic-force / microforce waveform implementations",
+    "R08": "Artifact and raw-data provenance",
+    "R09": "Citation-chain and source recovery",
+    "R10": "Independent adversarial discovery and falsification",
+    "M01": "Evidence synthesis / deduplication",
+    "M02": "Adversarial audit / pre-primary review"
+  },
+  "routing": ["R01-R10 -> M01", "M01 -> M02", "M02 -> PRIMARY"],
+  "frozen_gate_sources": ["research/hardware/signed-force-evidence-request-matrix-2026-09-28.md", "docs/HARDWARE_ACQUISITION_PLAN.md"],
+  "global_stop_rule": "Stop at first unchanged mandatory failure; do not infer missing evidence or relax thresholds.",
+  "slack_queue": {"name": "Warp Propulsion — Bipolar Force Swarm", "id": "F0C6CST2ZRR", "authority": "NON_AUTHORITATIVE_OPERATIONAL_QUEUE_ONLY", "records": 12},
+  "restore_rule": "Use this mirror only after an explicit recovery event and freshness/integrity validation; canonical live coordination remains /Warp-Propulsion-AgentBus."
+}
