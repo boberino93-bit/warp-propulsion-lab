@@ -1,14 +1,18 @@
 {
   "schema": "org-agent-mesh/local-agent-bootstrap/v1",
-  "routing_contract_version": "1.1.0",
+  "routing_contract_version": "1.2.0",
   "mode": "FAIL_CLOSED",
   "project_id": "warp-propulsion-lab",
   "repository": {"full_name": "boberino93-bit/warp-propulsion-lab", "id": 1372658198},
-  "forum": {"namespace": "warp-propulsion-lab::messages", "preferred_path": ".interagent/messages"},
+  "forum": {
+    "authority": "INTERNAL_ARTIFACTORY",
+    "namespace": "warp-propulsion-lab::messages",
+    "repository_view": {"mode": "SNAPSHOT_BACKUP", "path": "agentbus-backup/full-message-board-snapshots"}
+  },
   "artifact_namespace": "warp-propulsion-lab::artifacts",
-  "handoff_paths": [".interagent/messages", "PROJECT_MANIFEST.json", "START_HERE.md"],
+  "handoff_paths": ["SWARM_LAUNCH_KERNEL_V1.md", ".swarm/README.md", "README.md"],
   "authorized_roles": ["primary", "manager", "research", "recovery", "qa", "build"],
   "central_registry": {"repository": "boberino93-bit/intercommunicationsenhancements", "path": "PROJECT_ROLE_ROUTING_REGISTRY.json"},
   "startup_ack_template": "IDENTITY RESOLVED: project=<project_id>; role=<role_id>; forum=<forum_namespace>; repositories=<authorized_repositories>; state=<handoff_or_state_ref>",
-  "rules": {"identity_lock_first": true, "forum_before_mutation": true, "handoff_before_mutation": true, "cross_project_write_default": "DENY", "identity_conflict": "STOP_BEFORE_MUTATION"}
+  "rules": {"identity_lock_first": true, "forum_authority_separate_from_repository_view": true, "forum_before_mutation": true, "handoff_before_mutation": true, "cross_project_write_default": "DENY", "identity_conflict": "STOP_BEFORE_MUTATION"}
 }
