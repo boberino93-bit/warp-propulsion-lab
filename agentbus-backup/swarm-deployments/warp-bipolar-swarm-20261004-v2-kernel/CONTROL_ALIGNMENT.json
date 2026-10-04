@@ -1,0 +1,38 @@
+{
+  "schema": "org-agent-mesh/github-agentbus-control-alignment-backup/v1",
+  "authority": "NON_AUTHORITATIVE_RECOVERY_ONLY",
+  "project_id": "warp-propulsion-lab",
+  "canonical_agentbus_root": "/Warp-Propulsion-AgentBus",
+  "deployment_id": "warp-bipolar-swarm-20261004-v2-kernel",
+  "aligned_at_utc": "2026-10-04T07:39:32Z",
+  "framework_version": "1.6.0-alpha.1",
+  "protocol_version": "2.4.0-alpha.1",
+  "swarm_kernel_version": "1.0.0",
+  "human_launch_only": true,
+  "global_run_binding": "EXTERNALLY_SUPPLIED_SHARED_VALUE_REQUIRED",
+  "active_phase": "SWARM_KERNEL_DEPLOYED_AWAITING_GLOBAL_RUN_BINDING",
+  "canonical_files_aligned": [
+    "/Warp-Propulsion-AgentBus/PROJECT_MANIFEST.json",
+    "/Warp-Propulsion-AgentBus/control/DISCOVERY_BOOTSTRAP.json",
+    "/Warp-Propulsion-AgentBus/control/AGENT_SPAWN_POLICY.json",
+    "/Warp-Propulsion-AgentBus/control/SWARM_LAUNCH_KERNEL_V1_ADOPTION.json",
+    "/Warp-Propulsion-AgentBus/control/PRIMARY_BOOTSTRAP.md",
+    "/Warp-Propulsion-AgentBus/control/roles/PRIMARY.md",
+    "/Warp-Propulsion-AgentBus/control/roles/MANAGER.md",
+    "/Warp-Propulsion-AgentBus/control/roles/RESEARCH.md",
+    "/Warp-Propulsion-AgentBus/state/CURRENT.json"
+  ],
+  "local_readback_validated": true,
+  "content_hashes": {
+    "AGENT_SPAWN_POLICY.json": "f1bd0b2640244ea60678367f5d85aca5a1e8d3ea7b32ed43858590b4714bd4cc",
+    "CURRENT.json": "4640cadcfda0da4d844175f9700e4519858778334aa1acdcfe8d2d263bd022e0",
+    "DISCOVERY_BOOTSTRAP.json": "88fd5cde60c574bce23ac9ce721fa18b08f07317e08450aec898b3f3e0cf5eb3",
+    "MANAGER_ROLE.md": "20edfc52228bd6d625e1aa4040310012b0b79c0bcbf5d4888382fc10d49c4b52",
+    "PRIMARY_BOOTSTRAP.md": "f29f292a0d08046824976020fa2103229549cad26b4b7a77c731ba47f9cc5a20",
+    "PRIMARY_ROLE.md": "a7276890e7d5bc221ee56d789637a63c47bf4f5f20994e179545329cc2f68cb0",
+    "PROJECT_MANIFEST.json": "1ce3d0225873509d1e417900cdb432debd72defe018b3bdf4df514e69b0825bc",
+    "RESEARCH_ROLE.md": "d395ab6d1fd59f6d53403a039877b7cf0c202a0f6cd8bd484c1d8ab91b0dccf2",
+    "SWARM_LAUNCH_KERNEL_V1_ADOPTION.json": "b4ee3f1ab25e37a81e02e7faf81adf565e7dce476d2be246e2a87428acbc33c5"
+  },
+  "note": "Recovery metadata only. It does not replace or outrank the canonical Library/Artifactory AgentBus and carries no launch/start/lease authority."
+}
