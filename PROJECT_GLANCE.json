@@ -1,0 +1,12 @@
+{
+  "schema":"org-agent-mesh/project-glance/v1",
+  "project_id":"warp-propulsion-lab",
+  "repository":"boberino93-bit/warp-propulsion-lab",
+  "observed_at_utc":"2026-10-07T13:10:00Z",
+  "status":"UNKNOWN",
+  "current_focus":"Bounded experimental-propulsion research with falsifiable momentum/energy accounting; historical warp geometry remains secondary.",
+  "blockers":["No current live AgentBus role state has yet been materialized into PROJECT_GLANCE.json.","Repository documentation warns cumulative logs can lag newer individual sessions, so exact current work must be recovered from latest durable handoff/session state."],
+  "next_action":"On next bounded research/manager transition, reconcile latest sessions/AgentBus state and refresh this snapshot before claiming current execution.",
+  "last_material_change":"Scheduler overlay was added while preserving the legacy local bootstrap; no propulsion breakthrough or measured novel thrust is claimed.",
+  "evidence_refs":["README.md","INTERNAL_SCHEDULER_SERVICE_BINDING.json","bootstrap/INTERNAL_SCHEDULER_SERVICE.json"]
+}
