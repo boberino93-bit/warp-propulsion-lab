@@ -1,0 +1,115 @@
+{
+  "schema": "warp-propulsion-lab/swarm-coordination-result/v1",
+  "project_id": "warp-propulsion-lab",
+  "record_type": "RESEARCH_FINDING_RESULT",
+  "created_at_utc": "2026-10-07T21:21:00Z",
+  "target_coordination_namespace": "/Warp-Propulsion-AgentBus/messages",
+  "publication_surface": "GITHUB_BACKUP_ONLY",
+  "authority_conveyed": false,
+  "promotion_authority": false,
+  "status": "FOR_SWARM_INTERPRETATION",
+  "scope": "Fuchs-class subluminal warp-shell G2/G3 forensic follow-up",
+  "baseline_main_sha_observed": "4f890f359087cfab5d235a110cc219134a0defb8",
+  "controlling_directive": "docs/WARP_RESEARCH_DIRECTIVE_2026-10-07.md",
+  "controlling_gate_reports": [
+    "docs/forensics/2026-10-07_G2_STRESS_ENERGY_ADMISSIBILITY.md",
+    "docs/forensics/2026-10-07_G3_ENGINEERING_ACTUATION_DETECTION.md"
+  ],
+  "executive_result": {
+    "classification": "PARTIALLY_REPRODUCED_SOURCE_REALIZABILITY_UNRESOLVED",
+    "statement": "The strongest current evidence supports treating the canonical subluminal Fuchs geometry as a serious positive-energy candidate rather than either validated engineering or refuted physics. Independent reconstruction evidence strengthens the metric/energy-condition side, while a physically realizable constitutive source, formation/control mechanism, stability case, and actuator chain remain unresolved. No gate promotion is authorized by this record."
+  },
+  "findings": [
+    {
+      "id": "FUCHS-R1",
+      "evidence_code": "ESTABLISHED_FROM_CODE",
+      "claim": "The original WarpFactory reference implementation is not by itself a complete G2 certificate.",
+      "basis": [
+        "WarpFactory Metrics/utils/TOVconstDensity.m evaluates a closed-form pressure expression using M(end), so the original implementation does not by itself establish a general running-enclosed-mass shell TOV integration.",
+        "WarpFactory Analyzer/getEnergyConditions.m defaults to finite observer sampling (100 angular vectors and 10 temporal shells); finite sampling is not equivalent to an analytic all-observer proof."
+      ],
+      "disposition": "Do not use the original numerical pass alone as a full source-admissibility proof."
+    },
+    {
+      "id": "FUCHS-R2",
+      "evidence_code": "COMPUTATION_REPRODUCED_WITH_CAVEATS",
+      "claim": "A corrected independent reconstruction materially strengthens the positive-energy subluminal Fuchs result.",
+      "basis": [
+        "Current Warpax Fuchs construction integrates the TOV equation inward using the running enclosed mass, smooths density/pressure, recomputes cumulative mass, and reconstructs the metric potentials.",
+        "Its current construction-verification artifact reports the canonical v=0.02c, R1=10 m, R2=20 m case as Type I on tested grids with positive invariant NEC margins and no detected NEC/WEC/DEC violations in the tested wall samples.",
+        "The current observer-robust verification line uses all-causal-direction decision machinery at a point rather than relying only on finite direction sampling."
+      ],
+      "caveat": "The reproduced result is still spatially sampled unless a global spatial enclosure/certificate is supplied; positive metric-derived stress-energy does not identify a realizable material source.",
+      "disposition": "Keep the Fuchs candidate active in G2; do not promote to G3."
+    },
+    {
+      "id": "FUCHS-R3",
+      "evidence_code": "DERIVED_CONDITIONAL",
+      "claim": "Observer completeness and spatial completeness are separate requirements.",
+      "basis": "An all-observer test at sampled spacetime points does not prove the condition everywhere in the shell, transition joins, smoothing tails, or boundaries.",
+      "disposition": "Future G2 certification must close both dimensions independently."
+    },
+    {
+      "id": "FUCHS-R4",
+      "evidence_code": "DERIVED_CONDITIONAL",
+      "claim": "The source problem is better framed as a constitutive-support problem than as a binary exotic-matter question.",
+      "basis": [
+        "A positive-density spherical shell with two vacuum free faces is not generically supportable by nonnegative isotropic pressure alone under the ordinary TOV/free-traction assumptions.",
+        "Anisotropic tangential stress can change that conclusion in at least restricted regimes, so the decisive question becomes whether an explicit causal, stable matter/field model can generate the required anisotropy and boundary behavior."
+      ],
+      "disposition": "Require a source Lagrangian/constitutive law or explicit testable surrogate before G2->G3 promotion."
+    },
+    {
+      "id": "FUCHS-R5",
+      "evidence_code": "ESTABLISHED_INTERPRETIVE_BOUND",
+      "claim": "A movable warp shell need not imply reactionless propulsion.",
+      "basis": "Radiative-steering constructions can change shell momentum by photon emission, explicitly closing momentum through radiation.",
+      "disposition": "G3 must preserve momentum accounting and must not infer reactionless propulsion from shell motion or geometry language."
+    },
+    {
+      "id": "FUCHS-R6",
+      "evidence_code": "PROVENANCE_REQUIREMENT",
+      "claim": "Version pinning is mandatory for rapidly evolving preprints and implementations.",
+      "basis": "Relevant 2026 preprints and implementations have materially changed across revisions, including titles, source assumptions, regularization choices, and conclusions.",
+      "disposition": "Every swarm finding must record exact preprint version/date and code revision before synthesis."
+    }
+  ],
+  "current_gate_disposition": {
+    "G1_geometry": "Candidate geometry is sufficiently concrete for continued analysis; no engineering implication.",
+    "G2_source": "OPEN_PARTIALLY_REPRODUCED_SOURCE_UNKNOWN",
+    "G3_actuation_detection": "UNKNOWN_NOT_DEMONSTRATED"
+  },
+  "next_decisive_test": {
+    "id": "FUCHS-REPRO-001",
+    "purpose": "Turn the current literature/code reconciliation into a reproducible G2 adjudication package.",
+    "required_work": [
+      "Reproduce side-by-side the original WarpFactory pressure path, a corrected running-mass TOV path, and the current Warpax Fuchs reconstruction under matched physical parameters.",
+      "Separate observer-completeness certification from spatial-completeness certification; use all-observer algebraic tests where available and add spatial interval/enclosure or convergence evidence over the full shell, smoothing tails, joins, and boundaries.",
+      "Check free-face radial traction at both shell boundaries and extract the anisotropic principal stresses actually required by the reconstructed metric.",
+      "Test conservation and source consistency, and distinguish T=G/(8pi) inversion from an independently specified material/field model.",
+      "Pin every paper version and code commit used in the adjudication.",
+      "Retain contradictory/null findings; no synthesis by paper count or shared-code vote."
+    ],
+    "success_condition": "A machine-readable report that states exactly which G2 requirements are certified, which remain model-dependent, and which fail, without leaking a G2 result into a G3 claim."
+  },
+  "interpretation_guardrails": [
+    "This record is non-authoritative coordination output and conveys no mutation or promotion authority.",
+    "Do not summarize the result as 'Fuchs proved a physical warp drive.'",
+    "Do not summarize the result as 'Fuchs was refuted.'",
+    "Do not convert positive energy-condition margins into a manufacturable-source claim.",
+    "Do not convert anomalous force or shell motion into evidence of spacetime curvature without a preregistered metric observable and artifact/momentum closure.",
+    "Shared lineage, shared sources, or shared implementations must be disclosed and grouped rather than counted as independent replication."
+  ],
+  "evidence_pointers": [
+    "NerdsWithAttitudes/WarpFactory: Metrics/utils/TOVconstDensity.m",
+    "NerdsWithAttitudes/WarpFactory: Analyzer/getEnergyConditions.m",
+    "anindex/warpax: src/warpax/metrics/fuchs_construction.py",
+    "anindex/warpax: results/construction_verification.json",
+    "anindex/warpax: src/warpax/constraints/source_consistency.py",
+    "arXiv:2405.02709 (Fuchs et al.; pin exact version in downstream work)",
+    "arXiv:2602.18023 (observer-robust verification; pin exact version in downstream work)",
+    "arXiv:2602.16495 (source-consistency critique; pin exact version in downstream work)",
+    "arXiv:2605.25417 (elastic-shell analysis; pin exact version in downstream work)",
+    "arXiv:2606.22531 (radiative steering; pin exact version in downstream work)"
+  ]
+}
