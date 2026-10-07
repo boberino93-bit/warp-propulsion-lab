@@ -15,6 +15,10 @@ Start with the [student guide](STUDENTS.md), [contribution instructions](CONTRIB
 ## Research navigation
 
 - [Research charter and gates](docs/CHARTER.md)
+- [Warp three-gate research directive](docs/WARP_RESEARCH_DIRECTIVE_2026-10-07.md)
+- [Forensic G1 — mathematical warp geometry](docs/forensics/2026-10-07_G1_MATHEMATICAL_WARP_GEOMETRY.md)
+- [Forensic G2 — stress-energy admissibility](docs/forensics/2026-10-07_G2_STRESS_ENERGY_ADMISSIBILITY.md)
+- [Forensic G3 — engineering, actuation and detection](docs/forensics/2026-10-07_G3_ENGINEERING_ACTUATION_DETECTION.md)
 - [Hypotheses and falsification](docs/HYPOTHESES.md)
 - [Research log](docs/RESEARCH_LOG.md), [error log](docs/ERROR_LOG.md) and [historical reconciliation](docs/RESEARCH_BACKFILL_2026-09-16.md)
 - [First model: 1-D steady pressureless matter](theory/one_dimensional_dust.md)
@@ -43,6 +47,16 @@ These tests check mathematical and numerical models; they do **not** validate a 
 4. UAP claims are separate unverified hypotheses, not measured inputs.
 
 A writable metric is not a manufacturable engine. Bobrick & Martire (2021) analyze the need for propulsion even for warp shells (see references).
+
+### Warp three-gate interpretation
+
+Warp-related claims now follow the project-specific three-gate directive:
+
+- **G1 — Geometry:** establish the exact spacetime and its invariant/causal properties.
+- **G2 — Source:** establish the required stress-energy, energy-condition disposition, conservation and candidate physical source.
+- **G3 — Actuation & detection:** establish a realizable source-to-observable chain, calibrated controls and independent replication.
+
+Passing one gate never implies the next. In particular, a valid metric is not evidence of a buildable source, and a force anomaly is not by itself evidence of spacetime curvature. See `docs/WARP_RESEARCH_DIRECTIVE_2026-10-07.md`.
 
 ## Provenance and continuity
 
