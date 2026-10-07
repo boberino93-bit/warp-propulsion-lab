@@ -1,0 +1,84 @@
+{
+  "schema": "org-agent-mesh/github-swarm-deployment-backup/v2",
+  "authority": "NON_AUTHORITATIVE_RECOVERY_ONLY",
+  "canonical_agentbus_root": "/Warp-Propulsion-AgentBus",
+  "canonical_promotion_state": "PENDING_PROJECT_PRIMARY_AGENTBUS_RECONCILIATION",
+  "deployment": {
+    "schema": "org-agent-mesh/swarm-deployment/v3",
+    "project_id": "warp-propulsion-lab",
+    "deployment_id": "warp-bipolar-swarm-20261007-v3-kernel",
+    "proposed_supersedes_deployment_id": "warp-bipolar-swarm-20261004-v2-kernel",
+    "status": "PREPARED_NOT_CANONICAL",
+    "prepared_from_main_sha": "574b8d1c94a60ad5f69bcc2aa1eacdfe4550a2a7",
+    "canonical_root": "/Warp-Propulsion-AgentBus",
+    "repository": "boberino93-bit/warp-propulsion-lab",
+    "framework_version": "1.6.0-alpha.1",
+    "protocol_version": "2.4.0-alpha.1",
+    "swarm_kernel": {
+      "version": "1.2.1",
+      "required_files": [
+        "SWARM_LAUNCH_KERNEL_V1.md",
+        "MASTER_HANDOFF.json",
+        "swarm_kernel/project.json",
+        "swarm_kernel/AGENT_BOOTSTRAP_OVERLAY.md",
+        "swarm_kernel/__init__.py",
+        "swarm_kernel/kernel.py"
+      ],
+      "global_run_binding": "EXTERNALLY_SUPPLIED_SHARED_VALUE_REQUIRED",
+      "global_run_id": null,
+      "global_run_contract_version": 1,
+      "expected_global_round_projects": [
+        "ai-behaviour-control-lab",
+        "benefitflow",
+        "duo-open",
+        "fold7-power-lab",
+        "intercommunicationsenhancements",
+        "warp-propulsion-lab",
+        "xrp-thesis"
+      ],
+      "launch_epoch_mismatch_policy": "FAIL_CLOSED_QUARANTINE",
+      "kernel_cannot_wake_dormant_sessions": true
+    },
+    "launch_policy": {
+      "actionable_work_before_global_run_binding": false,
+      "ready_publication_before_valid_epoch": false,
+      "master_handoff_required_before_ready": true,
+      "local_start_gate_required": true,
+      "versioned_instance_fenced_lease_required_for_task_claim": true,
+      "cross_project_writes": "DENY",
+      "telemetry": "READ_ONLY"
+    },
+    "formation": {
+      "research_agents": 10,
+      "manager_agents": 2,
+      "primary_agents": 1,
+      "total": 13,
+      "max_active_specialists": 8
+    },
+    "capacity_plan": {
+      "wave_a": ["R01", "R02", "R03", "R04", "R05", "R06", "M01", "M02"],
+      "wave_b": ["R07", "R08", "R09", "R10"],
+      "admission": "Wave B lanes may acquire leases only as Wave A specialist leases close; active specialists must never exceed 8."
+    },
+    "research_scientific_contract": "UNCHANGED_FROM_V1",
+    "v1_task_root": "/Warp-Propulsion-AgentBus/tasks/warp-bipolar-swarm-20261004-v1",
+    "lanes": [
+      {"lane":"R01","role":"RESEARCH","source_task_path":"/Warp-Propulsion-AgentBus/tasks/warp-bipolar-swarm-20261004-v1/R01_RESEARCH_national-metrology-institutes.json","route_to":"M01"},
+      {"lane":"R02","role":"RESEARCH","source_task_path":"/Warp-Propulsion-AgentBus/tasks/warp-bipolar-swarm-20261004-v1/R02_RESEARCH_differential-emfc-kibble-force-balances.json","route_to":"M01"},
+      {"lane":"R03","role":"RESEARCH","source_task_path":"/Warp-Propulsion-AgentBus/tasks/warp-bipolar-swarm-20261004-v1/R03_RESEARCH_voice-coil-current-reversal.json","route_to":"M01"},
+      {"lane":"R04","role":"RESEARCH","source_task_path":"/Warp-Propulsion-AgentBus/tasks/warp-bipolar-swarm-20261004-v1/R04_RESEARCH_electrostatic-electromagnetic-reference-force-generators.json","route_to":"M01"},
+      {"lane":"R05","role":"RESEARCH","source_task_path":"/Warp-Propulsion-AgentBus/tasks/warp-bipolar-swarm-20261004-v1/R05_RESEARCH_torsional-thrust-balance-calibration.json","route_to":"M01"},
+      {"lane":"R06","role":"RESEARCH","source_task_path":"/Warp-Propulsion-AgentBus/tasks/warp-bipolar-swarm-20261004-v1/R06_RESEARCH_mechanical-mass-transfer-signed-reference.json","route_to":"M01"},
+      {"lane":"R07","role":"RESEARCH","source_task_path":"/Warp-Propulsion-AgentBus/tasks/warp-bipolar-swarm-20261004-v1/R07_RESEARCH_dynamic-force-microforce-waveform-implementations.json","route_to":"M01"},
+      {"lane":"R08","role":"RESEARCH","source_task_path":"/Warp-Propulsion-AgentBus/tasks/warp-bipolar-swarm-20261004-v1/R08_RESEARCH_artifact-and-raw-data-provenance.json","route_to":"M01"},
+      {"lane":"R09","role":"RESEARCH","source_task_path":"/Warp-Propulsion-AgentBus/tasks/warp-bipolar-swarm-20261004-v1/R09_RESEARCH_citation-chain-and-source-recovery.json","route_to":"M01"},
+      {"lane":"R10","role":"RESEARCH","source_task_path":"/Warp-Propulsion-AgentBus/tasks/warp-bipolar-swarm-20261004-v1/R10_RESEARCH_independent-adversarial-discovery-and-falsification.json","route_to":"M01"},
+      {"lane":"M01","role":"MANAGER","source_task_path":"/Warp-Propulsion-AgentBus/tasks/warp-bipolar-swarm-20261004-v1/M01_MANAGER_evidence-synthesis-deduplication.json","route_to":"M02"},
+      {"lane":"M02","role":"MANAGER","source_task_path":"/Warp-Propulsion-AgentBus/tasks/warp-bipolar-swarm-20261004-v1/M02_MANAGER_adversarial-audit-pre-primary-review.json","route_to":"PRIMARY"}
+    ],
+    "routing": {"R01-R10":"M01","M01":"M02","M02":"PRIMARY"},
+    "scientific_payloads_mutated": false,
+    "canonical_reconciliation_required": true
+  },
+  "note": "This GitHub record prepares a 1.2.1/seven-project replacement wrapper only. It does not supersede canonical AgentBus state until the Warp PROJECT PRIMARY persists and validates the corresponding canonical records."
+}
