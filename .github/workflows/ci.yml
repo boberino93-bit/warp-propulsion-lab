@@ -1,8 +1,20 @@
 name: Tests
+
 on:
   push:
   pull_request:
+
 jobs:
+  kernel-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate swarm kernel contract
+        run: python -m unittest tests.test_swarm_kernel -v
+
   unit-tests:
     runs-on: ubuntu-latest
     steps:
@@ -10,5 +22,25 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: python -m unittest discover -s tests -v
-      - run: python simulations/benchmark.py
+      - name: Run full unit test suite
+        run: python -m unittest discover -s tests -v
+
+  simulation-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run demonstrative benchmark smoke test
+        run: python simulations/benchmark.py
+
+  swarm-readiness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate repository-side swarm preparation
+        run: python ci/validate_swarm_preparation.py
