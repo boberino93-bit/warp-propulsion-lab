@@ -1,0 +1,89 @@
+{
+  "schema": "warp-propulsion-lab/master-handoff/v1",
+  "project_id": "warp-propulsion-lab",
+  "repository": "boberino93-bit/warp-propulsion-lab",
+  "canonical_branch": "main",
+  "status": "PREPARED_FOR_SWARM_VALIDATION",
+  "authority": "HANDOFF_CONTEXT_ONLY_DOES_NOT_GRANT_MUTATION_AUTHORITY",
+  "prepared_at_utc": "2026-10-07T13:00:00Z",
+  "prepared_from_main_sha": "574b8d1c94a60ad5f69bcc2aa1eacdfe4550a2a7",
+  "coordination": {
+    "canonical_root": "/Warp-Propulsion-AgentBus",
+    "github_agentbus_role": "BACKUP_RECOVERY_ONLY",
+    "canonical_state_reconciliation_required": true,
+    "canonical_state_observed_kernel_version": "1.0.0",
+    "repository_kernel_version": "1.2.1",
+    "promotion_authority": "PROJECT_PRIMARY_ONLY"
+  },
+  "kernel": {
+    "version": "1.2.1",
+    "global_run_contract_version": 1,
+    "global_run_id": null,
+    "global_run_binding": "EXTERNALLY_SUPPLIED_SHARED_VALUE_REQUIRED",
+    "expected_global_round_projects": [
+      "ai-behaviour-control-lab",
+      "benefitflow",
+      "duo-open",
+      "fold7-power-lab",
+      "intercommunicationsenhancements",
+      "warp-propulsion-lab",
+      "xrp-thesis"
+    ]
+  },
+  "scientific_baseline": {
+    "recovered_backup_commit": "09c3a80781832bcfb9ee8c5499b6b25c608bfeee",
+    "result": "PTB target-band machine rejected at bipolar-record gate",
+    "next_test": "Screen primary-source target-band force implementations publishing explicit negative, zero and positive force records; stop each candidate at first mandatory failure.",
+    "scientific_task_contract": "UNCHANGED_FROM_WARP_BIPOLAR_SWARM_20261004_V1",
+    "known_reconciled_rejects": [
+      "Vasilyan DFMS",
+      "SpaceDrive",
+      "PTB small-force machine",
+      "PB1",
+      "NIST KIBB-g2.0",
+      "NIST KDFR",
+      "Wang dynamic-force"
+    ]
+  },
+  "deployment": {
+    "candidate_deployment_id": "warp-bipolar-swarm-20261007-v3-kernel",
+    "prior_canonical_deployment_id": "warp-bipolar-swarm-20261004-v2-kernel",
+    "candidate_backup_path": "agentbus-backup/swarm-deployments/warp-bipolar-swarm-20261007-v3-kernel/MANIFEST.json",
+    "canonical_promotion_state": "PENDING_PRIMARY_AGENTBUS_RECONCILIATION",
+    "scientific_payloads_mutated": false
+  },
+  "capacity": {
+    "max_active_specialists": 8,
+    "primary_counts_against_specialist_limit": false,
+    "wave_a": ["R01", "R02", "R03", "R04", "R05", "R06", "M01", "M02"],
+    "wave_b": ["R07", "R08", "R09", "R10"],
+    "wave_b_admission_rule": "Admit only as Wave A specialist leases close so active specialists never exceed 8."
+  },
+  "scheduler": {
+    "service": "internal-spawn-scheduler",
+    "binding": "INTERNAL_SCHEDULER_SERVICE_BINDING.json",
+    "allowed_roles": ["research", "manager"],
+    "full_swarm_auto_start_allowed": false,
+    "use": "BOUNDED_CAPACITY_REPLENISHMENT_ONLY"
+  },
+  "launch_gates": {
+    "ci_green_on_exact_candidate_sha": false,
+    "v3_static_readiness_validated": false,
+    "canonical_agentbus_reconciled": false,
+    "shared_global_run_id_received": false,
+    "local_epoch_validated": false,
+    "ready_set_satisfied": false,
+    "local_start_gate_open": false
+  },
+  "completion_requirements": [
+    "all research lanes accounted for",
+    "M01 synthesis disposition complete",
+    "M02 adversarial audit complete",
+    "PRIMARY decisions persisted",
+    "package parity restored",
+    "zero unresolved leases",
+    "valid recovery checkpoint",
+    "MASTER_HANDOFF.json checkpointed with final dispositions"
+  ],
+  "next_action": "Run CI on the V3 preparation branch. If green, PROJECT PRIMARY reconciles V3 into the canonical AgentBus, records the exact accepted source revision, then waits for the externally supplied shared global_run_id before publishing READY."
+}
